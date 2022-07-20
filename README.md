@@ -6,12 +6,12 @@
 [`Todo/Client/TodoClient.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Client/TodoClient.cs)
 and its utilization
 [`Todo/Test/Trial.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Test/Trial.cs)
-| Namespace    | Class                                                                                 | Description                                                                             |
-| -------------|-------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| .Client      | [FlioxClient](api/Friflo/Json/Fliox/Hub/Client/FlioxClient/index.md)                  | `FlioxClient` subclasses are used as database clients and database schema               |
-| .Client      | [EntitySet<,>](api/Friflo/Json/Fliox/Hub/Client/EntitySet-2/index.md)                 | Strongly typed API to a database container used as property in a `FlioxClient` subclass |
-| .Remote      | [HttpClientHub](api/Friflo/Json/Fliox/Hub/Remote/HttpClientHub/index.md)              | Connects to a Hub via **HTTP** by passing it to a `FlioxClient` constructor             |
-| .Remote      | [WebSocketClientHub](api/Friflo/Json/Fliox/Hub/Remote/WebSocketClientHub/index.md)    | Connects to a Hub via **Websocket** by passing it to a `FlioxClient` constructor        |
+| Namespace    | Class                                                                                 | Description                                                                                          |
+| -------------|-------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| .Client      | [FlioxClient](api/Friflo/Json/Fliox/Hub/Client/FlioxClient/index.md)                  | `FlioxClient` subclasses are used as **database clients** and **database schema**                    |
+| .Client      | [EntitySet<,>](api/Friflo/Json/Fliox/Hub/Client/EntitySet-2/index.md)                 | **Strongly typed** API to a access a database container used as property in a `FlioxClient` subclass |
+| .Remote      | [HttpClientHub](api/Friflo/Json/Fliox/Hub/Remote/HttpClientHub/index.md)              | Connects to a Hub via **HTTP** by passing it to a `FlioxClient` constructor                          |
+| .Remote      | [WebSocketClientHub](api/Friflo/Json/Fliox/Hub/Remote/WebSocketClientHub/index.md)    | Connects to a Hub via **Websocket** by passing it to a `FlioxClient` constructor                     |
 
 
 ### Host
