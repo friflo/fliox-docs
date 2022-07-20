@@ -2,6 +2,10 @@
 
 ### Client
 
+*Example client*
+[`Todo/Client/TodoClient.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Client/TodoClient.cs)
+and its utilization
+[`Todo/Test/Trial.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Test/Trial.cs)
 | Namespace    | Class                                                                                 | Description                                                                             |
 | -------------|-------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | .Client      | [FlioxClient](api/Friflo/Json/Fliox/Hub/Client/FlioxClient/index.md)                  | `FlioxClient` subclasses are used as database clients and database schema               |
@@ -11,6 +15,9 @@
 
 
 ### Host
+
+*Example HTTP Hub* 
+[`Todo/Hub/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Hub/Program.cs)
 
 | Namespace    | Class                                                                                 | Description                                                          |
 | ------------ |-------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -25,6 +32,8 @@
 
 ### DB
 
+*Configure support databases*
+[`Demo/Hub/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Demo/Hub/Program.cs)
 | Namespace    | Class                                                                                 | Description                                               |
 | ------------ |-------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | .DB.Cluster  | [ClusterDB](api/Friflo/Json/Fliox/Hub/DB/Cluster/ClusterDB/index.md)                  | Expose information of hosted databases as a database      |
