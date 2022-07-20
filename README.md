@@ -4,7 +4,7 @@
 
 *Example client*
 [`Todo/Client/TodoClient.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Client/TodoClient.cs)
-and its utilization
+*and client utilization*
 [`Todo/Test/Trial.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Test/Trial.cs)
 
 | Namespace    | Class                                                                                 | Description                                                                                          |
