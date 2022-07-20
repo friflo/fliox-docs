@@ -24,7 +24,11 @@
 | .Host        | [MemoryDatabase](api/Friflo/Json/Fliox/Hub/Host/MemoryDatabase/index.md)              |            |
 | .Host        | [DatabaseSchema](api/Friflo/Json/Fliox/Hub/Host/DatabaseSchema/index.md)              |            |
 | .Host.Event  | [EventDispatcher](api/Friflo/Json/Fliox/Hub/Host/Event/EventDispatcher/index.md)      |            |
-|              |                                                                                       |            |
+
+## DB
+
+| Namespace    | Class                                                                                 | Description                                               |
+| ------------ |-------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | .DB.Cluster  | [ClusterDB](api/Friflo/Json/Fliox/Hub/DB/Cluster/ClusterDB/index.md)                  |            |
 | .DB.Monitor  | [MonitorDB](api/Friflo/Json/Fliox/Hub/DB/Monitor/MonitorDB/index.md)                  |            |
 | .DB.UserAuth | [UserAuthenticator](api/Friflo/Json/Fliox/Hub/DB/UserAuth/UserAuthenticator/index.md) |            |
