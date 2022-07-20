@@ -5,8 +5,8 @@
 
 | Namespace    | Class                                                                                 | Description                                               |
 | -------------|-------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| .Client      | [EntitySet<,>](api/Friflo/Json/Fliox/Hub/Client/EntitySet-2/index.md)                 |            |
 | .Client      | [FlioxClient](api/Friflo/Json/Fliox/Hub/Client/FlioxClient/index.md)                  |            |
+| .Client      | [EntitySet<,>](api/Friflo/Json/Fliox/Hub/Client/EntitySet-2/index.md)                 |            |
 |              |                                                                                       |            |
 | .Remote      | [HttpClientHub](api/Friflo/Json/Fliox/Hub/Remote/HttpClientHub/index.md)              |            |
 | .Remote      | [WebSocketClientHub](api/Friflo/Json/Fliox/Hub/Remote/WebSocketClientHub/index.md)    |            |
