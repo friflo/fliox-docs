@@ -11,7 +11,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub  
 **Assembly Version:** 1.0.0
 
-A FlioxHub is the single entry point used to handle  requests send by clients \- e.g. a [FlioxClient](../../Client/FlioxClient/index.md) or a web browser.
+A FlioxHub act as a Proxy between a [FlioxClient](../../Client/FlioxClient/index.md) or a web browser and an [EntityDatabase](../EntityDatabase/index.md).
 
 ```csharp
 [CLSCompliant(true)]
@@ -28,7 +28,7 @@ public class FlioxHub : IDisposable, ILogSource
 
 The FlioxHub features and utilization is available atWhen creating a FlioxHub a  is assigned to the instance and all tasks requested by a client are applied to this [database](fields/database.md). A FlioxHub can be configured to support:
 
-A FlioxHub instance handle client requests by its [ExecuteSync(SyncRequest, SyncContext)](methods/ExecuteSync.md) method. A request is represented by a [SyncRequest](../../Protocol/SyncRequest/index.md) and its [tasks](../../Protocol/SyncRequest/fields/tasks.md) are executed on the given [database](../../Protocol/SyncRequest/fields/database.md). If database \=\= null the default [database](fields/database.md) of FlioxHub is used.The [tasks](../../Protocol/SyncRequest/fields/tasks.md) contains all database operations like create, read, upsert, delete and all messages \/ commands send by a client. The FlioxHub execute these tasks by the handler of the specified [database](fields/database.md).Instances of FlioxHub are  enabling multiple clients e.g. [FlioxClient](../../Client/FlioxClient/index.md)operating on the same FlioxHub instance. To maintain thread safety FlioxHub implementations must not have any mutable state.
+A FlioxHub instance handle  client requests by its [ExecuteSync(SyncRequest, SyncContext)](methods/ExecuteSync.md) method. A request is represented by a [SyncRequest](../../Protocol/SyncRequest/index.md) and its [tasks](../../Protocol/SyncRequest/fields/tasks.md) are executed on the given [database](../../Protocol/SyncRequest/fields/database.md). If database \=\= null the default [database](fields/database.md) of FlioxHub is used.The [tasks](../../Protocol/SyncRequest/fields/tasks.md) contains all database operations like create, read, upsert, delete and all messages \/ commands send by a client. The FlioxHub execute these tasks by the handler of the specified [database](fields/database.md).Instances of FlioxHub are  enabling multiple clients e.g. [FlioxClient](../../Client/FlioxClient/index.md)operating on the same FlioxHub instance. To maintain thread safety FlioxHub implementations must not have any mutable state.
 
 ## Constructors
 
