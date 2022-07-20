@@ -1,4 +1,7 @@
+# General
 
+Following sections list general library classes grouped by their use case.  
+These groups fit mainly to their namesspaces. Ecxept `.Remote` containing client as well server classes. 
 
 ### Client
 
