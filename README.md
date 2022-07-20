@@ -1,7 +1,6 @@
 
 
-## Client
-
+### Client
 
 | Namespace    | Class                                                                                 | Description                                               |
 | -------------|-------------------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -12,7 +11,7 @@
 | .Remote      | [WebSocketClientHub](api/Friflo/Json/Fliox/Hub/Remote/WebSocketClientHub/index.md)    |            |
 
 
-## Host
+### Host
 
 | Namespace    | Class                                                                                 | Description                                               |
 | ------------ |-------------------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -25,7 +24,8 @@
 | .Host        | [DatabaseSchema](api/Friflo/Json/Fliox/Hub/Host/DatabaseSchema/index.md)              |            |
 | .Host.Event  | [EventDispatcher](api/Friflo/Json/Fliox/Hub/Host/Event/EventDispatcher/index.md)      |            |
 
-## DB
+
+### DB
 
 | Namespace    | Class                                                                                 | Description                                               |
 | ------------ |-------------------------------------------------------------------------------------- | --------------------------------------------------------- |
