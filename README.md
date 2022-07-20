@@ -17,7 +17,7 @@ and its utilization
 
 ### Host
 
-*Example HTTP Hub* 
+*Example HTTP Hub bootstrapping* 
 [`Todo/Hub/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Hub/Program.cs)
 
 | Namespace    | Class                                                                                 | Description                                                          |
