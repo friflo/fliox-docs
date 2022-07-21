@@ -1,4 +1,5 @@
-# API Reference
+# ![logo](docs/images/Json-Fliox.svg)     **JSON Fliox - API Reference**      ![SPLASH](docs/images/paint-splatter.svg)
+
 
 This project contains the API Reference of the [**JSON Fliox**](https://github.com/friflo/Friflo.Json.Fliox) library.    
 Following sections list fundamental [Friflo.Json.Fliox.Hub.*](api/Friflo/Json/Fliox/Hub/index.md) classes grouped by their **use case**.  
