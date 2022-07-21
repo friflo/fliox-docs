@@ -1,6 +1,6 @@
 # API Reference
 
-This project contains the API Reference of the [**Json.Fliox**](https://github.com/friflo/Friflo.Json.Fliox) library.    
+This project contains the API Reference of the [**JSON Fliox**](https://github.com/friflo/Friflo.Json.Fliox) library.    
 Following sections list fundamental [Friflo.Json.Fliox.Hub.*](api/Friflo/Json/Fliox/Hub/index.md) classes grouped by their **use case**.  
 These groups fit mainly to their namespaces. Except `.Remote` containing client as well server classes. 
 
