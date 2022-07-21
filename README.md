@@ -23,7 +23,7 @@ These groups fit mainly to their namespaces. Except `.Remote` containing client 
 
 *HTTP Hub bootstrapping examples* 
 [`Todo/Hub/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Hub/Program.cs) *and*
-[`Todo/Demo/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Demo/Hub/Program.cs)
+[`Demo/Hub/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Demo/Hub/Program.cs)
 
 | Namespace    | Class                                                                                 | Description                                                                     |
 | ------------ |-------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
