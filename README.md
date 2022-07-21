@@ -1,6 +1,6 @@
 # General
 
-Following sections list fundamental library classes grouped by their use case.  
+Following sections list fundamental [Friflo.Json.Fliox.Hub.*](api/Friflo/Json/Fliox/Hub/index.md) classes grouped by their use case.  
 These groups fit mainly to their namespaces. Except `.Remote` containing client as well server classes. 
 
 ### Client
