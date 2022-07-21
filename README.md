@@ -1,4 +1,4 @@
-# ![logo](docs/images/Json-Fliox.svg)   **JSON Fliox - API Reference**![SPLASH](docs/images/paint-splatter.svg)
+# ![logo](docs/images/Json-Fliox.svg)   **JSON Fliox - API Reference**![SPLASH](docs/images/paint-splatter.svg)
 
 
 This project contains the API Reference of the [**JSON Fliox**](https://github.com/friflo/Friflo.Json.Fliox) library.    
