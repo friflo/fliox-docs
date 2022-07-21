@@ -45,7 +45,7 @@ These groups fit mainly to their namespaces. Except `.Remote` containing client 
 | Namespace    | Class                                                                                 | Description                                               |
 | ------------ |-------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | .DB.Cluster  | [ClusterDB](api/Friflo/Json/Fliox/Hub/DB/Cluster/ClusterDB/index.md)                  | Expose information of hosted databases as a database      |
-| .DB.Monitor  | [MonitorDB](api/Friflo/Json/Fliox/Hub/DB/Monitor/MonitorDB/index.md)                  | Expose request information of a `FlioxHob` as a database  |
+| .DB.Monitor  | [MonitorDB](api/Friflo/Json/Fliox/Hub/DB/Monitor/MonitorDB/index.md)                  | Expose request information of a `FlioxHub` as a database  |
 | .DB.UserAuth | [UserAuthenticator](api/Friflo/Json/Fliox/Hub/DB/UserAuth/UserAuthenticator/index.md) | Performs user authentication and authorization            |
 
 
