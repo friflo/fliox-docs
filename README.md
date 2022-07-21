@@ -1,7 +1,7 @@
 # General
 
-Following sections list general library classes grouped by their use case.  
-These groups fit mainly to their namesspaces. Ecxept `.Remote` containing client as well server classes. 
+Following sections list fundamental library classes grouped by their use case.  
+These groups fit mainly to their namespaces. Except `.Remote` containing client as well server classes. 
 
 ### Client
 
@@ -20,23 +20,25 @@ These groups fit mainly to their namesspaces. Ecxept `.Remote` containing client
 
 ### Host
 
-*Example HTTP Hub bootstrapping* 
-[`Todo/Hub/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Hub/Program.cs)
+*HTTP Hub bootstrapping examples* 
+[`Todo/Hub/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Todo/Hub/Program.cs) *and*
+[`Todo/Demo/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Demo/Hub/Program.cs)
 
-| Namespace    | Class                                                                                 | Description                                                      |
-| ------------ |-------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| .Remote      | [HttpHost](api/Friflo/Json/Fliox/Hub/Remote/HttpHost/index.md)                        | Host a `FlioxHub` as **HTTP** / **WebSocket** server             |
-| .Remote      | [StaticFileHandler](api/Friflo/Json/Fliox/Hub/Remote/StaticFileHandler/index.md)      | Add static web files to the `HttpHost` like the **Hub Explorer** |
-| .Host        | [FlioxHub](api/Friflo/Json/Fliox/Hub/Host/FlioxHub/index.md)                          | Used as a Proxy between a `FlioxClient` and a concrete database  |
-| .Host        | [FileDatabase](api/Friflo/Json/Fliox/Hub/Host/FileDatabase/index.md)                  | Database storing records in the `file-system`                    |
-| .Host        | [MemoryDatabase](api/Friflo/Json/Fliox/Hub/Host/MemoryDatabase/index.md)              | Database storing records `in-memory`                             |
-| .Host        | [DatabaseSchema](api/Friflo/Json/Fliox/Hub/Host/DatabaseSchema/index.md)              | Used to assign a **schema** to a database                        |
-| .Host.Event  | [EventDispatcher](api/Friflo/Json/Fliox/Hub/Host/Event/EventDispatcher/index.md)      | Enables **Pub-Sub** by a `FlioxHub`                              |
+| Namespace    | Class                                                                                 | Description                                                                     |
+| ------------ |-------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| .Remote      | [HttpHost](api/Friflo/Json/Fliox/Hub/Remote/HttpHost/index.md)                        | Host a `FlioxHub` as **HTTP** / **WebSocket** server                            |
+| .Remote      | [StaticFileHandler](api/Friflo/Json/Fliox/Hub/Remote/StaticFileHandler/index.md)      | Add static web files to the `HttpHost` like the **Hub Explorer**                |
+| .Host        | [FlioxHub](api/Friflo/Json/Fliox/Hub/Host/FlioxHub/index.md)                          | Used as a Proxy between a `FlioxClient` and a concrete database                 |
+| .Host        | [FileDatabase](api/Friflo/Json/Fliox/Hub/Host/FileDatabase/index.md)                  | Database storing records in the `file-system`                                   |
+| .Host        | [MemoryDatabase](api/Friflo/Json/Fliox/Hub/Host/MemoryDatabase/index.md)              | Database storing records `in-memory`                                            |
+| .Host        | [DatabaseSchema](api/Friflo/Json/Fliox/Hub/Host/DatabaseSchema/index.md)              | Used to assign a **schema** to a database                                       |
+| .Host        | [TaskHandler](api/Friflo/Json/Fliox/Hub/Host/TaskHandler/index.md)                    | Used to implement custom database commands declared in a `FlioxClient` subclass |
+| .Host.Event  | [EventDispatcher](api/Friflo/Json/Fliox/Hub/Host/Event/EventDispatcher/index.md)      | Enables **Pub-Sub** by a `FlioxHub`                                             |
 
 
 ### DB
 
-*Add support database example*
+*Adding support databases example*
 [`Demo/Hub/Program.cs`](https://github.com/friflo/FlioxHub.Demos/blob/main/Demo/Hub/Program.cs)
 
 | Namespace    | Class                                                                                 | Description                                               |
