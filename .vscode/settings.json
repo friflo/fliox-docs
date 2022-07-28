@@ -4,5 +4,7 @@
     },
     "cSpell.words": [
         "upsert"
-    ]
+    ],
+    "markdown.preview.doubleClickToSwitchToEditor": false,
+    "markdown.preview.markEditorSelection": false
 }
