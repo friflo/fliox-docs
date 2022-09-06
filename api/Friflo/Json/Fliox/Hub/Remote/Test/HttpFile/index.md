@@ -8,8 +8,7 @@
 # HttpFile Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote.Test](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 HttpFile is used to run multiple HTTP requests given in a simple text file used for concise regression tests
 

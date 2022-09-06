@@ -8,8 +8,7 @@
 # SyncTasksException Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Is thrown in case invocation of [SyncTasks()](../FlioxClient/methods/SyncTasks.md) failed entirely. E.g. a connection issue. 
 

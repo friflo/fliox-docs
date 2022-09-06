@@ -9,8 +9,7 @@
 
 **Declaring Type:** [QueryEnumerator](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Utils](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
  Preferred in favor of [CurrentValueAsync()](../methods/CurrentValueAsync.md) to avoid a task allocation per entity 
 

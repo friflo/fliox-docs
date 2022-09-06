@@ -8,8 +8,7 @@
 # ExecuteSyncResult Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Contains the result of a [ExecuteSync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteSync.md) call. After execution either [success](fields/success.md) or [error](fields/error.md) is set. Never both.
 

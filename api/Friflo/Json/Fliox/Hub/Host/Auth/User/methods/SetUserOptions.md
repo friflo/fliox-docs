@@ -9,16 +9,15 @@
 
 **Declaring Type:** [User](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void SetUserOptions(UserOptions options);
+public void SetUserOptions(UserParam param);
 ```
 
 ## Parameters
 
-`options`  [UserOptions](../../../../DB/Cluster/UserOptions/index.md)
+`param`  [UserParam](../../../../DB/Cluster/UserParam/index.md)
 
 ___
 

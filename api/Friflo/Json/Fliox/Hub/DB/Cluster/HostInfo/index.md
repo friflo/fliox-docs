@@ -8,8 +8,7 @@
 # HostInfo Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Cluster](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 general information about a Hub
 
@@ -34,8 +33,10 @@ public sealed class HostInfo
 | [flioxVersion](fields/flioxVersion.md)     | Fliox library version                                                                                                                                    |
 | [hostName](fields/hostName.md)             | host name. Used as [id](../../Monitor/HostHits/fields/id.md) in[hosts](../../Monitor/MonitorStore/fields/hosts.md) of database                           |
 | [hostVersion](fields/hostVersion.md)       | host version                                                                                                                                             |
+| [memory](fields/memory.md)                 |                                                                                                                                                          |
 | [projectName](fields/projectName.md)       | project name                                                                                                                                             |
 | [projectWebsite](fields/projectWebsite.md) | link to a website describing project and Hub                                                                                                             |
+| [pubSub](fields/pubSub.md)                 |  is true if host support Pub\-Sub.                                                                                                                       |
 | [routes](fields/routes.md)                 | routes configures by [HttpHost](../../../Remote/HttpHost/index.md) \- commonly below `/fliox`                                                            |
 
 ___

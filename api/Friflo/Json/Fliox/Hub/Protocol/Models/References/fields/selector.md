@@ -9,8 +9,7 @@
 
 **Declaring Type:** [References](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Models](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 the field path used as a reference to an entity in the specified [container](container.md)
 

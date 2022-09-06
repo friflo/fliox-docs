@@ -9,11 +9,10 @@
 
 **Declaring Type:** [SyncContext](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void AuthenticationFailed(User user, string error, Authorizer authorizer);
+public void AuthenticationFailed(User user, string error, TaskAuthorizer taskAuthorizer, HubPermission hubPermission);
 ```
 
 ## Parameters
@@ -22,7 +21,9 @@ public void AuthenticationFailed(User user, string error, Authorizer authorizer)
 
 `error`  string
 
-`authorizer`  [Authorizer](../../Auth/Authorizer/index.md)
+`taskAuthorizer`  [TaskAuthorizer](../../Auth/TaskAuthorizer/index.md)
+
+`hubPermission`  [HubPermission](../../Auth/HubPermission/index.md)
 
 ___
 

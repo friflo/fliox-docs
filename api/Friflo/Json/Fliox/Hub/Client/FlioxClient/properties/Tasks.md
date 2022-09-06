@@ -9,8 +9,7 @@
 
 **Declaring Type:** [FlioxClient](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
  List of tasks created by its [FlioxClient](../index.md) methods. These tasks are executed when calling [SyncTasks()](../methods/SyncTasks.md)
 

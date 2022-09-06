@@ -9,8 +9,7 @@
 
 **Declaring Type:** [MemoryContainer](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public Task<UpsertEntitiesResult> UpsertEntities(UpsertEntities command, SyncContext syncContext);

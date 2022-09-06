@@ -8,8 +8,7 @@
 # ClientController Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ClientController us used to create unique client ids
 

@@ -9,16 +9,15 @@
 
 **Declaring Type:** [AuthorizeAny](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public AuthorizeAny(IReadOnlyList<Authorizer> list);
+public AuthorizeAny(IReadOnlyList<TaskAuthorizer> list);
 ```
 
 ## Parameters
 
-`list`  IReadOnlyList\<[Authorizer](../../Authorizer/index.md)\>
+`list`  IReadOnlyList\<[TaskAuthorizer](../../TaskAuthorizer/index.md)\>
 
 ___
 

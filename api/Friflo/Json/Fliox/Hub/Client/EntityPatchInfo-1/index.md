@@ -8,8 +8,7 @@
 # EntityPatchInfo\<T\> Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Contain the patches applied to the [Members](properties/Members.md) of an [Entity](properties/Entity.md)
 

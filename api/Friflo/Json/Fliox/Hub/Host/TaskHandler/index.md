@@ -8,8 +8,7 @@
 # TaskHandler Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A TaskHandler is attached to every [EntityDatabase](../EntityDatabase/index.md) to handle all[tasks](../../Protocol/SyncRequest/fields/tasks.md) of a [SyncRequest](../../Protocol/SyncRequest/index.md).
 

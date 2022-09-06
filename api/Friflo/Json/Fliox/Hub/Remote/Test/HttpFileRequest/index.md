@@ -8,8 +8,7 @@
 # HttpFileRequest Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote.Test](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public sealed class HttpFileRequest

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [LocalEntities\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
  Returns an enumerator that iterates through the [LocalEntities\<T1, T2\>](../index.md)
 

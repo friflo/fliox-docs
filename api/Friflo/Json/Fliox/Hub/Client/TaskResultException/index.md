@@ -8,8 +8,7 @@
 # TaskResultException Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Is thrown when accessing the  of a synced task which returned an [Error](../SyncFunction/properties/Error.md)
 

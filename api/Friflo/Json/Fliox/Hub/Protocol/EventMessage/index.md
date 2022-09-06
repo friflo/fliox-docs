@@ -8,8 +8,9 @@
 # EventMessage Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
+
+Contains a set of [SyncEvent](../SyncEvent/index.md)'s. It is send as a push message to clients to deliver the events subscribed by these clients.
 
 ```csharp
 public sealed class EventMessage : ProtocolEvent
@@ -25,16 +26,9 @@ public sealed class EventMessage : ProtocolEvent
 
 ## Fields
 
-| Name                     | Description                                               |
-| ------------------------ | --------------------------------------------------------- |
-| [tasks](fields/tasks.md) | Contains the events an application subscribed. These are: |
-
-## Methods
-
-| Name                                      | Description |
-| ----------------------------------------- | ----------- |
-| [GetEventInfo()](methods/GetEventInfo.md) |             |
-| [ToString()](methods/ToString.md)         |             |
+| Name                       | Description                                                                                                                                                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [events](fields/events.md) | Each [SyncEvent](../SyncEvent/index.md) corresponds to a [SyncRequest](../SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](../SyncEvent/fields/tasks.md) field |
 
 ___
 

@@ -9,11 +9,10 @@
 
 **Declaring Type:** [HttpClientHub](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.HttpClientHub/<ExecuteSync>d__5)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.HttpClientHub/<ExecuteSync>d__7)]
 [DebuggerStepThrough]
 public Task<ExecuteSyncResult> ExecuteSync(SyncRequest syncRequest, SyncContext syncContext);
 ```

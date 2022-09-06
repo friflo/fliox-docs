@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntitySet\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Create a [ReadTask\<T1, T2\>](../../ReadTask-2/index.md) used to read entities  added with [Find(T1)](../../ReadTask-2/methods/Find.md) subsequently
 

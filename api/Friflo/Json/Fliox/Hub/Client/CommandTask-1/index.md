@@ -8,8 +8,7 @@
 # CommandTask\<TResult\> Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A CommandTask\<T\> contains the command ( and ) send to an [EntityDatabase](../../Host/EntityDatabase/index.md) using [SendCommand\<T\>(string)](../FlioxClient/methods/SendCommand.md#sendcommandtresultstring). Its [Result](properties/Result.md) is available after calling [SyncTasks()](../FlioxClient/methods/SyncTasks.md).
 

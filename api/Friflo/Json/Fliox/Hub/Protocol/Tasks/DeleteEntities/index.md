@@ -8,8 +8,7 @@
 # DeleteEntities Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Delete entities by id in the given [container](fields/container.md)The entities which will be deleted are listed in [ids](fields/ids.md)
 

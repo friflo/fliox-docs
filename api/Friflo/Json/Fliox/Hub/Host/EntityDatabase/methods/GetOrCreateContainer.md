@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntityDatabase](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 return the [EntityContainer](../../EntityContainer/index.md) with the given `name`. Create a new [EntityContainer](../../EntityContainer/index.md) if not already done.
 

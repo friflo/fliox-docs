@@ -9,19 +9,18 @@
 
 **Declaring Type:** [SubscribeChanges](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 subscribe to entity changes of the given [container](container.md)
 
 ```csharp
 [Required]
-public List<Change> changes;
+public List<EntityChange> changes;
 ```
 
 ## Field Value
 
-List\<[Change](../../Change/index.md)\>
+List\<[EntityChange](../../EntityChange/index.md)\>
 
 ___
 

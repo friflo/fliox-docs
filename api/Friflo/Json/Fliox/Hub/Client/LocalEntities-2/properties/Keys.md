@@ -9,8 +9,7 @@
 
 **Declaring Type:** [LocalEntities\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
  Return the keys of all tracked entities in the [EntitySet\<T1, T2\>](../../EntitySet-2/index.md)
 

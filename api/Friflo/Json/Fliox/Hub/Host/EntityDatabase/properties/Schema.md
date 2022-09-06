@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntityDatabase](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 An optional [DatabaseSchema](../../DatabaseSchema/index.md) used to validate the JSON payloads in all write operations performed on the [EntityContainer](../../EntityContainer/index.md)'s of the database
 

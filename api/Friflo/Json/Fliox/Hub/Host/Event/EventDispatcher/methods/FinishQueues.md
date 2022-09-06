@@ -9,11 +9,10 @@
 
 **Declaring Type:** [EventDispatcher](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Event](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.Event.EventDispatcher/<FinishQueues>d__17)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.Event.EventDispatcher/<FinishQueues>d__20)]
 [DebuggerStepThrough]
 public Task FinishQueues();
 ```

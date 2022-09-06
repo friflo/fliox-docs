@@ -8,8 +8,7 @@
 # MessageContext Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 MessageContext expose all data relevant for command execution as properties or methods.
 
@@ -32,6 +31,7 @@ In general it provides: \- the command [Name](properties/Name.md) \=\= method na
 | [DatabaseName](properties/DatabaseName.md) |             |
 | [Hub](properties/Hub.md)                   |             |
 | [Name](properties/Name.md)                 |             |
+| [Task](properties/Task.md)                 |             |
 | [User](properties/User.md)                 |             |
 | [UserInfo](properties/UserInfo.md)         |             |
 | [WriteNull](properties/WriteNull.md)       |             |

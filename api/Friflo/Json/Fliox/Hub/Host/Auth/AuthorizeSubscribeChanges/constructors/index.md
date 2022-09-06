@@ -9,18 +9,17 @@
 
 **Declaring Type:** [AuthorizeSubscribeChanges](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public AuthorizeSubscribeChanges(string container, ICollection<Change> changes, string database);
+public AuthorizeSubscribeChanges(string container, ICollection<EntityChange> changes, string database);
 ```
 
 ## Parameters
 
 `container`  string
 
-`changes`  ICollection\<[Change](../../../../Protocol/Tasks/Change/index.md)\>
+`changes`  ICollection\<[EntityChange](../../../../Protocol/Tasks/EntityChange/index.md)\>
 
 `database`  string
 

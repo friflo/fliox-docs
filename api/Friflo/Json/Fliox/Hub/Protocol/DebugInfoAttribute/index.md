@@ -8,8 +8,7 @@
 # DebugInfoAttribute Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Annotated fields are only available for debugging ergonomics. They are not not used by the library in any way as they represent redundant information.
 

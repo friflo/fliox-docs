@@ -9,8 +9,7 @@
 
 **Declaring Type:** [IHubLogger](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public void Log(HubLog hubLog, string message, Exception exception = );

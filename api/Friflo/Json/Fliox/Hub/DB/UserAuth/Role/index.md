@@ -8,10 +8,9 @@
 # Role Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
-Contains a set of [rights](fields/rights.md) used for task authorization
+Contains a set of [taskRights](fields/taskRights.md) used for task authorization
 
 ```csharp
 public sealed class Role
@@ -27,11 +26,12 @@ public sealed class Role
 
 ## Fields
 
-| Name                                 | Description                                                     |
-| ------------------------------------ | --------------------------------------------------------------- |
-| [description](fields/description.md) | optional [description](fields/description.md) explaining a Role |
-| [id](fields/id.md)                   | Role name                                                       |
-| [rights](fields/rights.md)           | a set of [rights](fields/rights.md) used for task authorization |
+| Name                                 | Description                                                             |
+| ------------------------------------ | ----------------------------------------------------------------------- |
+| [description](fields/description.md) | optional [description](fields/description.md) explaining a Role         |
+| [hubRights](fields/hubRights.md)     | general request \/ connection rights for Hub access                     |
+| [id](fields/id.md)                   | Role name                                                               |
+| [taskRights](fields/taskRights.md)   | a set of [taskRights](fields/taskRights.md) used for task authorization |
 
 ## Methods
 

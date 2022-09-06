@@ -9,16 +9,15 @@
 
 **Declaring Type:** [AuthorizeAny](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void AddAuthorizedDatabases(HashSet<AuthorizeDatabase> databases);
+public void AddAuthorizedDatabases(HashSet<DatabaseFilter> databaseFilters);
 ```
 
 ## Parameters
 
-`databases`  HashSet\<[AuthorizeDatabase](../../AuthorizeDatabase/index.md)\>
+`databaseFilters`  HashSet\<[DatabaseFilter](../../DatabaseFilter/index.md)\>
 
 ___
 

@@ -8,8 +8,7 @@
 # DisposeUtils Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Set of utility methods to guide a graceful shutdown by disposing all resources.
 

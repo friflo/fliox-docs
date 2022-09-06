@@ -8,10 +8,9 @@
 # EventInfo Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
-EventInfo is never de\-\/serialized.             It purpose is to get all aggregated information about a [EventMessage](../EventMessage/index.md) by  by [GetEventInfo()](../EventMessage/methods/GetEventInfo.md).
+EventInfo is never de\-\/serialized.             It purpose is to get all aggregated information about a [SyncEvent](../SyncEvent/index.md) by  by [GetEventInfo()](../SyncEvent/methods/GetEventInfo.md).
 
 ```csharp
 public struct EventInfo

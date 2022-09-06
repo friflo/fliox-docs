@@ -8,8 +8,7 @@
 # ClientIdValidation Enum
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Represent the result of client id validation returned by [ValidateClientId(ClientController, SyncContext)](../Authenticator/methods/ValidateClientId.md)
 

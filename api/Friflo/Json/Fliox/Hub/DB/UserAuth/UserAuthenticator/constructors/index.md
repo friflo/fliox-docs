@@ -9,11 +9,10 @@
 
 **Declaring Type:** [UserAuthenticator](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public UserAuthenticator(EntityDatabase userDatabase, SharedEnv env = , IUserAuth userAuth = , Authorizer anonymousAuthorizer = );
+public UserAuthenticator(EntityDatabase userDatabase, SharedEnv env = , IUserAuth userAuth = );
 ```
 
 ## Parameters
@@ -23,8 +22,6 @@ public UserAuthenticator(EntityDatabase userDatabase, SharedEnv env = , IUserAut
 `env`  [SharedEnv](../../../../Host/SharedEnv/index.md)
 
 `userAuth`  [IUserAuth](../../IUserAuth/index.md)
-
-`anonymousAuthorizer`  [Authorizer](../../../../Host/Auth/Authorizer/index.md)
 
 ___
 

@@ -8,8 +8,7 @@
 # EntityDatabase Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 EntityDatabase is the abstraction for specific database adapter \/ implementation e.g. a[MemoryDatabase](../MemoryDatabase/index.md) or [FileDatabase](../FileDatabase/index.md).
 

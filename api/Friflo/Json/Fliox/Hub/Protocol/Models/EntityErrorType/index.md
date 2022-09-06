@@ -8,8 +8,7 @@
 # EntityErrorType Enum
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Models](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Error type when accessing an entity from a database container  
 

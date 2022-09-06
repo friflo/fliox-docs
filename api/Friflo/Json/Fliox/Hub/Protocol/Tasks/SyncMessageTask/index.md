@@ -8,8 +8,7 @@
 # SyncMessageTask Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Used as base type for [SendMessage](../SendMessage/index.md) or [SendCommand](../SendCommand/index.md) to specify the command \/ message[name](fields/name.md) and [param](fields/param.md). In case [users](fields/users.md) or [clients](fields/clients.md) is set the Hub forward the message as an event only to the given [users](fields/users.md) or [clients](fields/clients.md). 
 

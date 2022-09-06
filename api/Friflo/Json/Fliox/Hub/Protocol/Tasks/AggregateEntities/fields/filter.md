@@ -9,8 +9,7 @@
 
 **Declaring Type:** [AggregateEntities](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 aggregation filter as a  (infix notation)             returning a boolean value. E.g. `o.name == 'Smartphone'`
 

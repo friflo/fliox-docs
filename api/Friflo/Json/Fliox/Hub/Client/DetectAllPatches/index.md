@@ -8,8 +8,7 @@
 # DetectAllPatches Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 DetectAllPatches is a container of [DetectPatchesTask](../DetectPatchesTask/index.md)'s.             It is returned by [DetectAllPatches()](../FlioxClient/methods/DetectAllPatches.md) and contain [EntitySetPatches](properties/EntitySetPatches.md) for             all [EntitySet\<T1, T2\>](../EntitySet-2/index.md)'s where entity patches are found.
 

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [FlioxHub](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ClientController is used to create \/ add unique client ids to enable sending events to             specific user clients.             It also enables monitoring execution statistics of [ExecuteSync(SyncRequest, SyncContext)](../methods/ExecuteSync.md)
 

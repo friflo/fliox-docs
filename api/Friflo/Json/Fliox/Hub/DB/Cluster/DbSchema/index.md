@@ -8,8 +8,7 @@
 # DbSchema Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Cluster](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A DbSchema can be assigned to a database to specify its ,  and .The types used by the Schema are declared within [jsonSchemas](fields/jsonSchemas.md).The type referenced by the tuple [schemaName](fields/schemaName.md) \/ [schemaPath](fields/schemaPath.md) specify the database containers, commands and messages. 
 

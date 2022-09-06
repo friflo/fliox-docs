@@ -8,8 +8,7 @@
 # EntityContainer Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 An EntityContainer is the abstraction of a collection \/ table used to store entities \/ records  as key value pairs.
 

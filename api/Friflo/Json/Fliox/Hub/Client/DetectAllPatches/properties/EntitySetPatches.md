@@ -9,8 +9,7 @@
 
 **Declaring Type:** [DetectAllPatches](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 List of detected [DetectPatchesTask](../../DetectPatchesTask/index.md)'s per [EntitySet\<T1, T2\>](../../EntitySet-2/index.md)
 

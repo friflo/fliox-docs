@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntitySet\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Create a [UpsertTask\<T\>](../../UpsertTask-1/index.md) used to upsert the given `entities` in the container
 

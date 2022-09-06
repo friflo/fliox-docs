@@ -8,14 +8,13 @@
 # AuthorizeSubscribeMessage Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public sealed class AuthorizeSubscribeMessage : Authorizer
+public sealed class AuthorizeSubscribeMessage : TaskAuthorizer
 ```
 
-**Inheritance:** object → [Authorizer](../Authorizer/index.md) → AuthorizeSubscribeMessage
+**Inheritance:** object → [TaskAuthorizer](../TaskAuthorizer/index.md) → AuthorizeSubscribeMessage
 
 ## Constructors
 
@@ -25,11 +24,11 @@ public sealed class AuthorizeSubscribeMessage : Authorizer
 
 ## Methods
 
-| Name                                                                                      | Description |
-| ----------------------------------------------------------------------------------------- | ----------- |
-| [AddAuthorizedDatabases(HashSet\<AuthorizeDatabase\>)](methods/AddAuthorizedDatabases.md) |             |
-| [Authorize(SyncRequestTask, SyncContext)](methods/Authorize.md)                           |             |
-| [ToString()](methods/ToString.md)                                                         |             |
+| Name                                                                                   | Description |
+| -------------------------------------------------------------------------------------- | ----------- |
+| [AddAuthorizedDatabases(HashSet\<DatabaseFilter\>)](methods/AddAuthorizedDatabases.md) |             |
+| [AuthorizeTask(SyncRequestTask, SyncContext)](methods/AuthorizeTask.md)                |             |
+| [ToString()](methods/ToString.md)                                                      |             |
 
 ___
 

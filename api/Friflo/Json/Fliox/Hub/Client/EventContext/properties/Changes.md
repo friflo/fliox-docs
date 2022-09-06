@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EventContext](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Changes return the changes per database container.             Use [GetChanges\<T1, T2\>(EntitySet\<T1, T2\>)](../methods/GetChanges.md) to get  container changes 
 

@@ -8,10 +8,9 @@
 # WebSocketClientHub Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
-A [FlioxHub](../../Host/FlioxHub/index.md) accessed remotely  using a WebSocket connection Requires [Connect()](methods/Connect.md) to establish a connection.
+A [FlioxHub](../../Host/FlioxHub/index.md) accessed remotely  using a WebSocket connection
 
 ```csharp
 public sealed class WebSocketClientHub : RemoteClientHub
@@ -30,7 +29,6 @@ public sealed class WebSocketClientHub : RemoteClientHub
 | Name                                                            | Description |
 | --------------------------------------------------------------- | ----------- |
 | [Close()](methods/Close.md)                                     |             |
-| [Connect()](methods/Connect.md)                                 |             |
 | [ExecuteSync(SyncRequest, SyncContext)](methods/ExecuteSync.md) |             |
 | [ToString()](methods/ToString.md)                               |             |
 

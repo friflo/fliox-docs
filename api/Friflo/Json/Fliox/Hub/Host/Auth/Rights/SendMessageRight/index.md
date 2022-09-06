@@ -8,16 +8,15 @@
 # SendMessageRight Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth.Rights](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 SendMessageRight allows sending messages to a [database](fields/database.md) by a set of [names](fields/names.md).            Note: commands are messages \- so permission of sending commands is same as for messages.
 
 ```csharp
-public sealed class SendMessageRight : Right
+public sealed class SendMessageRight : TaskRight
 ```
 
-**Inheritance:** object → [Right](../Right/index.md) → SendMessageRight
+**Inheritance:** object → [TaskRight](../TaskRight/index.md) → SendMessageRight
 
 ## Constructors
 

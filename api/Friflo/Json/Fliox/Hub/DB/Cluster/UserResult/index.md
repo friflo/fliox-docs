@@ -8,8 +8,7 @@
 # UserResult Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Cluster](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public sealed class UserResult
@@ -25,9 +24,11 @@ public sealed class UserResult
 
 ## Fields
 
-| Name                       | Description |
-| -------------------------- | ----------- |
-| [groups](fields/groups.md) |             |
+| Name                         | Description                                     |
+| ---------------------------- | ----------------------------------------------- |
+| [clients](fields/clients.md) |                                                 |
+| [counts](fields/counts.md)   | number executed requests and tasks per database |
+| [groups](fields/groups.md)   |                                                 |
 
 ___
 

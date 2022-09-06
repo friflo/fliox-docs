@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EventDispatcher](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Event](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
  exposed only for test assertions. [EventDispatcher](../index.md) lives on Hub.             If required its state (subscribed client) can be exposed by [ClientHits](../../../../DB/Monitor/ClientHits/index.md)
 

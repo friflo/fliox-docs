@@ -8,8 +8,7 @@
 # SyncTask Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Base class of all tasks create via methods of [FlioxClient](../FlioxClient/index.md) and [EntitySet\<T1, T2\>](../EntitySet-2/index.md)
 

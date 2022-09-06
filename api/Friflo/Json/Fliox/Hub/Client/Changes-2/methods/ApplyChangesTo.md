@@ -9,20 +9,19 @@
 
 **Declaring Type:** [Changes\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
  Apply the container changes to the given `entitySet`
 
 ```csharp
-public void ApplyChangesTo(EntitySet<TKey, T> entitySet, Change change = Change.create | Change.upsert | Change.patch | Change.delete);
+public void ApplyChangesTo(EntitySet<TKey, T> entitySet, Change change = Change.All);
 ```
 
 ## Parameters
 
 `entitySet`  EntitySet\<TKey, T\>
 
-`change`  [Change](../../../Protocol/Tasks/Change/index.md)
+`change`  [Change](../../Change/index.md)
 
 ___
 

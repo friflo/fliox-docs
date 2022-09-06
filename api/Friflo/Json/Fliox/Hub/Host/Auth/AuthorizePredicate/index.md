@@ -8,14 +8,13 @@
 # AuthorizePredicate Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public sealed class AuthorizePredicate : Authorizer
+public sealed class AuthorizePredicate : TaskAuthorizer
 ```
 
-**Inheritance:** object → [Authorizer](../Authorizer/index.md) → AuthorizePredicate
+**Inheritance:** object → [TaskAuthorizer](../TaskAuthorizer/index.md) → AuthorizePredicate
 
 ## Constructors
 
@@ -25,11 +24,11 @@ public sealed class AuthorizePredicate : Authorizer
 
 ## Methods
 
-| Name                                                                                      | Description |
-| ----------------------------------------------------------------------------------------- | ----------- |
-| [AddAuthorizedDatabases(HashSet\<AuthorizeDatabase\>)](methods/AddAuthorizedDatabases.md) |             |
-| [Authorize(SyncRequestTask, SyncContext)](methods/Authorize.md)                           |             |
-| [ToString()](methods/ToString.md)                                                         |             |
+| Name                                                                                   | Description |
+| -------------------------------------------------------------------------------------- | ----------- |
+| [AddAuthorizedDatabases(HashSet\<DatabaseFilter\>)](methods/AddAuthorizedDatabases.md) |             |
+| [AuthorizeTask(SyncRequestTask, SyncContext)](methods/AuthorizeTask.md)                |             |
+| [ToString()](methods/ToString.md)                                                      |             |
 
 ___
 

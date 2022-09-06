@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntityProcessor](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Utils](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public JsonValue ReplaceKey(JsonValue json, string keyName, bool asIntKey, string newKeyName, out JsonKey keyValue, out string error);

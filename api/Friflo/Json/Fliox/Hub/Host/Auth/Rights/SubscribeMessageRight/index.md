@@ -8,16 +8,15 @@
 # SubscribeMessageRight Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth.Rights](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 SubscribeMessageRight allows subscribing messages send to a [database](fields/database.md).            Note: commands are messages \- so permission of subscribing commands is same as for messages.  
 
 ```csharp
-public sealed class SubscribeMessageRight : Right
+public sealed class SubscribeMessageRight : TaskRight
 ```
 
-**Inheritance:** object → [Right](../Right/index.md) → SubscribeMessageRight
+**Inheritance:** object → [TaskRight](../TaskRight/index.md) → SubscribeMessageRight
 
 ## Constructors
 

@@ -8,17 +8,16 @@
 # RightType Enum
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth.Rights](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public enum RightType
 {
-    allow = 0,
-    task = 1,
-    message = 2,
-    subscribeMessage = 3,
-    operation = 4,
+    dbFull = 0,
+    dbTask = 1,
+    dbContainer = 2,
+    message = 3,
+    subscribeMessage = 4,
     predicate = 5
 }
 ```
@@ -29,12 +28,12 @@ public enum RightType
 
 | Name             | Description |
 | ---------------- | ----------- |
-| allow            |             |
+| dbContainer      |             |
+| dbFull           |             |
+| dbTask           |             |
 | message          |             |
-| operation        |             |
 | predicate        |             |
 | subscribeMessage |             |
-| task             |             |
 
 ___
 

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [FlioxHub](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Construct a [FlioxHub](../index.md) with the given default `database`.
 

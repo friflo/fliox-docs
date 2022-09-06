@@ -9,8 +9,7 @@
 
 **Declaring Type:** [QueryTask\<T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 cursor is used to proceed iterating entities of a previous query             which set [maxCount](maxCount.md).             Therefore assign [ResultCursor](../properties/ResultCursor.md) of the previous to cursor. 
 

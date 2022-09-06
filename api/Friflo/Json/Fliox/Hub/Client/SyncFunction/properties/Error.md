@@ -9,8 +9,7 @@
 
 **Declaring Type:** [SyncFunction](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 The error caused the task failing. Return null if task was successful \- [Success](Success.md) \=\= true
 

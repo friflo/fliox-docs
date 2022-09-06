@@ -8,8 +8,7 @@
 # References Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Models](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 References are used to return entities referenced by fields of entities returned by read and query tasks.References can be nested to return referenced entities of referenced entities.
 

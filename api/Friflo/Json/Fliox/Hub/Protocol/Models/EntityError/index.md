@@ -8,8 +8,7 @@
 # EntityError Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Models](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Used by [SyncResponse](../../SyncResponse/index.md) to return errors when mutating an entity by: create, upsert, patch and delete
 

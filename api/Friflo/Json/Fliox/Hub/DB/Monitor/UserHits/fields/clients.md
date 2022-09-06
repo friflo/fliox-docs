@@ -9,8 +9,7 @@
 
 **Declaring Type:** [UserHits](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Monitor](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 list of clients owned by a user
 

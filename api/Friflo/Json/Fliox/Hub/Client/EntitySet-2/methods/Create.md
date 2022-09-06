@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntitySet\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Return a [CreateTask\<T\>](../../CreateTask-1/index.md) used to create the given `entity` in the container
 

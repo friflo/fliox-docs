@@ -27,7 +27,7 @@
 | [RemoteUtils](RemoteUtils/index.md)                       |                                                                                                                                                                                  |
 | [RequestContext](RequestContext/index.md)                 | A [RequestContext](RequestContext/index.md) is used to get the data of a HTTP request from a specific HTTP server and provide its execution results back to the HTTP server.     |
 | [StaticFileHandler](StaticFileHandler/index.md)           | A [StaticFileHandler](StaticFileHandler/index.md) is used to serve static files by a [HttpHost](HttpHost/index.md).                                                              |
-| [WebSocketClientHub](WebSocketClientHub/index.md)         | A [FlioxHub](../Host/FlioxHub/index.md) accessed remotely  using a WebSocket connection Requires [Connect()](WebSocketClientHub/methods/Connect.md) to establish a connection.   |
+| [WebSocketClientHub](WebSocketClientHub/index.md)         | A [FlioxHub](../Host/FlioxHub/index.md) accessed remotely  using a WebSocket connection                                                                                          |
 | [WebSocketHost](WebSocketHost/index.md)                   |                                                                                                                                                                                  |
 
 ## Interfaces

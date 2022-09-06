@@ -8,8 +8,7 @@
 # WebSocketHost Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public sealed class WebSocketHost : IEventReceiver, ILogSource
@@ -30,6 +29,7 @@ public sealed class WebSocketHost : IEventReceiver, ILogSource
 | Name                                                                                     | Description |
 | ---------------------------------------------------------------------------------------- | ----------- |
 | [IsOpen()](methods/IsOpen.md)                                                            |             |
+| [IsRemoteTarget()](methods/IsRemoteTarget.md)                                            |             |
 | [ProcessEvent(ProtocolEvent)](methods/ProcessEvent.md)                                   |             |
 | [SendReceiveMessages(WebSocket, IPEndPoint, RemoteHost)](methods/SendReceiveMessages.md) |             |
 

@@ -8,8 +8,7 @@
 # SyncContext Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 One SyncContext is created per [ExecuteSync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteSync.md) call to enable multi threaded \/ concurrent handling of a [SyncRequest](../../Protocol/SyncRequest/index.md).
 
@@ -23,18 +22,12 @@ public sealed class SyncContext
 
 Note: In case of adding transaction support for [SyncRequest](../../Protocol/SyncRequest/index.md)'s in future transaction data \/ state need to be handled by this class.
 
-## Fields
-
-| Name                                               | Description |
-| -------------------------------------------------- | ----------- |
-| [clientId](fields/clientId.md)                     |             |
-| [clientIdValidation](fields/clientIdValidation.md) |             |
-
 ## Properties
 
 | Name                                             | Description |
 | ------------------------------------------------ | ----------- |
 | [Authenticated](properties/Authenticated.md)     |             |
+| [ClientId](properties/ClientId.md)               |             |
 | [Database](properties/Database.md)               |             |
 | [DatabaseName](properties/DatabaseName.md)       |             |
 | [EntityProcessor](properties/EntityProcessor.md) |             |
@@ -44,12 +37,13 @@ Note: In case of adding transaction support for [SyncRequest](../../Protocol/Syn
 
 ## Methods
 
-| Name                                                                              | Description |
-| --------------------------------------------------------------------------------- | ----------- |
-| [AuthenticationFailed(User, string, Authorizer)](methods/AuthenticationFailed.md) |             |
-| [AuthenticationSucceed(User, Authorizer)](methods/AuthenticationSucceed.md)       |             |
-| [Release()](methods/Release.md)                                                   |             |
-| [ToString()](methods/ToString.md)                                                 |             |
+| Name                                                                                                 | Description |
+| ---------------------------------------------------------------------------------------------------- | ----------- |
+| [AuthenticationFailed(User, string, TaskAuthorizer, HubPermission)](methods/AuthenticationFailed.md) |             |
+| [AuthenticationSucceed(User, TaskAuthorizer, HubPermission)](methods/AuthenticationSucceed.md)       |             |
+| [Release()](methods/Release.md)                                                                      |             |
+| [SetClientId(JsonKey)](methods/SetClientId.md)                                                       |             |
+| [ToString()](methods/ToString.md)                                                                    |             |
 
 ___
 

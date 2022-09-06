@@ -8,8 +8,7 @@
 # EventTargets Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 EventTargets instructs the Hub to forward messages as events only to the specified targets.             Event target's can be specified its .
 

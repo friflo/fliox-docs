@@ -9,11 +9,10 @@
 
 **Declaring Type:** [UserAuthenticator](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.DB.UserAuth.UserAuthenticator/<ValidateUserDb>d__7)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.DB.UserAuth.UserAuthenticator/<ValidateUserDb>d__6)]
 [DebuggerStepThrough]
 public Task<List<string>> ValidateUserDb(HashSet<string> databases);
 ```

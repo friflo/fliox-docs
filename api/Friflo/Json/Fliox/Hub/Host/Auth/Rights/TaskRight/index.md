@@ -8,29 +8,30 @@
 # TaskRight Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth.Rights](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
-TaskRight grant [database](fields/database.md) access by a set of task [types](fields/types.md). 
+Each [Role](../../../../DB/UserAuth/Role/index.md) has a set of [taskRights](../../../../DB/UserAuth/Role/fields/taskRights.md). Each TaskRight is a rule used to grant or deny a specific database operation or command execution.The database operation or command execution is granted if any of it [taskRights](../../../../DB/UserAuth/Role/fields/taskRights.md)grant access.
 
 ```csharp
-public sealed class TaskRight : Right
+[Discriminator("type", Description = "right type")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbFullRight, Discriminant = "dbFull")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbTaskRight, Discriminant = "dbTask")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbContainerRight, Discriminant = "dbContainer")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.SendMessageRight, Discriminant = "sendMessage")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.SubscribeMessageRight, Discriminant = "subscribeMessage")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.PredicateRight, Discriminant = "predicate")]
+public abstract class TaskRight
 ```
 
-**Inheritance:** object → [Right](../Right/index.md) → TaskRight
+**Inheritance:** object → TaskRight
 
-## Constructors
-
-| Name                                 | Description |
-| ------------------------------------ | ----------- |
-| [TaskRight()](constructors/index.md) |             |
+**Attributes:** DiscriminatorAttribute,PolymorphTypeAttribute,PolymorphTypeAttribute,PolymorphTypeAttribute,PolymorphTypeAttribute,PolymorphTypeAttribute,PolymorphTypeAttribute
 
 ## Fields
 
-| Name                           | Description                                                                                    |
-| ------------------------------ | ---------------------------------------------------------------------------------------------- |
-| [database](fields/database.md) | a specific database: 'test\_db', multiple databases by prefix: 'test\_\*', all databases: '\*' |
-| [types](fields/types.md)       | set fo task types like: create, read, upsert, delete, query, ...                               |
+| Name                                 | Description                               |
+| ------------------------------------ | ----------------------------------------- |
+| [description](fields/description.md) | optional description explaining the Right |
 
 ## Properties
 

@@ -8,8 +8,7 @@
 # ProtocolResponse Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Base type for response messages send from a host to a client in reply of [SyncRequest](../SyncRequest/index.md)
 
@@ -28,12 +27,12 @@ public abstract class ProtocolResponse : ProtocolMessage
 
 A response is either a [SyncResponse](../SyncResponse/index.md) or a [ErrorResponse](../ErrorResponse/index.md) in case of a general error.
 
-## Properties
+## Fields
 
-| Name                               | Description                                                                                                                                                                                                             |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [clientId](properties/clientId.md) | Set to [clientId](../ProtocolRequest/properties/clientId.md) of a [SyncRequest](../SyncRequest/index.md) in case the given[clientId](../ProtocolRequest/properties/clientId.md) was valid. Otherwise it is set to null. |
-| [reqId](properties/reqId.md)       | Set to the value of the corresponding [reqId](../ProtocolRequest/properties/reqId.md) of a [ProtocolRequest](../ProtocolRequest/index.md)                                                                               |
+| Name                           | Description                                                                                                                                                                                                     |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [clientId](fields/clientId.md) | Set to [clientId](../ProtocolRequest/fields/clientId.md) of a [SyncRequest](../SyncRequest/index.md) in case the given[clientId](../ProtocolRequest/fields/clientId.md) was valid. Otherwise it is set to null. |
+| [reqId](fields/reqId.md)       | Set to the value of the corresponding [reqId](../ProtocolRequest/fields/reqId.md) of a [ProtocolRequest](../ProtocolRequest/index.md)                                                                           |
 
 ___
 

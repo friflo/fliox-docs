@@ -8,8 +8,7 @@
 # ReadEntities Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Read entities by id from the specified [container](fields/container.md) using given list of [ids](fields/ids.md)To return also entities referenced by entities listed in [ids](fields/ids.md) use [references](fields/references.md). This mimic the functionality of a  in 
 

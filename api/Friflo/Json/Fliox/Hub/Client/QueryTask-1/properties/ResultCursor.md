@@ -9,8 +9,7 @@
 
 **Declaring Type:** [QueryTask\<T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
  Is not null after task execution if more entities available.             To access them create a new query and assign ResultCursor to its [cursor](../fields/cursor.md). 
 

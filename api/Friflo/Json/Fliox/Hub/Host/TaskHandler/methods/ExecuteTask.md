@@ -9,11 +9,10 @@
 
 **Declaring Type:** [TaskHandler](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.TaskHandler/<ExecuteTask>d__26)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.TaskHandler/<ExecuteTask>d__30)]
 [DebuggerStepThrough]
 public Task<SyncTaskResult> ExecuteTask(SyncRequestTask task, EntityDatabase database, SyncResponse response, SyncContext syncContext);
 ```

@@ -8,8 +8,7 @@
 # TaskAlreadySyncedException Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Is thrown if calling a method on a task which was already executed by [SyncTasks()](../FlioxClient/methods/SyncTasks.md)
 

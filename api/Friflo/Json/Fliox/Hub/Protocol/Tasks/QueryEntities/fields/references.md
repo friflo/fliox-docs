@@ -9,8 +9,7 @@
 
 **Declaring Type:** [QueryEntities](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 used to request the entities referenced by properties of the query task result
 

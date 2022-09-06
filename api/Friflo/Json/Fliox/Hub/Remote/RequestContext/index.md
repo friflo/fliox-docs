@@ -8,8 +8,7 @@
 # RequestContext Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A RequestContext is used to get the data of a HTTP request from a specific HTTP server and provide its execution results back to the HTTP server.    
 

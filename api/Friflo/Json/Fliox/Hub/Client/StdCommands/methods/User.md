@@ -9,18 +9,17 @@
 
 **Declaring Type:** [StdCommands](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 return the groups of the current user. Optionally change the groups of the current user
 
 ```csharp
-public CommandTask<UserResult> User(UserOptions options);
+public CommandTask<UserResult> User(UserParam param);
 ```
 
 ## Parameters
 
-`options`  [UserOptions](../../../DB/Cluster/UserOptions/index.md)
+`param`  [UserParam](../../../DB/Cluster/UserParam/index.md)
 
 ## Returns
 

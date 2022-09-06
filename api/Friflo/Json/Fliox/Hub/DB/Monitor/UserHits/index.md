@@ -8,8 +8,7 @@
 # UserHits Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Monitor](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 all user clients and number of executed user requests and tasks
 

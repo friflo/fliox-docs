@@ -8,8 +8,7 @@
 # UserAuthenticator Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Performs user authentication by validating the "userId" and the "token" assigned to a [FlioxClient](../../../Client/FlioxClient/index.md)
 
@@ -23,13 +22,13 @@ public class UserAuthenticator : Authenticator, IDisposable
 
 ## Remarks
 
-If authentication succeed it set the authorizer derived from the roles assigned to the user. If authentication fails the given default [Authorizer](../../../Host/Auth/Authorizer/index.md) is used for the user. User permissions and roles are cached for successful authenticated users.This enables instant task authorization and reduces the number of reads to the  significant.
+If authentication succeed it set the taskAuthorizer derived from the roles assigned to the user. If authentication fails the given default [TaskAuthorizer](../../../Host/Auth/TaskAuthorizer/index.md) is used for the user. User permissions and roles are cached for successful authenticated users.This enables instant task authorization and reduces the number of reads to the  significant.
 
 ## Constructors
 
-| Name                                                                                         | Description |
-| -------------------------------------------------------------------------------------------- | ----------- |
-| [UserAuthenticator(EntityDatabase, SharedEnv, IUserAuth, Authorizer)](constructors/index.md) |             |
+| Name                                                                             | Description |
+| -------------------------------------------------------------------------------- | ----------- |
+| [UserAuthenticator(EntityDatabase, SharedEnv, IUserAuth)](constructors/index.md) |             |
 
 ## Methods
 
@@ -38,7 +37,7 @@ If authentication succeed it set the authorizer derived from the roles assigned 
 | [Authenticate(SyncRequest, SyncContext)](methods/Authenticate.md)                            |                                                                                                                                                                                                                                                                                                                           |
 | [Dispose()](methods/Dispose.md)                                                              |                                                                                                                                                                                                                                                                                                                           |
 | [EnsureValidClientId(ClientController, SyncContext, string)](methods/EnsureValidClientId.md) |                                                                                                                                                                                                                                                                                                                           |
-| [SetUserOptions(User, UserOptions)](methods/SetUserOptions.md)                               |                                                                                                                                                                                                                                                                                                                           |
+| [SetUserOptions(User, UserParam)](methods/SetUserOptions.md)                                 |                                                                                                                                                                                                                                                                                                                           |
 | [SubscribeUserDbChanges(EventDispatcher)](methods/SubscribeUserDbChanges.md)                 | Subscribe changes to [permissions](../UserStore/fields/permissions.md) and [roles](../UserStore/fields/roles.md) to  applying these changes to users instantaneously.Without subscribing  changes they are effective after a call to [ClearAuthCache()](../UserStore/methods/ClearAuthCache.md)or after a server restart. |
 | [ValidateClientId(ClientController, SyncContext)](methods/ValidateClientId.md)               |                                                                                                                                                                                                                                                                                                                           |
 | [ValidateUserDb(HashSet\<string\>)](methods/ValidateUserDb.md)                               |                                                                                                                                                                                                                                                                                                                           |

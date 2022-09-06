@@ -8,8 +8,7 @@
 # ContainerEntities Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Used by [SyncResponse](../SyncResponse/index.md) to return the [entities](fields/entities.md) as results from [tasks](../SyncRequest/fields/tasks.md) of a [SyncRequest](../SyncRequest/index.md)
 

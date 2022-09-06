@@ -9,8 +9,7 @@
 
 **Declaring Type:** [ContainerEntities](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 all entities from the [container](container.md) resulting from[ReadEntities](../../Tasks/ReadEntities/index.md) and [QueryEntities](../../Tasks/QueryEntities/index.md) tasks of a [SyncRequest](../../SyncRequest/index.md)
 

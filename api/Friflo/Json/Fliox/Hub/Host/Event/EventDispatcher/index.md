@@ -8,8 +8,7 @@
 # EventDispatcher Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Event](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 An EventDispatcher is used to enable Pub\-Sub.
 
@@ -39,12 +38,12 @@ If assigned to [EventDispatcher](../../FlioxHub/properties/EventDispatcher.md) t
 
 ## Methods
 
-| Name                                                        | Description |
-| ----------------------------------------------------------- | ----------- |
-| [Dispose()](methods/Dispose.md)                             |             |
-| [FinishQueues()](methods/FinishQueues.md)                   |             |
-| [NotAcknowledgedEvents()](methods/NotAcknowledgedEvents.md) |             |
-| [ToString()](methods/ToString.md)                           |             |
+| Name                                                | Description |
+| --------------------------------------------------- | ----------- |
+| [Dispose()](methods/Dispose.md)                     |             |
+| [FinishQueues()](methods/FinishQueues.md)           |             |
+| [QueuedEventsCount()](methods/QueuedEventsCount.md) |             |
+| [ToString()](methods/ToString.md)                   |             |
 
 ___
 

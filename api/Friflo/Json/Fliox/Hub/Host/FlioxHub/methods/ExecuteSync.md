@@ -9,13 +9,12 @@
 
 **Declaring Type:** [FlioxHub](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Execute all [tasks](../../../Protocol/SyncRequest/fields/tasks.md) of a [SyncRequest](../../../Protocol/SyncRequest/index.md) send by client.
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.FlioxHub/<ExecuteSync>d__38)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.FlioxHub/<ExecuteSync>d__41)]
 [DebuggerStepThrough]
 public Task<ExecuteSyncResult> ExecuteSync(SyncRequest syncRequest, SyncContext syncContext);
 ```

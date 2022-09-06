@@ -9,19 +9,18 @@
 
 **Declaring Type:** [Authenticator](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ## Overloads
 
-| Signature                                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                          |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [RegisterPredicate(AuthPredicate)](#registerpredicateauthpredicate)                | Register a predicate function which enables custom authorization via code, which cannot be expressed by one of the provided [Right](../../Rights/Right/index.md) implementations. The `predicate` is registered by its delegate name. If called its parameters are intended to filter the aspired condition and return true if task execution is granted. To reject task execution it returns false. |
-| [RegisterPredicate(string, AuthPredicate)](#registerpredicatestring-authpredicate) | Register a predicate function by the given `name` which enables custom authorization via code, which cannot be expressed by one of the provided [Right](../../Rights/Right/index.md) implementations. If called its parameters are intended to filter the aspired condition and return true if task execution is granted. To reject task execution it returns false.                                 |
+| Signature                                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [RegisterPredicate(AuthPredicate)](#registerpredicateauthpredicate)                | Register a predicate function which enables custom authorization via code, which cannot be expressed by one of the provided [TaskRight](../../Rights/TaskRight/index.md) implementations. The `predicate` is registered by its delegate name. If called its parameters are intended to filter the aspired condition and return true if task execution is granted. To reject task execution it returns false. |
+| [RegisterPredicate(string, AuthPredicate)](#registerpredicatestring-authpredicate) | Register a predicate function by the given `name` which enables custom authorization via code, which cannot be expressed by one of the provided [TaskRight](../../Rights/TaskRight/index.md) implementations. If called its parameters are intended to filter the aspired condition and return true if task execution is granted. To reject task execution it returns false.                                 |
 
 ## RegisterPredicate(AuthPredicate)
 
-Register a predicate function which enables custom authorization via code, which cannot be expressed by one of the provided [Right](../../Rights/Right/index.md) implementations. The `predicate` is registered by its delegate name. If called its parameters are intended to filter the aspired condition and return true if task execution is granted. To reject task execution it returns false.
+Register a predicate function which enables custom authorization via code, which cannot be expressed by one of the provided [TaskRight](../../Rights/TaskRight/index.md) implementations. The `predicate` is registered by its delegate name. If called its parameters are intended to filter the aspired condition and return true if task execution is granted. To reject task execution it returns false.
 
 ```csharp
 public void RegisterPredicate(AuthPredicate predicate);
@@ -33,7 +32,7 @@ public void RegisterPredicate(AuthPredicate predicate);
 
 ## RegisterPredicate(string, AuthPredicate)
 
-Register a predicate function by the given `name` which enables custom authorization via code, which cannot be expressed by one of the provided [Right](../../Rights/Right/index.md) implementations. If called its parameters are intended to filter the aspired condition and return true if task execution is granted. To reject task execution it returns false.
+Register a predicate function by the given `name` which enables custom authorization via code, which cannot be expressed by one of the provided [TaskRight](../../Rights/TaskRight/index.md) implementations. If called its parameters are intended to filter the aspired condition and return true if task execution is granted. To reject task execution it returns false.
 
 ```csharp
 public void RegisterPredicate(string name, AuthPredicate predicate);

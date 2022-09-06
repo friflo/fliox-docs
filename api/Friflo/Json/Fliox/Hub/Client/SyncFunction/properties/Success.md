@@ -9,8 +9,7 @@
 
 **Declaring Type:** [SyncFunction](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Is true in case task execution was successful. Otherwise false. If false [Error](Error.md) property is set. 
 

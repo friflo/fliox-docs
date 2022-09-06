@@ -9,8 +9,7 @@
 
 **Declaring Type:** [WebSocketHost](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public bool IsOpen();

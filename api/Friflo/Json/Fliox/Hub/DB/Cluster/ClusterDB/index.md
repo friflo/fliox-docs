@@ -8,8 +8,7 @@
 # ClusterDB Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Cluster](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ClusterDB store information about databases hosted by the Hub:             \- available containers aka tables per database             \- available commands per database             \- the schema assigned to each database
 

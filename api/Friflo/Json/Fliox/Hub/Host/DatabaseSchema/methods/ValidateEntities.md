@@ -9,8 +9,7 @@
 
 **Declaring Type:** [DatabaseSchema](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public string ValidateEntities(string container, List<JsonKey> entityKeys, List<JsonValue> entities, SyncContext syncContext, EntityErrorType errorType, ref List<EntityError> validationErrors);

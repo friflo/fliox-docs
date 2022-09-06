@@ -9,8 +9,7 @@
 
 **Declaring Type:** [QueryTask\<T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
  return maxCount number of entities within [Result](../properties/Result.md).             After task execution [ResultCursor](../properties/ResultCursor.md) is not null if more entities available.             To access them create new query and assign [ResultCursor](../properties/ResultCursor.md) to its [cursor](cursor.md).   
 

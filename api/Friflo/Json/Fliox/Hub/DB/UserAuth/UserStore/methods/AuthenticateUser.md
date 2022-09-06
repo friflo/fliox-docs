@@ -9,8 +9,7 @@
 
 **Declaring Type:** [UserStore](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 authenticate user [Credentials](../../Credentials/index.md): [userId](../../Credentials/fields/userId.md) and [token](../../Credentials/fields/token.md)
 

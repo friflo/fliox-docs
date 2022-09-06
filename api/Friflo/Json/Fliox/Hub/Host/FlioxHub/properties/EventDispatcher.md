@@ -9,8 +9,7 @@
 
 **Declaring Type:** [FlioxHub](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 An optional [EventDispatcher](../../Event/EventDispatcher/index.md) used to enable Pub\-Sub. If assigned the database send push events to clients for database changes and messages these clients have subscribed.
 

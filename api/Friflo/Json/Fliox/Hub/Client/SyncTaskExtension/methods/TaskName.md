@@ -9,8 +9,7 @@
 
 **Declaring Type:** [SyncTaskExtension](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 An arbitrary name which can be assigned to a task. Typically the name of the variable the task is assigned to. The `name` is used to simplify finding a [SyncTask](../../SyncTask/index.md) in the source code while debugging. It also simplifies finding a [TaskError](../../TaskError/index.md) by its [Message](../../TaskError/properties/Message.md)or a [TaskResultException](../../TaskResultException/index.md) by its Message. The library itself doesnt use the `name` internally \- its purpose is only to enhance debugging or post\-mortem debugging of application code.
 

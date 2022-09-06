@@ -8,14 +8,13 @@
 # PredicateRight Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth.Rights](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public sealed class PredicateRight : Right
+public sealed class PredicateRight : TaskRight
 ```
 
-**Inheritance:** object → [Right](../Right/index.md) → PredicateRight
+**Inheritance:** object → [TaskRight](../TaskRight/index.md) → PredicateRight
 
 ## Constructors
 

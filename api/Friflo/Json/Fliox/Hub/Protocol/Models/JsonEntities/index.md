@@ -8,8 +8,7 @@
 # JsonEntities Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Models](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 [TypeMapper(Friflo.Json.Fliox.Hub.Client.Internal.Map.JsonEntitiesMatcher)]

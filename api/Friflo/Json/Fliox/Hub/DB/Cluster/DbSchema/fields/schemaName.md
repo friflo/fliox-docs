@@ -9,8 +9,7 @@
 
 **Declaring Type:** [DbSchema](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Cluster](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 refer a type definition of the JSON Schema referenced with [schemaPath](schemaPath.md)
 

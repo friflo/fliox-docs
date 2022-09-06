@@ -9,8 +9,7 @@
 
 **Declaring Type:** [SyncRequest](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Identify the user performing a sync request. In case using of using [UserAuthenticator](../../../DB/UserAuth/UserAuthenticator/index.md) the userId and [token](token.md)are use for user authentication.
 

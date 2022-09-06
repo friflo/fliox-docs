@@ -8,8 +8,7 @@
 # MonitorDB Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Monitor](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 MonitorDB store access information of the Hub and its databases:            \- request and task count executed per user             \- request and task count executed per client. A user can access without, one or multiple client ids.             \- events sent to (or buffered for) clients subscribed by these clients.             \- aggregated access counts of the Hub in the last 30 seconds and 30 minutes.
 

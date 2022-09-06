@@ -8,8 +8,7 @@
 # ChangeSubscriptionHandler Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Defines signature of the handler method passed to [SubscribeAllChanges(Change, ChangeSubscriptionHandler)](../FlioxClient/methods/SubscribeAllChanges.md)
 

@@ -9,11 +9,10 @@
 
 **Declaring Type:** [WebSocketHost](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.WebSocketHost/<SendReceiveMessages>d__15)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.WebSocketHost/<SendReceiveMessages>d__16)]
 [DebuggerStepThrough]
 public static Task SendReceiveMessages(WebSocket websocket, IPEndPoint remoteEndPoint, RemoteHost remoteHost);
 ```

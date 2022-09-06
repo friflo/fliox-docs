@@ -8,8 +8,7 @@
 # SubscribeChanges Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Subscribe to specific [changes](fields/changes.md) of the specified [container](fields/container.md) using the given [filter](fields/filter.md)
 

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntitySet\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Close the `cursors` returned by [ResultCursor](../../QueryTask-1/properties/ResultCursor.md) of a [QueryTask\<T\>](../../QueryTask-1/index.md)
 

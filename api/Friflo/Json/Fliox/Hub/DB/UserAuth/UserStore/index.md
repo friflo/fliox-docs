@@ -8,8 +8,7 @@
 # UserStore Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Control individual user access to database containers and commands. Each  has a set of  stored in container . Each  in container  has a set of  which grant or deny container access or command execution. 
 

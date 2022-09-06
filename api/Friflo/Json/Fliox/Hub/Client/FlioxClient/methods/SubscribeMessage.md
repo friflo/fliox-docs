@@ -9,8 +9,7 @@
 
 **Declaring Type:** [FlioxClient](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ## Overloads
 
@@ -35,7 +34,7 @@ public SubscribeMessageTask SubscribeMessage(string name, MessageSubscriptionHan
 
 ### Remarks
 
-Subscribe multiple messages by prefix. e.g. `name` \= `"std.*"`Subscribe all messages with `name` \= `"*"`
+Note: To ensure remote clients with occasional disconnects get  events use [Client(ClientParam)](../../StdCommands/methods/Client.md)
 
 ### Returns
 

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntitySet\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Create a [DeleteAllTask\<T1, T2\>](../../DeleteAllTask-2/index.md) to delete all entities in the container
 

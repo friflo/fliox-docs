@@ -9,13 +9,12 @@
 
 **Declaring Type:** [HttpHost](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Central point where all Fliox related HTTP requests arrive. Each request is dispatched by a matching request handler. Note: Request matching and execution are separated to ensure no heap allocation caused by awaited method calls. 
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.HttpHost/<ExecuteHttpRequest>d__19)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.HttpHost/<ExecuteHttpRequest>d__20)]
 [DebuggerStepThrough]
 public Task ExecuteHttpRequest(RequestContext request);
 ```

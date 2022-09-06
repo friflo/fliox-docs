@@ -9,8 +9,7 @@
 
 **Declaring Type:** [StdCommands](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 return the number of entities of all containers (or the given container) of the database
 

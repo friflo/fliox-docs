@@ -8,8 +8,7 @@
 # QueryEntities Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Query entities from the given [container](fields/container.md) using a [filter](fields/filter.md)To return entities referenced by fields of the query result use [references](fields/references.md)
 

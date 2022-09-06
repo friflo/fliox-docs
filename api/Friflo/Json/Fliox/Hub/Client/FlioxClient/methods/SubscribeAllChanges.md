@@ -9,10 +9,9 @@
 
 **Declaring Type:** [FlioxClient](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
-Subscribe to database changes of all [EntityContainer](../../../Host/EntityContainer/index.md)'s with the given `change`. To unsubscribe from receiving change events set `change` to [None](../../../Protocol/Tasks/ChangeFlags/fields/None.md).
+Subscribe to database changes of all [EntityContainer](../../../Host/EntityContainer/index.md)'s with the given `change`. To unsubscribe from receiving change events set `change` to None.
 
 ```csharp
 public List<SyncTask> SubscribeAllChanges(Change change, ChangeSubscriptionHandler handler);
@@ -20,9 +19,13 @@ public List<SyncTask> SubscribeAllChanges(Change change, ChangeSubscriptionHandl
 
 ## Parameters
 
-`change`  [Change](../../../Protocol/Tasks/Change/index.md)
+`change`  [Change](../../Change/index.md)
 
 `handler`  [ChangeSubscriptionHandler](../../ChangeSubscriptionHandler/index.md)
+
+## Remarks
+
+Note: To ensure remote clients with occasional disconnects get  events use [Client(ClientParam)](../../StdCommands/methods/Client.md)
 
 ## Returns
 

@@ -8,28 +8,27 @@
 # AuthorizeSubscribeChanges Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public sealed class AuthorizeSubscribeChanges : Authorizer
+public sealed class AuthorizeSubscribeChanges : TaskAuthorizer
 ```
 
-**Inheritance:** object → [Authorizer](../Authorizer/index.md) → AuthorizeSubscribeChanges
+**Inheritance:** object → [TaskAuthorizer](../TaskAuthorizer/index.md) → AuthorizeSubscribeChanges
 
 ## Constructors
 
-| Name                                                                                      | Description |
-| ----------------------------------------------------------------------------------------- | ----------- |
-| [AuthorizeSubscribeChanges(string, ICollection\<Change\>, string)](constructors/index.md) |             |
+| Name                                                                                            | Description |
+| ----------------------------------------------------------------------------------------------- | ----------- |
+| [AuthorizeSubscribeChanges(string, ICollection\<EntityChange\>, string)](constructors/index.md) |             |
 
 ## Methods
 
-| Name                                                                                      | Description |
-| ----------------------------------------------------------------------------------------- | ----------- |
-| [AddAuthorizedDatabases(HashSet\<AuthorizeDatabase\>)](methods/AddAuthorizedDatabases.md) |             |
-| [Authorize(SyncRequestTask, SyncContext)](methods/Authorize.md)                           |             |
-| [ToString()](methods/ToString.md)                                                         |             |
+| Name                                                                                   | Description |
+| -------------------------------------------------------------------------------------- | ----------- |
+| [AddAuthorizedDatabases(HashSet\<DatabaseFilter\>)](methods/AddAuthorizedDatabases.md) |             |
+| [AuthorizeTask(SyncRequestTask, SyncContext)](methods/AuthorizeTask.md)                |             |
+| [ToString()](methods/ToString.md)                                                      |             |
 
 ___
 

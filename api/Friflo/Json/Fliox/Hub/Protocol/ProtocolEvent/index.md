@@ -8,8 +8,7 @@
 # ProtocolEvent Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 [Discriminator("msg", Description = "event type")]
@@ -21,13 +20,11 @@ public abstract class ProtocolEvent : ProtocolMessage
 
 **Attributes:** DiscriminatorAttribute,PolymorphTypeAttribute
 
-## Properties
+## Fields
 
-| Name                                     | Description                                                                                                                                                                                                    |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [dstClientId](properties/dstClientId.md) | The target client the event is sent to. This enabled sharing a single (WebSocket) connection by multiple clients. In many scenarios this property is redundant as every client uses a WebSocket exclusively.   |
-| [seq](properties/seq.md)                 | Increasing event sequence number starting with 1 for a specific target client [dstClientId](properties/dstClientId.md). Each target client (subscriber) has its own sequence.                                  |
-| [srcUserId](properties/srcUserId.md)     | The user which caused the event. Specifically the user which made a database change or sent a message \/ command. The user client is not preserved by en extra property as a use case for this is not obvious. |
+| Name                                 | Description                                                                                                                                                                                                  |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [dstClientId](fields/dstClientId.md) | The target client the event is sent to. This enables sharing a single (WebSocket) connection by multiple clients. In many scenarios this property is redundant as every client uses a WebSocket exclusively. |
 
 ___
 

@@ -8,8 +8,9 @@
 # AuthenticateNone Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
+
+Used as default [Authenticator](../Authenticator/index.md) in a [FlioxHub](../../FlioxHub/index.md).All users accessing a [FlioxHub](../../FlioxHub/index.md) are not authenticated \- [Authenticated](../../SyncContext/properties/Authenticated.md) \= false Execution of all user tasks are authorized. The taskAuthorizer and hubPermissionof [User](../../SyncContext/properties/User.md) grant full access.
 
 ```csharp
 public sealed class AuthenticateNone : Authenticator
@@ -19,9 +20,9 @@ public sealed class AuthenticateNone : Authenticator
 
 ## Constructors
 
-| Name                                                  | Description |
-| ----------------------------------------------------- | ----------- |
-| [AuthenticateNone(Authorizer)](constructors/index.md) |             |
+| Name                                        | Description |
+| ------------------------------------------- | ----------- |
+| [AuthenticateNone()](constructors/index.md) |             |
 
 ## Methods
 

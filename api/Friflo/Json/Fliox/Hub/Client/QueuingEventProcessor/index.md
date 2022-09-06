@@ -8,8 +8,7 @@
 # QueuingEventProcessor Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Is a queuing [IEventProcessor](../IEventProcessor/index.md) giving an application full control when event callback are invoked.
 

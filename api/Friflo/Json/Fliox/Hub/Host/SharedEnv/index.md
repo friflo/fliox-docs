@@ -8,8 +8,7 @@
 # SharedEnv Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 SharedEnv provide a set of shared resources available via [sharedEnv](../FlioxHub/fields/sharedEnv.md).
 

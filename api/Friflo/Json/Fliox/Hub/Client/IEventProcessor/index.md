@@ -8,8 +8,7 @@
 # IEventProcessor Interface
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 An IEventProcessor is used to process subscription events subscribed by a [FlioxClient](../FlioxClient/index.md)
 

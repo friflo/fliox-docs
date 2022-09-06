@@ -8,8 +8,7 @@
 # SendMessage Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Send a database message with the given [param](../SyncMessageTask/fields/param.md). In case [users](../SyncMessageTask/fields/users.md) or [clients](../SyncMessageTask/fields/clients.md) is set the Hub forward the message as an event only to the given [users](../SyncMessageTask/fields/users.md) or [clients](../SyncMessageTask/fields/clients.md). 
 

@@ -8,8 +8,7 @@
 # HttpListenerHost Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 HttpListenerHost is a utility class to enable running a simple HTTP Server by using a HttpListener
 

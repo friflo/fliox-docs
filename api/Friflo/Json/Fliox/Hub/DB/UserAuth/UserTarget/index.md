@@ -8,8 +8,7 @@
 # UserTarget Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 contain the [groups](fields/groups.md) assigned to a user.These groups are used to enable forwarding of message events only to users of specific groups.
 

@@ -8,8 +8,7 @@
 # HistoryHits Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Monitor](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 aggregated counts of latest requests. Each record uses a specific aggregation interval.
 

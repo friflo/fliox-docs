@@ -9,18 +9,17 @@
 
 **Declaring Type:** [ContainerAccess](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth.Rights](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Set of granted change subscriptions
 
 ```csharp
-public List<Change> subscribeChanges;
+public List<EntityChange> subscribeChanges;
 ```
 
 ## Field Value
 
-List\<[Change](../../../../../Protocol/Tasks/Change/index.md)\>
+List\<[EntityChange](../../../../../Protocol/Tasks/EntityChange/index.md)\>
 
 ___
 

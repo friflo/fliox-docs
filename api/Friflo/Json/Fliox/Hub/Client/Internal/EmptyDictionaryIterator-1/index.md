@@ -8,8 +8,7 @@
 # EmptyDictionaryIterator\<TValue\> Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client.Internal](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public sealed class EmptyDictionaryIterator<TValue> : IEnumerator<TValue>, IEnumerator, IDisposable

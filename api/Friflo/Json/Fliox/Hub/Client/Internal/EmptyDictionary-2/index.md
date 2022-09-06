@@ -8,8 +8,7 @@
 # EmptyDictionary\<TKey, TValue\> Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client.Internal](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 An immutable IDictionary\<T1, T2\> implementation containing no entries. Used for methods returning an empty dictionary instead of null reference to avoid null checks or throwing a NullReferenceException when accessing the return value. 
 

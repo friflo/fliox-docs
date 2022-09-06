@@ -8,8 +8,7 @@
 # SubscribeMessage Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Subscribe to commands and messages sent to a database by their [name](fields/name.md)Unsubscribe by setting [remove](fields/remove.md) to true 
 

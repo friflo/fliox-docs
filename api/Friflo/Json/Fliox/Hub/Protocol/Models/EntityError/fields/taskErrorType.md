@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntityError](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Models](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Is \!\= None if the error is caused indirectly by a [SyncRequestTask](../../../Tasks/SyncRequestTask/index.md) error.
 

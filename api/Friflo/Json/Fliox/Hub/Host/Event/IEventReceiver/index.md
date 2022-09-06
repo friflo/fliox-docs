@@ -8,8 +8,7 @@
 # IEventReceiver Interface
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Event](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public interface IEventReceiver
@@ -20,6 +19,7 @@ public interface IEventReceiver
 | Name                                                   | Description |
 | ------------------------------------------------------ | ----------- |
 | [IsOpen()](methods/IsOpen.md)                          |             |
+| [IsRemoteTarget()](methods/IsRemoteTarget.md)          |             |
 | [ProcessEvent(ProtocolEvent)](methods/ProcessEvent.md) |             |
 
 ___

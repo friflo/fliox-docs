@@ -9,8 +9,7 @@
 
 **Declaring Type:** [UserHits](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Monitor](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 number executed requests and tasks per database
 
@@ -20,7 +19,7 @@ public List<RequestCount> counts;
 
 ## Field Value
 
-List\<[RequestCount](../../RequestCount/index.md)\>
+List\<[RequestCount](../../../Cluster/RequestCount/index.md)\>
 
 ___
 

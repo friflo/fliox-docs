@@ -8,8 +8,7 @@
 # DatabaseSchema Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A DatabaseSchema can be assigned to a [Schema](../EntityDatabase/properties/Schema.md) to enable validation of entities represented as JSON used in write operations \- create, upsert and patch.
 

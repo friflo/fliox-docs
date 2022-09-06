@@ -8,8 +8,7 @@
 # EventContext Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 The EventContext provide all information of subscription events received by a [FlioxClient](../FlioxClient/index.md).
 
@@ -29,14 +28,16 @@ Database change events are not automatically applied to a [FlioxClient](../Fliox
 
 ## Properties
 
-| Name                                         | Description                                                                                                                                                                               |
-| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Changes](properties/Changes.md)             | [Changes](properties/Changes.md) return the changes per database container.             Use [GetChanges\<T1, T2\>(EntitySet\<T1, T2\>)](methods/GetChanges.md) to get  container changes  |
-| [EventInfo](properties/EventInfo.md)         |  return the number of [Messages](properties/Messages.md) and [Changes](properties/Changes.md) of the subscription event                                                                   |
-| [EventSequence](properties/EventSequence.md) |  incrementing sequence number of a received event                                                                                                                                         |
-| [Logger](properties/Logger.md)               |                                                                                                                                                                                           |
-| [Messages](properties/Messages.md)           |  return the [Messages](properties/Messages.md) sent by a user                                                                                                                             |
-| [SrcUserId](properties/SrcUserId.md)         |  user id sending the [Messages](properties/Messages.md) and causing the [Changes](properties/Changes.md)                                                                                  |
+| Name                                   | Description                                                                                                                                                                               |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Changes](properties/Changes.md)       | [Changes](properties/Changes.md) return the changes per database container.             Use [GetChanges\<T1, T2\>(EntitySet\<T1, T2\>)](methods/GetChanges.md) to get  container changes  |
+| [EventCount](properties/EventCount.md) |  number of received events                                                                                                                                                                |
+| [EventInfo](properties/EventInfo.md)   |  return the number of [Messages](properties/Messages.md) and [Changes](properties/Changes.md) of the subscription event                                                                   |
+| [EventSeq](properties/EventSeq.md)     |  incrementing sequence number of a received event                                                                                                                                         |
+| [IsOrigin](properties/IsOrigin.md)     |  is true if the client is the origin of the event                                                                                                                                         |
+| [Logger](properties/Logger.md)         |                                                                                                                                                                                           |
+| [Messages](properties/Messages.md)     |  return the [Messages](properties/Messages.md) sent by a user                                                                                                                             |
+| [SrcUserId](properties/SrcUserId.md)   |  user id sending the [Messages](properties/Messages.md) and causing the [Changes](properties/Changes.md)                                                                                  |
 
 ## Methods
 

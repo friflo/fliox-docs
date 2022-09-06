@@ -8,8 +8,7 @@
 # SetInfo Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Contain the number of tracked entities of an [EntitySet\<T1, T2\>](../EntitySet-2/index.md) and the number of tasks grouped by type.
 

@@ -8,10 +8,9 @@
 # User Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
-Prover access to data of an authenticated user 
+A User instance store credentials, clients and permissions of a user. Permissions: taskAuthorizer to authorize task execution.hubPermission for general \- non task specific \- permissions.
 
 ```csharp
 public sealed class User
@@ -28,18 +27,17 @@ User instances must be used only within the execution of a single [SyncRequest](
 | Name                                 | Description |
 | ------------------------------------ | ----------- |
 | [AnonymousId](fields/AnonymousId.md) |             |
-| [authorizer](fields/authorizer.md)   |             |
 | [token](fields/token.md)             |             |
 | [userId](fields/userId.md)           |             |
 
 ## Methods
 
-| Name                                                                        | Description |
-| --------------------------------------------------------------------------- | ----------- |
-| [GetGroups()](methods/GetGroups.md)                                         |             |
-| [SetUserOptions(UserOptions)](methods/SetUserOptions.md)                    |             |
-| [ToString()](methods/ToString.md)                                           |             |
-| [UpdateGroups(ICollection\<string\>, UserOptions)](methods/UpdateGroups.md) |             |
+| Name                                                                      | Description |
+| ------------------------------------------------------------------------- | ----------- |
+| [GetGroups()](methods/GetGroups.md)                                       |             |
+| [SetUserOptions(UserParam)](methods/SetUserOptions.md)                    |             |
+| [ToString()](methods/ToString.md)                                         |             |
+| [UpdateGroups(ICollection\<string\>, UserParam)](methods/UpdateGroups.md) |             |
 
 ___
 

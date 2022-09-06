@@ -8,8 +8,7 @@
 # Message Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Expose the [Name](properties/Name.md) and the [RawParam](properties/RawParam.md) of a received message.
 

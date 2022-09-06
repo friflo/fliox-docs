@@ -9,18 +9,17 @@
 
 **Declaring Type:** [IEventProcessor](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void EnqueueEvent(FlioxClient client, EventMessage ev);
+public void EnqueueEvent(FlioxClient client, EventMessage eventMessage);
 ```
 
 ## Parameters
 
 `client`  [FlioxClient](../../FlioxClient/index.md)
 
-`ev`  [EventMessage](../../../Protocol/EventMessage/index.md)
+`eventMessage`  [EventMessage](../../../Protocol/EventMessage/index.md)
 
 ___
 

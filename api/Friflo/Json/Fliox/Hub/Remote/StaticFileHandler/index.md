@@ -8,8 +8,7 @@
 # StaticFileHandler Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A StaticFileHandler is used to serve static files by a [HttpHost](../HttpHost/index.md).
 

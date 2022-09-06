@@ -8,8 +8,7 @@
 # MessageTask Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A MessageTask contains the message \/ command ( and ) sent to an [EntityDatabase](../../Host/EntityDatabase/index.md) by [SendMessage(string)](../FlioxClient/methods/SendMessage.md#sendmessagestring)
 

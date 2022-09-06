@@ -8,8 +8,7 @@
 # TaskErrorResultType Enum
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Type of a task error used in [TaskErrorResult](../TaskErrorResult/index.md)
 

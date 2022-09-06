@@ -9,8 +9,7 @@
 
 **Declaring Type:** [SubscribeMessage](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 if true a previous added subscription is removed. Otherwise added
 

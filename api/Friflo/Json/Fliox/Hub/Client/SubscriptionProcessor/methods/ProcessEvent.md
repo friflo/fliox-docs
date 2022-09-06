@@ -9,20 +9,19 @@
 
 **Declaring Type:** [SubscriptionProcessor](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
-Process the [tasks](../../../Protocol/EventMessage/fields/tasks.md) of the given [EventMessage](../../../Protocol/EventMessage/index.md). These [tasks](../../../Protocol/EventMessage/fields/tasks.md) are "messages" resulting from subscriptions registered by methods like SubscribeChanges(Change, ChangeSubscriptionHandler), [SubscribeAllChanges(Change, ChangeSubscriptionHandler)](../../FlioxClient/methods/SubscribeAllChanges.md) or[SubscribeMessage(string, MessageSubscriptionHandler)](../../FlioxClient/methods/SubscribeMessage.md#subscribemessagestring-messagesubscriptionhandler).
+Process the [tasks](../../../Protocol/SyncEvent/fields/tasks.md) of the given [SyncEvent](../../../Protocol/SyncEvent/index.md). These [tasks](../../../Protocol/SyncEvent/fields/tasks.md) are "messages" resulting from subscriptions registered by methods like SubscribeChanges(Change, ChangeSubscriptionHandler), [SubscribeAllChanges(Change, ChangeSubscriptionHandler)](../../FlioxClient/methods/SubscribeAllChanges.md) or[SubscribeMessage(string, MessageSubscriptionHandler)](../../FlioxClient/methods/SubscribeMessage.md#subscribemessagestring-messagesubscriptionhandler).
 
 ```csharp
-public void ProcessEvent(FlioxClient client, EventMessage ev);
+public void ProcessEvent(FlioxClient client, SyncEvent ev);
 ```
 
 ## Parameters
 
 `client`  [FlioxClient](../../FlioxClient/index.md)
 
-`ev`  [EventMessage](../../../Protocol/EventMessage/index.md)
+`ev`  [SyncEvent](../../../Protocol/SyncEvent/index.md)
 
 ___
 

@@ -8,10 +8,9 @@
 # ChangeInfo Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
-ChangeInfo is never de\-\/serialized.             It purpose is to get aggregated change information about a [EventMessage](../EventMessage/index.md) by [GetEventInfo()](../EventMessage/methods/GetEventInfo.md).
+ChangeInfo is never de\-\/serialized.             It purpose is to get aggregated change information about a [SyncEvent](../SyncEvent/index.md) by [GetEventInfo()](../SyncEvent/methods/GetEventInfo.md).
 
 ```csharp
 public struct ChangeInfo

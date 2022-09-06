@@ -8,8 +8,7 @@
 # FileDatabase Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A FileDatabase is used to store the entities \/ records of its containers as files in the .
 

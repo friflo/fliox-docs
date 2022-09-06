@@ -8,8 +8,7 @@
 # PatchEntities Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Patch entities by id in the given [container](fields/container.md)Each [EntityPatch](../EntityPatch/index.md) in [patches](fields/patches.md) contains a set of [patches](fields/patches.md) for each entity. 
 

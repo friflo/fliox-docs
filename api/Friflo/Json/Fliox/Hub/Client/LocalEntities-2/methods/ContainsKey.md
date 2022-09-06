@@ -9,8 +9,7 @@
 
 **Declaring Type:** [LocalEntities\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Return true if the [EntitySet\<T1, T2\>](../../EntitySet-2/index.md) contains an entity with the passed `key`
 

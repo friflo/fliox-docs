@@ -8,8 +8,7 @@
 # HostHits Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Monitor](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 number of requests and tasks executed by the host. Container contains always a single record
 

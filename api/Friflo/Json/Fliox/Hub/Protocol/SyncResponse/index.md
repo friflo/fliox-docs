@@ -8,8 +8,7 @@
 # SyncResponse Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A SyncResponse is the response of [SyncRequest](../SyncRequest/index.md) executed by a [FlioxHub](../../Host/FlioxHub/index.md)
 

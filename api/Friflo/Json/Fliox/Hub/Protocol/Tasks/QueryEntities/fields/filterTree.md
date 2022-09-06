@@ -9,8 +9,7 @@
 
 **Declaring Type:** [QueryEntities](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 query filter as JSON tree. Is used in favour of [filter](filter.md) as its serialization is more performant
 

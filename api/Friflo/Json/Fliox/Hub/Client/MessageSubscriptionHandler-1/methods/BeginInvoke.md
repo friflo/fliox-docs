@@ -9,8 +9,7 @@
 
 **Declaring Type:** [MessageSubscriptionHandler\<TMessage\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public IAsyncResult BeginInvoke(Message<TMessage> message, EventContext context, AsyncCallback callback, object object);

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntityError](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Models](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Show the stacktrace if [taskErrorType](taskErrorType.md) \=\= UnhandledException            and the accessed [EntityContainer](../../../../Host/EntityContainer/index.md) implementation expose this data.
 

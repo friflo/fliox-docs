@@ -8,8 +8,7 @@
 # EntitySet\<TKey, T\> Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 An EntitySet represents a collection (table) of entities (records) of type `T` and their key type `TKey`. The methods of an EntitySet\<T1, T2\> enable to create, read, upsert, delete, patch and aggregate container entities. It also allows to subscribe to entity changes made by other database clients.
 

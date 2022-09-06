@@ -8,8 +8,7 @@
 # ClientHits Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Monitor](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 information about requests, tasks, events and subscriptions of a client
 
@@ -27,12 +26,12 @@ public sealed class ClientHits
 
 ## Fields
 
-| Name                       | Description                                                                     |
-| -------------------------- | ------------------------------------------------------------------------------- |
-| [counts](fields/counts.md) | number executed requests and tasks per database                                 |
-| [ev](fields/ev.md)         | number of sent or queued client events and its message and change subscriptions |
-| [id](fields/id.md)         | client id                                                                       |
-| [user](fields/user.md)     | user owning the client                                                          |
+| Name                                               | Description                                                                     |
+| -------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [counts](fields/counts.md)                         | number executed requests and tasks per database                                 |
+| [id](fields/id.md)                                 | client id                                                                       |
+| [subscriptionEvents](fields/subscriptionEvents.md) | number of sent or queued client events and its message and change subscriptions |
+| [user](fields/user.md)                             | user owning the client                                                          |
 
 ## Methods
 

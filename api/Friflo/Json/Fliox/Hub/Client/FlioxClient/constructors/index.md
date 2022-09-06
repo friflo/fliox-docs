@@ -9,8 +9,7 @@
 
 **Declaring Type:** [FlioxClient](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Instantiate a [FlioxClient](../index.md) for the `dbName` exposed by the given `hub`. If `dbName` is null the client uses the default database assigned to the `hub`.
 

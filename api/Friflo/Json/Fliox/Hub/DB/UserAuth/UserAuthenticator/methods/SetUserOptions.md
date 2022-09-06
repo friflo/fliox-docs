@@ -9,20 +9,19 @@
 
 **Declaring Type:** [UserAuthenticator](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.DB.UserAuth.UserAuthenticator/<SetUserOptions>d__14)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.DB.UserAuth.UserAuthenticator/<SetUserOptions>d__13)]
 [DebuggerStepThrough]
-public Task SetUserOptions(User user, UserOptions options);
+public Task SetUserOptions(User user, UserParam param);
 ```
 
 ## Parameters
 
 `user`  [User](../../../../Host/Auth/User/index.md)
 
-`options`  [UserOptions](../../../Cluster/UserOptions/index.md)
+`param`  [UserParam](../../../Cluster/UserParam/index.md)
 
 ## Returns
 

@@ -8,8 +8,7 @@
 # TaskErrorResult Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A TaskErrorResult is returned in case execution of a [SyncRequestTask](../SyncRequestTask/index.md) failed
 

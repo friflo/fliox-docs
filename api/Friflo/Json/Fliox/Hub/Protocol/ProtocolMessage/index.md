@@ -8,8 +8,7 @@
 # ProtocolMessage Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ProtocolMessage is the base type for all messages which are classified into request, response and event.
 

@@ -8,8 +8,7 @@
 # ContainerStats Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Cluster](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 statistics of a single container. E.g. the number of entities in a container
 

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [AuthorizeContainer](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Auth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public AuthorizeContainer(string container, ICollection<OperationType> types, string database);

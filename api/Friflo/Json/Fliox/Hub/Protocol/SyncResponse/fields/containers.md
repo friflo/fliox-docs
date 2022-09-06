@@ -9,8 +9,7 @@
 
 **Declaring Type:** [SyncResponse](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 entities as results from the [tasks](../../SyncRequest/fields/tasks.md) in a [SyncRequest](../../SyncRequest/index.md)            grouped by container
 

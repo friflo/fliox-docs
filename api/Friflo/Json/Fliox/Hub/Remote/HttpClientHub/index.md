@@ -8,8 +8,7 @@
 # HttpClientHub Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 A [FlioxHub](../../Host/FlioxHub/index.md) accessed remotely using a HttpClient
 
@@ -24,6 +23,12 @@ public sealed class HttpClientHub : RemoteClientHub
 | Name                                                              | Description |
 | ----------------------------------------------------------------- | ----------- |
 | [HttpClientHub(string, string, SharedEnv)](constructors/index.md) |             |
+
+## Properties
+
+| Name                                                 | Description |
+| ---------------------------------------------------- | ----------- |
+| [SupportPushEvents](properties/SupportPushEvents.md) |             |
 
 ## Methods
 

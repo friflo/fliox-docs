@@ -8,8 +8,7 @@
 # Message\<TParam\> Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Expose the [Name](properties/Name.md), the [RawParam](properties/RawParam.md) and the type safe GetParam(T1, string) of a received message.
 

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EntitySet\<TKey, T\>](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
 public SubscribeChangesTask<T> SubscribeChangesFilter(Change change, Expression<Func<T, bool>> filter, ChangeSubscriptionHandler<TKey, T> handler);
@@ -18,7 +17,7 @@ public SubscribeChangesTask<T> SubscribeChangesFilter(Change change, Expression<
 
 ## Parameters
 
-`change`  [Change](../../../Protocol/Tasks/Change/index.md)
+`change`  [Change](../../Change/index.md)
 
 `filter`  Expression\<Func\<T, bool\>\>
 

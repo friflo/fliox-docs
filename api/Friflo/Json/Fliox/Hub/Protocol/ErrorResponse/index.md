@@ -8,8 +8,7 @@
 # ErrorResponse Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ErrorResponse is returned for a [SyncRequest](../SyncRequest/index.md) in case the whole requests failed
 

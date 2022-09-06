@@ -9,14 +9,17 @@
 
 **Declaring Type:** [StdCommands](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 returns general information about the Hub like version, host, project and environment name
 
 ```csharp
-public CommandTask<HostInfo> Host();
+public CommandTask<HostInfo> Host(HostParam param);
 ```
+
+## Parameters
+
+`param`  [HostParam](../../../DB/Cluster/HostParam/index.md)
 
 ## Returns
 

@@ -9,8 +9,7 @@
 
 **Declaring Type:** [EventContext](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Give  access to the changes made to a container. The container is identified by the passed `entitySet`. These changes contain the: [Creates](../../Changes-2/properties/Creates.md), [Upserts](../../Changes-2/properties/Upserts.md),[Deletes](../../Changes-2/properties/Deletes.md) and [Patches](../../Changes-2/properties/Patches.md) made to a container
 

@@ -8,8 +8,7 @@
 # SubscribeMessageResult Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Result of a [SubscribeMessage](../SubscribeMessage/index.md) task
 

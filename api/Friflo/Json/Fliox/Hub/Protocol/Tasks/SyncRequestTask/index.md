@@ -8,8 +8,7 @@
 # SyncRequestTask Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Polymorphic base type for all tasks.All tasks fall into two categories: like: create, read, upsert, delete, query, ... like sending commands or messages
 

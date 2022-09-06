@@ -8,8 +8,7 @@
 # EntityPatch Class
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Contains the [patches](fields/patches.md) applied to an entity. Used by [PatchEntities](../PatchEntities/index.md)
 

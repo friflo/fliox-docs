@@ -9,8 +9,7 @@
 
 **Declaring Type:** [UserAuthenticator](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.UserAuth](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Subscribe changes to [permissions](../../UserStore/fields/permissions.md) and [roles](../../UserStore/fields/roles.md) to  applying these changes to users instantaneously.Without subscribing  changes they are effective after a call to [ClearAuthCache()](../../UserStore/methods/ClearAuthCache.md)or after a server restart.
 

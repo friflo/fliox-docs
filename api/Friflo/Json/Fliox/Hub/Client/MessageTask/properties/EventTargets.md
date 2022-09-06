@@ -9,8 +9,7 @@
 
 **Declaring Type:** [MessageTask](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 Restrict the clients receiving the message as an event in case they setup a subscription with [SubscribeMessage(string, MessageSubscriptionHandler)](../../FlioxClient/methods/SubscribeMessage.md#subscribemessagestring-messagesubscriptionhandler).
 

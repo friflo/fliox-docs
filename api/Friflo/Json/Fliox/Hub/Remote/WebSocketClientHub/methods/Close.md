@@ -9,11 +9,10 @@
 
 **Declaring Type:** [WebSocketClientHub](../index.md)  
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
-**Assembly:** Friflo.Json.Fliox.Hub  
-**Assembly Version:** 1.0.0
+**Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.WebSocketClientHub/<Close>d__8)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.WebSocketClientHub/<Close>d__12)]
 [DebuggerStepThrough]
 public Task Close();
 ```
