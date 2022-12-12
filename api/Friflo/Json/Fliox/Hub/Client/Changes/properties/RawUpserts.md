@@ -14,12 +14,12 @@
  raw JSON values of upserted container entities 
 
 ```csharp
-public IReadOnlyList<JsonValue> RawUpserts { get; }
+public List<JsonEntity> RawUpserts { get; }
 ```
 
 ## Property Value
 
-IReadOnlyList\<JsonValue\>
+List\<JsonEntity\>
 
 ___
 

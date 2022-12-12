@@ -37,6 +37,14 @@ public sealed class SubscribeChanges : SyncRequestTask
 | Name                               | Description |
 | ---------------------------------- | ----------- |
 | [TaskName](properties/TaskName.md) |             |
+| [TaskType](properties/TaskType.md) |             |
+
+## Methods
+
+| Name                                                                               | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
+| [Execute(EntityDatabase, SyncResponse, SyncContext)](methods/Execute.md)           |             |
+| [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
 
 ___
 

@@ -10,7 +10,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-One SyncContext is created per [ExecuteSync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteSync.md) call to enable multi threaded \/ concurrent handling of a [SyncRequest](../../Protocol/SyncRequest/index.md).
+One SyncContext is created per [ExecuteRequestAsync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteRequestAsync.md) call to enable multi threaded \/ concurrent handling of a [SyncRequest](../../Protocol/SyncRequest/index.md).
 
 ```csharp
 public sealed class SyncContext
@@ -22,6 +22,14 @@ public sealed class SyncContext
 
 Note: In case of adding transaction support for [SyncRequest](../../Protocol/SyncRequest/index.md)'s in future transaction data \/ state need to be handled by this class.
 
+## Constructors
+
+| Name                                                                                                                         | Description                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [SyncContext(SharedEnv, EventReceiver)](constructors/index.md#synccontextsharedenv-eventreceiver)                            |                                                                                              |
+| [SyncContext(SharedEnv, EventReceiver, MemoryBuffer)](constructors/index.md#synccontextsharedenv-eventreceiver-memorybuffer) |                                                                                              |
+| [SyncContext(SharedEnv, EventReceiver, SyncBuffers)](constructors/index.md#synccontextsharedenv-eventreceiver-syncbuffers)   | Special constructor used to minimize heap allocation. [SyncBuffers](../SyncBuffers/index.md) |
+
 ## Properties
 
 | Name                                             | Description |
@@ -32,7 +40,9 @@ Note: In case of adding transaction support for [SyncRequest](../../Protocol/Syn
 | [DatabaseName](properties/DatabaseName.md)       |             |
 | [EntityProcessor](properties/EntityProcessor.md) |             |
 | [Hub](properties/Hub.md)                         |             |
+| [MemoryBuffer](properties/MemoryBuffer.md)       |             |
 | [ObjectMapper](properties/ObjectMapper.md)       |             |
+| [Request](properties/Request.md)                 |             |
 | [User](properties/User.md)                       |             |
 
 ## Methods
@@ -41,8 +51,9 @@ Note: In case of adding transaction support for [SyncRequest](../../Protocol/Syn
 | ---------------------------------------------------------------------------------------------------- | ----------- |
 | [AuthenticationFailed(User, string, TaskAuthorizer, HubPermission)](methods/AuthenticationFailed.md) |             |
 | [AuthenticationSucceed(User, TaskAuthorizer, HubPermission)](methods/AuthenticationSucceed.md)       |             |
-| [Release()](methods/Release.md)                                                                      |             |
+| [Init()](methods/Init.md)                                                                            |             |
 | [SetClientId(JsonKey)](methods/SetClientId.md)                                                       |             |
+| [SetMemoryBuffer(MemoryBuffer)](methods/SetMemoryBuffer.md)                                          |             |
 | [ToString()](methods/ToString.md)                                                                    |             |
 
 ___

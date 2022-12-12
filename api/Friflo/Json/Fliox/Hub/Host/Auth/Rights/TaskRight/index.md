@@ -13,13 +13,13 @@
 Each [Role](../../../../DB/UserAuth/Role/index.md) has a set of [taskRights](../../../../DB/UserAuth/Role/fields/taskRights.md). Each TaskRight is a rule used to grant or deny a specific database operation or command execution.The database operation or command execution is granted if any of it [taskRights](../../../../DB/UserAuth/Role/fields/taskRights.md)grant access.
 
 ```csharp
-[Discriminator("type", Description = "right type")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbFullRight, Discriminant = "dbFull")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbTaskRight, Discriminant = "dbTask")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbContainerRight, Discriminant = "dbContainer")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.SendMessageRight, Discriminant = "sendMessage")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.SubscribeMessageRight, Discriminant = "subscribeMessage")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.PredicateRight, Discriminant = "predicate")]
+[Discriminator("type", "right type")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbFullRight, "dbFull")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbTaskRight, "dbTask")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.DbContainerRight, "dbContainer")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.SendMessageRight, "sendMessage")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.SubscribeMessageRight, "subscribeMessage")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Host.Auth.Rights.PredicateRight, "predicate")]
 public abstract class TaskRight
 ```
 

@@ -5,7 +5,7 @@
   </auto-generated>   
 -->
 
-# SyncEvent Class
+# SyncEvent Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
@@ -13,26 +13,20 @@
 A SyncEvent corresponds to a [SyncRequest](../SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](fields/tasks.md) field
 
 ```csharp
-public sealed class SyncEvent
+public struct SyncEvent
 ```
 
-**Inheritance:** object → SyncEvent
-
-## Constructors
-
-| Name                                 | Description |
-| ------------------------------------ | ----------- |
-| [SyncEvent()](constructors/index.md) |             |
+**Inheritance:** object → ValueType → SyncEvent
 
 ## Fields
 
-| Name                             | Description                                                                                                                                                                                                                                                                                                                                                       |
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [db](fields/db.md)               | The database the [tasks](fields/tasks.md) refer to                                                                                                                                                                                                                                                                                                                |
-| [isOrigin](fields/isOrigin.md)   | Is true if the receiving client is the origin of the event                                                                                                                                                                                                                                                                                                        |
-| [seq](fields/seq.md)             | Increasing event sequence number starting with 1 for a specific target client [dstClientId](../ProtocolEvent/fields/dstClientId.md). Each target client (subscriber) has its own sequence.                                                                                                                                                                        |
-| [srcUserId](fields/srcUserId.md) | The user which caused the event. Specifically the user which made a database change or sent a message \/ command. The user client is not preserved by en extra property as a use case for this is not obvious.                                                                                                                                                    |
-| [tasks](fields/tasks.md)         | Contains the events an application subscribed. These are:[CreateEntities](../Tasks/CreateEntities/index.md), [UpsertEntities](../Tasks/UpsertEntities/index.md), [DeleteEntities](../Tasks/DeleteEntities/index.md), [PatchEntities](../Tasks/PatchEntities/index.md), [SendMessage](../Tasks/SendMessage/index.md), [SendCommand](../Tasks/SendCommand/index.md) |
+| Name                             | Description                                                                                                                                                                                                                                                                                                    |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [db](fields/db.md)               | The database the [tasks](fields/tasks.md) refer to                                                                                                                                                                                                                                                             |
+| [isOrigin](fields/isOrigin.md)   | Is true if the receiving client is the origin of the event                                                                                                                                                                                                                                                     |
+| [seq](fields/seq.md)             | Increasing event sequence number starting with 1 for a specific target client [dstClientId](../ProtocolEvent/fields/dstClientId.md). Each target client (subscriber) has its own sequence.                                                                                                                     |
+| [srcUserId](fields/srcUserId.md) | The user which caused the event. Specifically the user which made a database change or sent a message \/ command. The user client is not preserved by en extra property as a use case for this is not obvious.                                                                                                 |
+| [tasks](fields/tasks.md)         | Contains the events an application subscribed. These are:[CreateEntities](../Tasks/CreateEntities/index.md), [UpsertEntities](../Tasks/UpsertEntities/index.md), [DeleteEntities](../Tasks/DeleteEntities/index.md),[SendMessage](../Tasks/SendMessage/index.md), [SendCommand](../Tasks/SendCommand/index.md) |
 
 ## Methods
 

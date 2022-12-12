@@ -26,13 +26,6 @@ public sealed class CommandError
 | [CommandError(TaskErrorResultType, string)](constructors/index.md#commanderrortaskerrorresulttype-string) |             |
 | [CommandError(string)](constructors/index.md#commanderrorstring)                                          |             |
 
-## Fields
-
-| Name                         | Description |
-| ---------------------------- | ----------- |
-| [message](fields/message.md) |             |
-| [type](fields/type.md)       |             |
-
 ## Methods
 
 | Name                              | Description |

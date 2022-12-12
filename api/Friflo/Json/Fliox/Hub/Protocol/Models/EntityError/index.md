@@ -20,7 +20,7 @@ public sealed class EntityError
 
 ## Remarks
 
-An EntityError needs to be set only, if the access to [EntityValue](../EntityValue/index.md)'s returned by a previous call to [ReadEntities(ReadEntities, SyncContext)](../../../Host/EntityContainer/methods/ReadEntities.md) or[QueryEntities(QueryEntities, SyncContext)](../../../Host/EntityContainer/methods/QueryEntities.md) fails. This implies that the previous read or query call was successful.
+An EntityError needs to be set only, if the access to [EntityValue](../EntityValue/index.md)'s returned by a previous call to [ReadEntitiesAsync(ReadEntities, SyncContext)](../../../Host/EntityContainer/methods/ReadEntitiesAsync.md) or[QueryEntitiesAsync(QueryEntities, SyncContext)](../../../Host/EntityContainer/methods/QueryEntitiesAsync.md) fails. This implies that the previous read or query call was successful.
 
 ## Constructors
 

@@ -11,10 +11,10 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Create a [QueryTask\<T\>](../../QueryTask-1/index.md) to query all entities of an container
+Create a [QueryTask\<T1, T2\>](../../QueryTask-2/index.md) to query all entities of an container
 
 ```csharp
-public QueryTask<T> QueryAll();
+public QueryTask<TKey, T> QueryAll();
 ```
 
 ## Remarks
@@ -23,7 +23,7 @@ public QueryTask<T> QueryAll();
 
 ## Returns
 
-QueryTask\<T\>
+QueryTask\<TKey, T\>
 
 ___
 

@@ -13,9 +13,9 @@
 Base type for response messages send from a host to a client in reply of [SyncRequest](../SyncRequest/index.md)
 
 ```csharp
-[Discriminator("msg", Description = "response type")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.SyncResponse, Discriminant = "resp")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.ErrorResponse, Discriminant = "error")]
+[Discriminator("msg", "response type")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.SyncResponse, "resp")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.ErrorResponse, "error")]
 public abstract class ProtocolResponse : ProtocolMessage
 ```
 

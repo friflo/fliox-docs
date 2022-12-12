@@ -43,12 +43,12 @@ UserStore can also be used as a non thread safe [IUserAuth](../IUserAuth/index.m
 
 ## Methods
 
-| Name                                                         | Description                                                                                                                                     |
-| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Authenticate(Credentials)](methods/Authenticate.md)         |                                                                                                                                                 |
-| [AuthenticateUser(Credentials)](methods/AuthenticateUser.md) | authenticate user [Credentials](../Credentials/index.md): [userId](../Credentials/fields/userId.md) and [token](../Credentials/fields/token.md) |
-| [ClearAuthCache()](methods/ClearAuthCache.md)                |                                                                                                                                                 |
-| [ValidateUserDb()](methods/ValidateUserDb.md)                |                                                                                                                                                 |
+| Name                                                           | Description                                                                                                                                     |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [AuthenticateAsync(Credentials)](methods/AuthenticateAsync.md) |                                                                                                                                                 |
+| [AuthenticateUser(Credentials)](methods/AuthenticateUser.md)   | authenticate user [Credentials](../Credentials/index.md): [userId](../Credentials/fields/userId.md) and [token](../Credentials/fields/token.md) |
+| [ClearAuthCache()](methods/ClearAuthCache.md)                  |                                                                                                                                                 |
+| [ValidateUserDb()](methods/ValidateUserDb.md)                  |                                                                                                                                                 |
 
 ___
 

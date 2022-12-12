@@ -20,24 +20,21 @@ public abstract class QueryEnumerator : IEnumerator<JsonKey>, IEnumerator, IDisp
 
 ## Properties
 
-| Name                                       | Description                                                                                                       |
-| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| [Current](properties/Current.md)           |                                                                                                                   |
-| [CurrentValue](properties/CurrentValue.md) |  Preferred in favor of [CurrentValueAsync()](methods/CurrentValueAsync.md) to avoid a task allocation per entity  |
-| [Cursor](properties/Cursor.md)             |                                                                                                                   |
-| [IsAsync](properties/IsAsync.md)           |                                                                                                                   |
-| [UserId](properties/UserId.md)             |                                                                                                                   |
+| Name                             | Description |
+| -------------------------------- | ----------- |
+| [Current](properties/Current.md) |             |
+| [Cursor](properties/Cursor.md)   |             |
+| [UserId](properties/UserId.md)   |             |
 
 ## Methods
 
-| Name                                                          | Description                                                          |
-| ------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Attach()](methods/Attach.md)                                 |                                                                      |
-| [CurrentValueAsync()](methods/CurrentValueAsync.md)           |  If possible use [CurrentValue](properties/CurrentValue.md) instead  |
-| [Detach(string, EntityContainer, JsonKey)](methods/Detach.md) |                                                                      |
-| [Dispose()](methods/Dispose.md)                               |                                                                      |
-| [MoveNext()](methods/MoveNext.md)                             |                                                                      |
-| [Reset()](methods/Reset.md)                                   |                                                                      |
+| Name                                                          | Description |
+| ------------------------------------------------------------- | ----------- |
+| [Attach()](methods/Attach.md)                                 |             |
+| [Detach(string, EntityContainer, JsonKey)](methods/Detach.md) |             |
+| [Dispose()](methods/Dispose.md)                               |             |
+| [MoveNext()](methods/MoveNext.md)                             |             |
+| [Reset()](methods/Reset.md)                                   |             |
 
 ___
 

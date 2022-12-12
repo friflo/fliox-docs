@@ -26,9 +26,9 @@ In most uses cases a FileDatabase in not suitable for production as its read \/ 
 
 ## Constructors
 
-| Name                                                                            | Description |
-| ------------------------------------------------------------------------------- | ----------- |
-| [FileDatabase(string, string, TaskHandler, DbOpt, bool)](constructors/index.md) |             |
+| Name                                                                                | Description |
+| ----------------------------------------------------------------------------------- | ----------- |
+| [FileDatabase(string, string, DatabaseService, DbOpt, bool)](constructors/index.md) |             |
 
 ## Properties
 

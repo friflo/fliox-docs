@@ -22,7 +22,7 @@ public class SharedEnv : IDisposable, ILogSource
 
 ## Remarks
 
-In particular it provides a [TypeStore](properties/TypeStore.md) and a Pool. The resources contained by a SharedEnv are designed for being reused to avoid expensive heap allocations when required. The intention is to use only a single SharedEnv instance within the whole application.SharedEnv references are passed as a parameter to every [FlioxHub](../FlioxHub/index.md) constructor. If null it defaults to the [Default](fields/Default.md)SharedEnv instance. If an application needs to control the lifecycle of all shared resources it needs to create its own[SharedEnv()](constructors/index.md#sharedenv) instance and pass it to the constructor to all [FlioxHub](../FlioxHub/index.md) instances it creates.Access to shared resources is thread safe.
+In particular it provides a [TypeStore](properties/TypeStore.md) and a Pool. The resources contained by a SharedEnv are designed for being reused to avoid expensive heap allocations when required. The intention is to use only a single SharedEnv instance within the whole application.SharedEnv references are passed as a parameter to every [FlioxHub](../FlioxHub/index.md) constructor. If null it defaults to the [Default](properties/Default.md)SharedEnv instance. If an application needs to control the lifecycle of all shared resources it needs to create its own[SharedEnv()](constructors/index.md#sharedenv) instance and pass it to the constructor to all [FlioxHub](../FlioxHub/index.md) instances it creates.Access to shared resources is thread safe.
 
 ## Constructors
 
@@ -31,18 +31,14 @@ In particular it provides a [TypeStore](properties/TypeStore.md) and a Pool. The
 | [SharedEnv()](constructors/index.md#sharedenv)                   |             |
 | [SharedEnv(TypeStore)](constructors/index.md#sharedenvtypestore) |             |
 
-## Fields
-
-| Name                         | Description |
-| ---------------------------- | ----------- |
-| [Default](fields/Default.md) |             |
-
 ## Properties
 
-| Name                                 | Description |
-| ------------------------------------ | ----------- |
-| [Logger](properties/Logger.md)       |             |
-| [TypeStore](properties/TypeStore.md) |             |
+| Name                                       | Description                                          |
+| ------------------------------------------ | ---------------------------------------------------- |
+| [Default](properties/Default.md)           | Set breakpoint to check if DefaultSharedEnv is used  |
+| [Logger](properties/Logger.md)             |                                                      |
+| [MemoryBuffer](properties/MemoryBuffer.md) |                                                      |
+| [TypeStore](properties/TypeStore.md)       |                                                      |
 
 ## Methods
 

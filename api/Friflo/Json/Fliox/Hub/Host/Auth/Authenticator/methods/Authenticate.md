@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public Task Authenticate(SyncRequest syncRequest, SyncContext syncContext);
+public void Authenticate(SyncRequest syncRequest, SyncContext syncContext);
 ```
 
 ## Parameters
@@ -20,10 +20,6 @@ public Task Authenticate(SyncRequest syncRequest, SyncContext syncContext);
 `syncRequest`  [SyncRequest](../../../../Protocol/SyncRequest/index.md)
 
 `syncContext`  [SyncContext](../../../SyncContext/index.md)
-
-## Returns
-
-Task
 
 ___
 

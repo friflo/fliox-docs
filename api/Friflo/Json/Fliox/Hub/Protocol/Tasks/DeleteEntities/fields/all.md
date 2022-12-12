@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-if true all entities in the specified [container](container.md) are deleted
+if true all entities in the specified [container](../properties/container.md) are deleted
 
 ```csharp
 public bool? all;

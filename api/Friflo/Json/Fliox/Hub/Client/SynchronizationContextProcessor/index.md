@@ -10,15 +10,13 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-An [IEventProcessor](../IEventProcessor/index.md) implementation used for UI based applications having a SynchronizationContext
+An [EventProcessor](../EventProcessor/index.md) implementation used for UI based applications having a SynchronizationContext
 
 ```csharp
-public sealed class SynchronizationContextProcessor : IEventProcessor
+public sealed class SynchronizationContextProcessor : EventProcessor
 ```
 
-**Inheritance:** object → SynchronizationContextProcessor
-
-**Implements:** [IEventProcessor](../IEventProcessor/index.md)
+**Inheritance:** object → [EventProcessor](../EventProcessor/index.md) → SynchronizationContextProcessor
 
 ## Remarks
 
@@ -33,9 +31,9 @@ The SynchronizationContextProcessor ensures that the handler methods passed to t
 
 ## Methods
 
-| Name                                                               | Description |
-| ------------------------------------------------------------------ | ----------- |
-| [EnqueueEvent(FlioxClient, EventMessage)](methods/EnqueueEvent.md) |             |
+| Name                                                                     | Description |
+| ------------------------------------------------------------------------ | ----------- |
+| [EnqueueEvent(FlioxClient, EventMessage, bool)](methods/EnqueueEvent.md) |             |
 
 ___
 

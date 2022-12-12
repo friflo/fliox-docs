@@ -11,10 +11,10 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Create a [QueryTask\<T\>](../../QueryTask-1/index.md) with the given [EntityFilter\<T\>](../../EntityFilter-1/index.md)
+Create a [QueryTask\<T1, T2\>](../../QueryTask-2/index.md) with the given [EntityFilter\<T\>](../../EntityFilter-1/index.md)
 
 ```csharp
-public QueryTask<T> QueryByFilter(EntityFilter<T> filter);
+public QueryTask<TKey, T> QueryByFilter(EntityFilter<T> filter);
 ```
 
 ## Parameters
@@ -27,7 +27,7 @@ public QueryTask<T> QueryByFilter(EntityFilter<T> filter);
 
 ## Returns
 
-QueryTask\<T\>
+QueryTask\<TKey, T\>
 
 ___
 

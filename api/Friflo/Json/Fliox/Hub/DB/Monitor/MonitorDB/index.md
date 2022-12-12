@@ -32,10 +32,9 @@ public sealed class MonitorDB : EntityDatabase
 
 ## Methods
 
-| Name                                                                          | Description |
-| ----------------------------------------------------------------------------- | ----------- |
-| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md)         |             |
-| [ExecuteSyncPrepare(SyncRequest, SyncContext)](methods/ExecuteSyncPrepare.md) |             |
+| Name                                                                  | Description |
+| --------------------------------------------------------------------- | ----------- |
+| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md) |             |
 
 ___
 

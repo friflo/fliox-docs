@@ -27,24 +27,18 @@ public sealed class HttpFileRequest
 | Name                         | Description |
 | ---------------------------- | ----------- |
 | [body](fields/body.md)       |             |
-| [cookies](fields/cookies.md) |             |
 | [headers](fields/headers.md) |             |
 | [method](fields/method.md)   |             |
 | [path](fields/path.md)       |             |
 | [query](fields/query.md)     |             |
 
-## Properties
-
-| Name                                   | Description |
-| -------------------------------------- | ----------- |
-| [BodyStream](properties/BodyStream.md) |             |
-
 ## Methods
 
-| Name                                                | Description |
-| --------------------------------------------------- | ----------- |
-| [StringToStream(string)](methods/StringToStream.md) |             |
-| [ToString()](methods/ToString.md)                   |             |
+| Name                                                     | Description |
+| -------------------------------------------------------- | ----------- |
+| [GetBody(int)](methods/GetBody.md)                       |             |
+| [StringToStream(string, int)](methods/StringToStream.md) |             |
+| [ToString()](methods/ToString.md)                        |             |
 
 ___
 

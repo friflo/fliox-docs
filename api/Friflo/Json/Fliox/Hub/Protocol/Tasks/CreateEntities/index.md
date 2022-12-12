@@ -10,7 +10,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Create the given [entities](fields/entities.md) in the specified [container](fields/container.md)
+Create the given [entities](fields/entities.md) in the specified [container](properties/container.md)
 
 ```csharp
 public sealed class CreateEntities : SyncRequestTask
@@ -26,19 +26,26 @@ public sealed class CreateEntities : SyncRequestTask
 
 ## Fields
 
-| Name                                     | Description                                                                                            |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [container](fields/container.md)         | container name the [entities](fields/entities.md) are created                                          |
-| [entities](fields/entities.md)           | the [entities](fields/entities.md) which are created in the specified [container](fields/container.md) |
-| [entityKeys](fields/entityKeys.md)       |                                                                                                        |
-| [keyName](fields/keyName.md)             | name of the primary key property in [entities](fields/entities.md)                                     |
-| [reservedToken](fields/reservedToken.md) |                                                                                                        |
+| Name                                     | Description                                                                                                |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [entities](fields/entities.md)           | the [entities](fields/entities.md) which are created in the specified [container](properties/container.md) |
+| [keyName](fields/keyName.md)             | name of the primary key property in [entities](fields/entities.md)                                         |
+| [reservedToken](fields/reservedToken.md) |                                                                                                            |
 
 ## Properties
 
-| Name                               | Description |
-| ---------------------------------- | ----------- |
-| [TaskName](properties/TaskName.md) |             |
+| Name                                 | Description                                                   |
+| ------------------------------------ | ------------------------------------------------------------- |
+| [TaskName](properties/TaskName.md)   |                                                               |
+| [TaskType](properties/TaskType.md)   |                                                               |
+| [container](properties/container.md) | container name the [entities](fields/entities.md) are created |
+
+## Methods
+
+| Name                                                                               | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
+| [Execute(EntityDatabase, SyncResponse, SyncContext)](methods/Execute.md)           |             |
+| [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
 
 ___
 

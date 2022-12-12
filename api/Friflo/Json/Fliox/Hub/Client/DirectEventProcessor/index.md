@@ -13,12 +13,10 @@
 Handle subscription events in the thread a event message arrived.
 
 ```csharp
-public sealed class DirectEventProcessor : IEventProcessor
+public sealed class DirectEventProcessor : EventProcessor
 ```
 
-**Inheritance:** object → DirectEventProcessor
-
-**Implements:** [IEventProcessor](../IEventProcessor/index.md)
+**Inheritance:** object → [EventProcessor](../EventProcessor/index.md) → DirectEventProcessor
 
 ## Remarks
 
@@ -32,9 +30,9 @@ E.g. In case of a WebSocket in the thread reading data from the WebSocket stream
 
 ## Methods
 
-| Name                                                               | Description |
-| ------------------------------------------------------------------ | ----------- |
-| [EnqueueEvent(FlioxClient, EventMessage)](methods/EnqueueEvent.md) |             |
+| Name                                                                     | Description |
+| ------------------------------------------------------------------------ | ----------- |
+| [EnqueueEvent(FlioxClient, EventMessage, bool)](methods/EnqueueEvent.md) |             |
 
 ___
 

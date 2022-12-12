@@ -11,15 +11,15 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Contains the events an application subscribed. These are:[CreateEntities](../../Tasks/CreateEntities/index.md), [UpsertEntities](../../Tasks/UpsertEntities/index.md), [DeleteEntities](../../Tasks/DeleteEntities/index.md), [PatchEntities](../../Tasks/PatchEntities/index.md), [SendMessage](../../Tasks/SendMessage/index.md), [SendCommand](../../Tasks/SendCommand/index.md)
+Contains the events an application subscribed. These are:[CreateEntities](../../Tasks/CreateEntities/index.md), [UpsertEntities](../../Tasks/UpsertEntities/index.md), [DeleteEntities](../../Tasks/DeleteEntities/index.md),[SendMessage](../../Tasks/SendMessage/index.md), [SendCommand](../../Tasks/SendCommand/index.md)
 
 ```csharp
-public SyncRequestTask[] tasks;
+public List<SyncRequestTask> tasks;
 ```
 
 ## Field Value
 
-[SyncRequestTask](../../Tasks/SyncRequestTask/index.md)\[\]
+List\<[SyncRequestTask](../../Tasks/SyncRequestTask/index.md)\>
 
 ___
 

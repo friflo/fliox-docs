@@ -11,15 +11,38 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+## Overloads
+
+| Signature                                                   | Description |
+| ----------------------------------------------------------- | ----------- |
+| [FindRange(ICollection\<TKey\>)](#findrangeicollectiontkey) |             |
+| [FindRange(List\<TKey\>)](#findrangelisttkey)               |             |
+
+## FindRange(ICollection\<TKey\>)
+
 ```csharp
 public FindRange<TKey, T> FindRange(ICollection<TKey> keys);
 ```
 
-## Parameters
+### Parameters
 
 `keys`  ICollection\<TKey\>
 
-## Returns
+### Returns
+
+FindRange\<TKey, T\>
+
+## FindRange(List\<TKey\>)
+
+```csharp
+public FindRange<TKey, T> FindRange(List<TKey> keys);
+```
+
+### Parameters
+
+`keys`  List\<TKey\>
+
+### Returns
 
 FindRange\<TKey, T\>
 

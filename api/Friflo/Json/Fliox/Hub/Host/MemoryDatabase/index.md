@@ -26,9 +26,9 @@ MemoryDatabase has no third party dependencies. are stored as JsonKey \- keys th
 
 ## Constructors
 
-| Name                                                                                   | Description |
-| -------------------------------------------------------------------------------------- | ----------- |
-| [MemoryDatabase(string, TaskHandler, MemoryType?, DbOpt, bool)](constructors/index.md) |             |
+| Name                                                                                            | Description |
+| ----------------------------------------------------------------------------------------------- | ----------- |
+| [MemoryDatabase(string, DatabaseService, MemoryType?, DbOpt, bool, int)](constructors/index.md) |             |
 
 ## Properties
 
@@ -41,6 +41,7 @@ MemoryDatabase has no third party dependencies. are stored as JsonKey \- keys th
 | Name                                                                  | Description |
 | --------------------------------------------------------------------- | ----------- |
 | [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md) |             |
+| [IsSyncTask(SyncRequestTask)](methods/IsSyncTask.md)                  |             |
 
 ___
 

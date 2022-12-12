@@ -19,7 +19,7 @@ public enum OperationType
     upsert = 1,
     delete = 2,
     deleteAll = 3,
-    patch = 4,
+    merge = 4,
     read = 5,
     query = 6,
     aggregate = 7,
@@ -39,8 +39,8 @@ public enum OperationType
 | delete    | allow to delete entities in a container                                        |
 | deleteAll | allow to delete all container entities                                         |
 | full      | allow all operation types in a container                                       |
+| merge     | allow to patch entities in a container                                         |
 | mutate    | allow to mutate \- create, upsert, delete and patch \- entities in a container |
-| patch     | allow to patch entities in a container                                         |
 | query     | allow to query entities in a container                                         |
 | read      | allow to read entities in a container                                          |
 | upsert    | allow to upsert entities in a container                                        |

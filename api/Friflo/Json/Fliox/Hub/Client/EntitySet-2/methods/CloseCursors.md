@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Close the `cursors` returned by [ResultCursor](../../QueryTask-1/properties/ResultCursor.md) of a [QueryTask\<T\>](../../QueryTask-1/index.md)
+Close the `cursors` returned by [ResultCursor](../../QueryTask-2/properties/ResultCursor.md) of a [QueryTask\<T1, T2\>](../../QueryTask-2/index.md)
 
 ```csharp
 public CloseCursorsTask CloseCursors(IEnumerable<string> cursors);

@@ -10,7 +10,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Contains the result of a [ExecuteSync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteSync.md) call. After execution either [success](fields/success.md) or [error](fields/error.md) is set. Never both.
+Contains the result of a [ExecuteRequestAsync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteRequestAsync.md) call. After execution either [success](fields/success.md) or [error](fields/error.md) is set. Never both.
 
 ```csharp
 public readonly struct ExecuteSyncResult

@@ -13,12 +13,12 @@
 
 ```csharp
 [Ignore]
-public Dictionary<JsonKey, EntityValue> entities;
+public EntityValue[] entities;
 ```
 
 ## Field Value
 
-Dictionary\<JsonKey, [EntityValue](../../../Models/EntityValue/index.md)\>
+[EntityValue](../../../Models/EntityValue/index.md)\[\]
 
 ___
 

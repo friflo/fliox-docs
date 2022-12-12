@@ -11,8 +11,8 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[Discriminator("msg", Description = "event type")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.EventMessage, Discriminant = "ev")]
+[Discriminator("msg", "event type")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.EventMessage, "ev")]
 public abstract class ProtocolEvent : ProtocolMessage
 ```
 

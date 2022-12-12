@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public FileDatabase(string dbName, string databaseFolder, TaskHandler handler = , DbOpt opt = , bool pretty = true);
+public FileDatabase(string dbName, string databaseFolder, DatabaseService service = , DbOpt opt = , bool pretty = true);
 ```
 
 ## Parameters
@@ -21,7 +21,7 @@ public FileDatabase(string dbName, string databaseFolder, TaskHandler handler = 
 
 `databaseFolder`  string
 
-`handler`  [TaskHandler](../../TaskHandler/index.md)
+`service`  [DatabaseService](../../DatabaseService/index.md)
 
 `opt`  [DbOpt](../../DbOpt/index.md)
 

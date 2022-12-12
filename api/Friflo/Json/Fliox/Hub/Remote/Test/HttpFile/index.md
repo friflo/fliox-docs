@@ -13,7 +13,7 @@
 HttpFile is used to run multiple HTTP requests given in a simple text file used for concise regression tests
 
 ```csharp
-public class HttpFile
+public sealed class HttpFile
 ```
 
 **Inheritance:** object → HttpFile

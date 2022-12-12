@@ -14,7 +14,7 @@
 return type\-safe patches of the given `entitySet`
 
 ```csharp
-public DetectPatchesTask<T> GetPatches<TKey, T>(EntitySet<TKey, T> entitySet);
+public DetectPatchesTask<TKey, T> GetPatches<TKey, T>(EntitySet<TKey, T> entitySet);
 ```
 
 ## Type Parameters
@@ -29,7 +29,7 @@ public DetectPatchesTask<T> GetPatches<TKey, T>(EntitySet<TKey, T> entitySet);
 
 ## Returns
 
-DetectPatchesTask\<T\>
+DetectPatchesTask\<TKey, T\>
 
 ___
 

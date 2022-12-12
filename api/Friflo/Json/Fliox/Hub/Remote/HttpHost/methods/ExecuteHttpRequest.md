@@ -14,7 +14,7 @@
 Central point where all Fliox related HTTP requests arrive. Each request is dispatched by a matching request handler. Note: Request matching and execution are separated to ensure no heap allocation caused by awaited method calls. 
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.HttpHost/<ExecuteHttpRequest>d__20)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.HttpHost/<ExecuteHttpRequest>d__18)]
 [DebuggerStepThrough]
 public Task ExecuteHttpRequest(RequestContext request);
 ```

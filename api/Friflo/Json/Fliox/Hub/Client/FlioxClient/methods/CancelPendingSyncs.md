@@ -14,7 +14,7 @@
  Cancel execution of pending calls to [SyncTasks()](SyncTasks.md) and [TrySyncTasks()](TrySyncTasks.md)
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Client.FlioxClient/<CancelPendingSyncs>d__31)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Client.FlioxClient/<CancelPendingSyncs>d__4)]
 [DebuggerStepThrough]
 public Task CancelPendingSyncs();
 ```

@@ -14,7 +14,7 @@
 Identify the user performing a sync request. In case using of using [UserAuthenticator](../../../DB/UserAuth/UserAuthenticator/index.md) the userId and [token](token.md)are use for user authentication.
 
 ```csharp
-[Serialize(Name = "user")]
+[Serialize("user")]
 public JsonKey userId;
 ```
 

@@ -14,7 +14,7 @@
  Apply the container changes to the given `entitySet`
 
 ```csharp
-public void ApplyChangesTo(EntitySet<TKey, T> entitySet, Change change = Change.All);
+public ApplyResult<TKey, T> ApplyChangesTo(EntitySet<TKey, T> entitySet, Change change = Change.All);
 ```
 
 ## Parameters
@@ -22,6 +22,10 @@ public void ApplyChangesTo(EntitySet<TKey, T> entitySet, Change change = Change.
 `entitySet`  EntitySet\<TKey, T\>
 
 `change`  [Change](../../Change/index.md)
+
+## Returns
+
+ApplyResult\<TKey, T\>
 
 ___
 

@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[Serialize(Name = "_sequence")]
+[Serialize("_sequence")]
 public readonly EntitySet<string, Sequence> sequence;
 ```
 

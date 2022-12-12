@@ -26,30 +26,31 @@ public sealed class QueryEntities : SyncRequestTask
 
 ## Fields
 
-| Name                                     | Description                                                                                                                                                   |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [container](fields/container.md)         | container name                                                                                                                                                |
-| [cursor](fields/cursor.md)               | specify the [cursor](fields/cursor.md) of a previous cursor request                                                                                           |
-| [filter](fields/filter.md)               | query filter as a  (infix notation) returning a boolean value. E.g. `o.name == 'Smartphone'`if [filterTree](fields/filterTree.md) is assigned it has priority |
-| [filterContext](fields/filterContext.md) |                                                                                                                                                               |
-| [filterTree](fields/filterTree.md)       | query filter as JSON tree. Is used in favour of [filter](fields/filter.md) as its serialization is more performant                                            |
-| [isIntKey](fields/isIntKey.md)           |                                                                                                                                                               |
-| [keyName](fields/keyName.md)             | name of the primary key property of the returned entities                                                                                                     |
-| [limit](fields/limit.md)                 | limit the result set to the given number                                                                                                                      |
-| [maxCount](fields/maxCount.md)           | execute a cursor request with the specified [maxCount](fields/maxCount.md) number of entities in the result.                                                  |
-| [references](fields/references.md)       | used to request the entities referenced by properties of the query task result                                                                                |
+| Name                               | Description                                                                                                        |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| [container](fields/container.md)   | container name                                                                                                     |
+| [cursor](fields/cursor.md)         | specify the [cursor](fields/cursor.md) of a previous cursor request                                                |
+| [filter](fields/filter.md)         | query filter as a returning a boolean value. E.g.if [filterTree](fields/filterTree.md) is assigned it has priority |
+| [filterTree](fields/filterTree.md) | query filter as JSON tree. Is used in favour of [filter](fields/filter.md) as its serialization is more performant |
+| [isIntKey](fields/isIntKey.md)     |                                                                                                                    |
+| [keyName](fields/keyName.md)       | name of the primary key property of the returned entities                                                          |
+| [limit](fields/limit.md)           | limit the result set to the given number                                                                           |
+| [maxCount](fields/maxCount.md)     | execute a cursor request with the specified [maxCount](fields/maxCount.md) number of entities in the result.       |
+| [references](fields/references.md) | used to request the entities referenced by properties of the query task result                                     |
 
 ## Properties
 
 | Name                               | Description |
 | ---------------------------------- | ----------- |
 | [TaskName](properties/TaskName.md) |             |
+| [TaskType](properties/TaskType.md) |             |
 
 ## Methods
 
-| Name                                | Description |
-| ----------------------------------- | ----------- |
-| [GetFilter()](methods/GetFilter.md) |             |
+| Name                                                                               | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
+| [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
+| [GetFilter()](methods/GetFilter.md)                                                |             |
 
 ___
 

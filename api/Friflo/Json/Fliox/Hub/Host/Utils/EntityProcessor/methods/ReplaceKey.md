@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public JsonValue ReplaceKey(JsonValue json, string keyName, bool asIntKey, string newKeyName, out JsonKey keyValue, out string error);
+public JsonValue ReplaceKey(in JsonValue json, string keyName, bool asIntKey, string newKeyName, out JsonKey keyValue, out string error);
 ```
 
 ## Parameters

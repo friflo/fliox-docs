@@ -12,6 +12,7 @@
 ## Namespaces
 
 - [Friflo.Json.Fliox.Hub.Remote.Test](Test/index.md)
+- [Friflo.Json.Fliox.Hub.Remote.WebSockets](WebSockets/index.md)
 
 ## Classes
 
@@ -20,23 +21,37 @@
 | [CreateZip](CreateZip/index.md)                           |                                                                                                                                                                                  |
 | [HttpClientHub](HttpClientHub/index.md)                   | A [FlioxHub](../Host/FlioxHub/index.md) accessed remotely using a HttpClient                                                                                                     |
 | [HttpHost](HttpHost/index.md)                             | A [HttpHost](HttpHost/index.md) enables remote access to databases, schemas and static web files via or .                                                                        |
+| [HttpHostUtils](HttpHostUtils/index.md)                   |                                                                                                                                                                                  |
 | [HttpListenerExtensions](HttpListenerExtensions/index.md) |                                                                                                                                                                                  |
 | [HttpListenerHost](HttpListenerHost/index.md)             | [HttpListenerHost](HttpListenerHost/index.md) is a utility class to enable running a simple HTTP Server by using a HttpListener                                                  |
 | [RemoteClientHub](RemoteClientHub/index.md)               |                                                                                                                                                                                  |
 | [RemoteHost](RemoteHost/index.md)                         |                                                                                                                                                                                  |
-| [RemoteUtils](RemoteUtils/index.md)                       |                                                                                                                                                                                  |
+| [RemoteUtils](RemoteUtils/index.md)                       |  all `Create` methods return a JsonValue which are only valid until the             passed ObjectMapper it reused                                                                |
 | [RequestContext](RequestContext/index.md)                 | A [RequestContext](RequestContext/index.md) is used to get the data of a HTTP request from a specific HTTP server and provide its execution results back to the HTTP server.     |
 | [StaticFileHandler](StaticFileHandler/index.md)           | A [StaticFileHandler](StaticFileHandler/index.md) is used to serve static files by a [HttpHost](HttpHost/index.md).                                                              |
 | [WebSocketClientHub](WebSocketClientHub/index.md)         | A [FlioxHub](../Host/FlioxHub/index.md) accessed remotely  using a WebSocket connection                                                                                          |
 | [WebSocketHost](WebSocketHost/index.md)                   |                                                                                                                                                                                  |
 
+## Structs
+
+| Name                                              | Description                                                               |
+| ------------------------------------------------- | ------------------------------------------------------------------------- |
+| [JsonResponse](JsonResponse/index.md)             |                                                                           |
+| [RemoteEventMessage](RemoteEventMessage/index.md) |  Reflect the shape of a [EventMessage](../Protocol/EventMessage/index.md) |
+| [RemoteSyncEvent](RemoteSyncEvent/index.md)       |  Reflect the shape of a [SyncEvent](../Protocol/SyncEvent/index.md)       |
+
 ## Interfaces
 
 | Name                                        | Description |
 | ------------------------------------------- | ----------- |
-| [IHttpCookies](IHttpCookies/index.md)       |             |
 | [IHttpHeaders](IHttpHeaders/index.md)       |             |
 | [IRequestHandler](IRequestHandler/index.md) |             |
+
+## Enums
+
+| Name                                              | Description |
+| ------------------------------------------------- | ----------- |
+| [JsonResponseStatus](JsonResponseStatus/index.md) |             |
 
 ___
 

@@ -14,7 +14,7 @@
 Delete entities by id with the ids passed in the given `command`
 
 ```csharp
-public Task<DeleteEntitiesResult> DeleteEntities(DeleteEntities command, SyncContext syncContext);
+public DeleteEntitiesResult DeleteEntities(DeleteEntities command, SyncContext syncContext);
 ```
 
 ## Parameters
@@ -25,7 +25,7 @@ public Task<DeleteEntitiesResult> DeleteEntities(DeleteEntities command, SyncCon
 
 ## Returns
 
-Task\<[DeleteEntitiesResult](../../../Protocol/Tasks/DeleteEntitiesResult/index.md)\>
+[DeleteEntitiesResult](../../../Protocol/Tasks/DeleteEntitiesResult/index.md)
 
 ___
 

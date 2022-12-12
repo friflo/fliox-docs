@@ -11,8 +11,8 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[Discriminator("msg", Description = "request type")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.SyncRequest, Discriminant = "sync")]
+[Discriminator("msg", "request type")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.SyncRequest, "sync")]
 public abstract class ProtocolRequest : ProtocolMessage
 ```
 

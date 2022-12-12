@@ -40,16 +40,16 @@ An EntityDatabase contains multiple [EntityContainer](../EntityContainer/index.m
 
 ## Methods
 
-| Name                                                                          | Description                                                                                                                                                       |
-| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md)         | Create a container with the given `name` in the database                                                                                                          |
-| [Dispose()](methods/Dispose.md)                                               |                                                                                                                                                                   |
-| [ExecuteSyncPrepare(SyncRequest, SyncContext)](methods/ExecuteSyncPrepare.md) |                                                                                                                                                                   |
-| [GetDbContainers()](methods/GetDbContainers.md)                               | return all database containers                                                                                                                                    |
-| [GetDbMessages()](methods/GetDbMessages.md)                                   | return all database messages and commands                                                                                                                         |
-| [GetOrCreateContainer(string)](methods/GetOrCreateContainer.md)               | return the [EntityContainer](../EntityContainer/index.md) with the given `name`. Create a new [EntityContainer](../EntityContainer/index.md) if not already done. |
-| [SeedDatabase(EntityDatabase)](methods/SeedDatabase.md)                       | Seed the database with content of the given `src` database                                                                                                        |
-| [ToString()](methods/ToString.md)                                             |                                                                                                                                                                   |
+| Name                                                                  | Description                                                                                                                                                       |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md) | Create a container with the given `name` in the database                                                                                                          |
+| [Dispose()](methods/Dispose.md)                                       |                                                                                                                                                                   |
+| [GetDbContainers()](methods/GetDbContainers.md)                       | return all database containers                                                                                                                                    |
+| [GetDbMessages()](methods/GetDbMessages.md)                           | return all database messages and commands                                                                                                                         |
+| [GetOrCreateContainer(string)](methods/GetOrCreateContainer.md)       | return the [EntityContainer](../EntityContainer/index.md) with the given `name`. Create a new [EntityContainer](../EntityContainer/index.md) if not already done. |
+| [IsSyncTask(SyncRequestTask)](methods/IsSyncTask.md)                  | return true to execute given `task` synchronous. return false to execute the `task` asynchronous                                                                  |
+| [SeedDatabase(EntityDatabase)](methods/SeedDatabase.md)               | Seed the database with content of the given `src` database                                                                                                        |
+| [ToString()](methods/ToString.md)                                     |                                                                                                                                                                   |
 
 ___
 

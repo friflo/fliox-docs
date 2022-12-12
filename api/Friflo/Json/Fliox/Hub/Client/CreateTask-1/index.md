@@ -31,10 +31,11 @@ public sealed class CreateTask<T> : WriteTask<T>
 
 ## Methods
 
-| Name                                              | Description |
-| ------------------------------------------------- | ----------- |
-| [Add(T)](methods/Add.md)                          |             |
-| [AddRange(ICollection\<T\>)](methods/AddRange.md) |             |
+| Name                                                                   | Description |
+| ---------------------------------------------------------------------- | ----------- |
+| [Add(T)](methods/Add.md)                                               |             |
+| [AddRange(ICollection\<T\>)](methods/AddRange.md#addrangeicollectiont) |             |
+| [AddRange(List\<T\>)](methods/AddRange.md#addrangelistt)               |             |
 
 ___
 

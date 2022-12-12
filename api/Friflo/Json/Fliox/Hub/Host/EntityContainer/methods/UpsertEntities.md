@@ -14,7 +14,7 @@
 Upsert the entities specified in the given `command`
 
 ```csharp
-public Task<UpsertEntitiesResult> UpsertEntities(UpsertEntities command, SyncContext syncContext);
+public UpsertEntitiesResult UpsertEntities(UpsertEntities command, SyncContext syncContext);
 ```
 
 ## Parameters
@@ -25,7 +25,7 @@ public Task<UpsertEntitiesResult> UpsertEntities(UpsertEntities command, SyncCon
 
 ## Returns
 
-Task\<[UpsertEntitiesResult](../../../Protocol/Tasks/UpsertEntitiesResult/index.md)\>
+[UpsertEntitiesResult](../../../Protocol/Tasks/UpsertEntitiesResult/index.md)
 
 ___
 

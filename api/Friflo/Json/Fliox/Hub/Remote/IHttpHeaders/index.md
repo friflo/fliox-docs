@@ -11,17 +11,15 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[DefaultMember("Item")]
 public interface IHttpHeaders
 ```
 
-**Attributes:** DefaultMemberAttribute
+## Methods
 
-## Indexers
-
-| Name                               | Description |
-| ---------------------------------- | ----------- |
-| [Item\[string\]](indexers/Item.md) |             |
+| Name                                | Description |
+| ----------------------------------- | ----------- |
+| [Cookie(string)](methods/Cookie.md) |             |
+| [Header(string)](methods/Header.md) |             |
 
 ___
 

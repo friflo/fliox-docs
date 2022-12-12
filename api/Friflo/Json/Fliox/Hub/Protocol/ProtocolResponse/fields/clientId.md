@@ -14,7 +14,7 @@
 Set to [clientId](../../ProtocolRequest/fields/clientId.md) of a [SyncRequest](../../SyncRequest/index.md) in case the given[clientId](../../ProtocolRequest/fields/clientId.md) was valid. Otherwise it is set to null.
 
 ```csharp
-[Serialize(Name = "clt")]
+[Serialize("clt")]
 public JsonKey clientId;
 ```
 

@@ -13,14 +13,14 @@
 Authenticate users stored in the user database.
 
 ```csharp
-public class UserDatabaseAuthenticator : Authenticator
+public sealed class UserDatabaseAuthenticator : Authenticator
 ```
 
 **Inheritance:** object → [Authenticator](../../../Host/Auth/Authenticator/index.md) → UserDatabaseAuthenticator
 
 ## Remarks
 
-If user authentication succeed it returns also the roles attached to a user to enable authorization for each task. The schema of the user database is defined in [UserStore](../UserStore/index.md).The access to the user database itself requires also authentication by one of the predefined users:[AuthenticationUser](../UserStore/fields/AuthenticationUser.md) or [Server](../UserStore/fields/Server.md).A [AuthenticationUser](../UserStore/fields/AuthenticationUser.md) user is only able to [Authenticate(SyncRequest, SyncContext)](methods/Authenticate.md) itself. A [Server](../UserStore/fields/Server.md) user is able to read credentials and roles stored in a user database.
+If user authentication succeed it returns also the roles attached to a user to enable authorization for each task. The schema of the user database is defined in [UserStore](../UserStore/index.md).The access to the user database itself requires also authentication by one of the predefined users:[AuthenticationUser](../UserStore/fields/AuthenticationUser.md) or [Server](../UserStore/fields/Server.md).A [AuthenticationUser](../UserStore/fields/AuthenticationUser.md) user is only able to [AuthenticateAsync(SyncRequest, SyncContext)](methods/AuthenticateAsync.md) itself. A [Server](../UserStore/fields/Server.md) user is able to read credentials and roles stored in a user database.
 
 ## Constructors
 
@@ -30,9 +30,11 @@ If user authentication succeed it returns also the roles attached to a user to e
 
 ## Methods
 
-| Name                                                              | Description |
-| ----------------------------------------------------------------- | ----------- |
-| [Authenticate(SyncRequest, SyncContext)](methods/Authenticate.md) |             |
+| Name                                                                        | Description |
+| --------------------------------------------------------------------------- | ----------- |
+| [Authenticate(SyncRequest, SyncContext)](methods/Authenticate.md)           |             |
+| [AuthenticateAsync(SyncRequest, SyncContext)](methods/AuthenticateAsync.md) |             |
+| [IsSynchronous(SyncRequest)](methods/IsSynchronous.md)                      |             |
 
 ___
 

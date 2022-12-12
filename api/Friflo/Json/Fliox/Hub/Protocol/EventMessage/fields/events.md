@@ -14,12 +14,12 @@
 Each [SyncEvent](../../SyncEvent/index.md) corresponds to a [SyncRequest](../../SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](../../SyncEvent/fields/tasks.md) field
 
 ```csharp
-public SyncEvent[] events;
+public List<SyncEvent> events;
 ```
 
 ## Field Value
 
-[SyncEvent](../../SyncEvent/index.md)\[\]
+List\<[SyncEvent](../../SyncEvent/index.md)\>
 
 ___
 

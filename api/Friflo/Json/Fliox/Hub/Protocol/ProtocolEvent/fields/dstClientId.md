@@ -14,7 +14,7 @@
 The target client the event is sent to. This enables sharing a single (WebSocket) connection by multiple clients. In many scenarios this property is redundant as every client uses a WebSocket exclusively.
 
 ```csharp
-[Serialize(Name = "clt")]
+[Serialize("clt")]
 [Required]
 public JsonKey dstClientId;
 ```

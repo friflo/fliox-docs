@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public string DatabaseName { get; }
+public SmallString DatabaseName { get; }
 ```
 
 ## Property Value
 
-string
+SmallString
 
 ___
 

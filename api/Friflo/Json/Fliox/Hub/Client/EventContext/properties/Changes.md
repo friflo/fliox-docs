@@ -14,12 +14,12 @@
 Changes return the changes per database container.             Use [GetChanges\<T1, T2\>(EntitySet\<T1, T2\>)](../methods/GetChanges.md) to get  container changes 
 
 ```csharp
-public IReadOnlyList<Changes> Changes { get; }
+public List<Changes> Changes { get; }
 ```
 
 ## Property Value
 
-IReadOnlyList\<[Changes](../../Changes/index.md)\>
+List\<[Changes](../../Changes/index.md)\>
 
 ___
 

@@ -19,7 +19,7 @@ public enum TaskType
     query = 1,
     create = 2,
     upsert = 3,
-    patch = 4,
+    merge = 4,
     delete = 5,
     aggregate = 6,
     message = 7,
@@ -44,8 +44,8 @@ public enum TaskType
 | create           | create container entities                               |
 | delete           | delete container entities by id                         |
 | error            | indicate an error when task was executed                |
+| merge            | patch container entities by id                          |
 | message          | send a database message                                 |
-| patch            | patch container entities by id                          |
 | query            | query container entities using a filter                 |
 | read             | read container entities by id                           |
 | reserveKeys      | wip                                                     |

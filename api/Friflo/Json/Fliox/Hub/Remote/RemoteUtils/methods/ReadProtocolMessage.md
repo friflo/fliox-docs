@@ -12,14 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public static ProtocolMessage ReadProtocolMessage(JsonValue jsonMessage, ObjectPool<ObjectMapper> mapperPool, out string error);
+public static ProtocolMessage ReadProtocolMessage(in JsonValue jsonMessage, ObjectMapper mapper, out string error);
 ```
 
 ## Parameters
 
 `jsonMessage`  JsonValue
 
-`mapperPool`  ObjectPool\<ObjectMapper\>
+`mapper`  ObjectMapper
 
 `error`  string
 

@@ -14,7 +14,7 @@
 As a user can access a [FlioxHub](../../../Host/FlioxHub/index.md) by multiple clients the clientId            enables identifying each client individually.             The clientId is used for [SubscribeMessage](../../Tasks/SubscribeMessage/index.md) and [SubscribeChanges](../../Tasks/SubscribeChanges/index.md)            to enable sending [SyncEvent](../../SyncEvent/index.md)'s to the desired subscriber.
 
 ```csharp
-[Serialize(Name = "clt")]
+[Serialize("clt")]
 public JsonKey clientId;
 ```
 

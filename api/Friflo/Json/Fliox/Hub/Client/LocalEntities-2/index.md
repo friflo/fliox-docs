@@ -13,7 +13,7 @@
 Provide access to entities tracked by an [EntitySet\<T1, T2\>](../EntitySet-2/index.md).
 
 ```csharp
-public class LocalEntities<TKey, T> : IEnumerable<KeyValuePair<TKey, T>>, IEnumerable
+public sealed class LocalEntities<TKey, T> : IEnumerable<KeyValuePair<TKey, T>>, IEnumerable
 ```
 
 **Inheritance:** object → LocalEntities\<TKey, T\>
@@ -52,12 +52,15 @@ LocalEntities\<T1, T2\> adapts the behavior of IReadOnlyDictionary\<T1, T2\>
 
 ## Methods
 
-| Name                                             | Description                                                                                                |
-| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| [ContainsKey(TKey)](methods/ContainsKey.md)      | Return true if the [EntitySet\<T1, T2\>](../EntitySet-2/index.md) contains an entity with the passed `key` |
-| [GetEnumerator()](methods/GetEnumerator.md)      |  Returns an enumerator that iterates through the LocalEntities\<T1, T2\>                                   |
-| [ToString()](methods/ToString.md)                |                                                                                                            |
-| [TryGetEntity(TKey, T)](methods/TryGetEntity.md) |                                                                                                            |
+| Name                                                          | Description                                                                                                |
+| ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [Add(T)](methods/Add.md)                                      |                                                                                                            |
+| [ContainsKey(TKey)](methods/ContainsKey.md)                   | Return true if the [EntitySet\<T1, T2\>](../EntitySet-2/index.md) contains an entity with the passed `key` |
+| [GetByKey(JsonKey)](methods/GetByKey.md)                      |                                                                                                            |
+| [GetEnumerator()](methods/GetEnumerator.md)                   |  Returns an enumerator that iterates through the LocalEntities\<T1, T2\>                                   |
+| [ToString()](methods/ToString.md)                             |                                                                                                            |
+| [TryGetEntity(TKey, T)](methods/TryGetEntity.md)              |                                                                                                            |
+| [TryGetEntityByKey(JsonKey, T)](methods/TryGetEntityByKey.md) |                                                                                                            |
 
 ___
 

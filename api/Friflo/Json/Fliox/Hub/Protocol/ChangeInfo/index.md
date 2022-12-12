@@ -24,7 +24,7 @@ public struct ChangeInfo
 | ---------------------------- | ----------- |
 | [creates](fields/creates.md) |             |
 | [deletes](fields/deletes.md) |             |
-| [patches](fields/patches.md) |             |
+| [merges](fields/merges.md)   |             |
 | [upserts](fields/upserts.md) |             |
 
 ## Properties

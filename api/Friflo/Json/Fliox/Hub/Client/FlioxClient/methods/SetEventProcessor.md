@@ -11,15 +11,15 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Set the [IEventProcessor](../../IEventProcessor/index.md) used to process subscription events subscribed by a [FlioxClient](../index.md)
+Set the [EventProcessor](../../EventProcessor/index.md) used to process subscription events subscribed by a [FlioxClient](../index.md)
 
 ```csharp
-public void SetEventProcessor(IEventProcessor eventProcessor);
+public void SetEventProcessor(EventProcessor eventProcessor);
 ```
 
 ## Parameters
 
-`eventProcessor`  [IEventProcessor](../../IEventProcessor/index.md)
+`eventProcessor`  [EventProcessor](../../EventProcessor/index.md)
 
 ## Remarks
 

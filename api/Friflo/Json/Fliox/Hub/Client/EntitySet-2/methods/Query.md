@@ -11,10 +11,10 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Create a [QueryTask\<T\>](../../QueryTask-1/index.md) with the given LINQ query `filter`
+Create a [QueryTask\<T1, T2\>](../../QueryTask-2/index.md) with the given LINQ query `filter`
 
 ```csharp
-public QueryTask<T> Query(Expression<Func<T, bool>> filter);
+public QueryTask<TKey, T> Query(Expression<Func<T, bool>> filter);
 ```
 
 ## Parameters
@@ -27,7 +27,7 @@ public QueryTask<T> Query(Expression<Func<T, bool>> filter);
 
 ## Returns
 
-QueryTask\<T\>
+QueryTask\<TKey, T\>
 
 ___
 

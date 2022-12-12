@@ -5,25 +5,30 @@
   </auto-generated>   
 -->
 
-# EntityValue Class
+# EntityValue Struct
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Models](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public sealed class EntityValue
+public readonly struct EntityValue
 ```
 
-**Inheritance:** object → EntityValue
+**Inheritance:** object → ValueType → EntityValue
 
 ## Constructors
 
-| Name                                                                     | Description                                                                        |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| [EntityValue()](constructors/index.md#entityvalue)                       |                                                                                    |
-| [EntityValue(EntityError)](constructors/index.md#entityvalueentityerror) |                                                                                    |
-| [EntityValue(JsonValue)](constructors/index.md#entityvaluejsonvalue)     |                                                                                    |
-| [EntityValue(string)](constructors/index.md#entityvaluestring)           |  Prefer using [EntityValue(JsonValue)](constructors/index.md#entityvaluejsonvalue) |
+| Name                                                                                      | Description |
+| ----------------------------------------------------------------------------------------- | ----------- |
+| [EntityValue(JsonKey)](constructors/index.md#entityvaluejsonkey)                          |             |
+| [EntityValue(JsonKey, EntityError)](constructors/index.md#entityvaluejsonkey-entityerror) |             |
+| [EntityValue(JsonKey, JsonValue)](constructors/index.md#entityvaluejsonkey-jsonvalue)     |             |
+
+## Fields
+
+| Name                 | Description |
+| -------------------- | ----------- |
+| [key](fields/key.md) |             |
 
 ## Properties
 
@@ -34,12 +39,9 @@ public sealed class EntityValue
 
 ## Methods
 
-| Name                                                      | Description                                                             |
-| --------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [SetError(EntityError)](methods/SetError.md)              |                                                                         |
-| [SetJson(JsonValue)](methods/SetJson.md#setjsonjsonvalue) |                                                                         |
-| [SetJson(string)](methods/SetJson.md#setjsonstring)       |  Prefer using [SetJson(JsonValue)](methods/SetJson.md#setjsonjsonvalue) |
-| [ToString()](methods/ToString.md)                         |                                                                         |
+| Name                              | Description |
+| --------------------------------- | ----------- |
+| [ToString()](methods/ToString.md) |             |
 
 ___
 

@@ -14,7 +14,7 @@
 Instantiate a [FlioxClient](../index.md) for the `dbName` exposed by the given `hub`. If `dbName` is null the client uses the default database assigned to the `hub`.
 
 ```csharp
-public FlioxClient(FlioxHub hub, string dbName = null);
+public FlioxClient(FlioxHub hub, string dbName = null, ClientOptions options = );
 ```
 
 ## Parameters
@@ -22,6 +22,8 @@ public FlioxClient(FlioxHub hub, string dbName = null);
 `hub`  [FlioxHub](../../../Host/FlioxHub/index.md)
 
 `dbName`  string
+
+`options`  [ClientOptions](../../ClientOptions/index.md)
 
 ___
 

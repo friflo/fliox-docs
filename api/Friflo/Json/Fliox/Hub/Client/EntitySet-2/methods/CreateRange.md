@@ -11,21 +11,50 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+## Overloads
+
+| Signature                                                 | Description                                                                                                     |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| [CreateRange(ICollection\<T\>)](#createrangeicollectiont) | Return a [CreateTask\<T\>](../../CreateTask-1/index.md) used to to create the given `entities` in the container |
+| [CreateRange(List\<T\>)](#createrangelistt)               | Return a [CreateTask\<T\>](../../CreateTask-1/index.md) used to to create the given `entities` in the container |
+
+## CreateRange(ICollection\<T\>)
+
 Return a [CreateTask\<T\>](../../CreateTask-1/index.md) used to to create the given `entities` in the container
 
 ```csharp
 public CreateTask<T> CreateRange(ICollection<T> entities);
 ```
 
-## Parameters
+### Parameters
 
 `entities`  ICollection\<T\>
 
-## Remarks
+### Remarks
 
  To execute the task call [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
 
-## Returns
+### Returns
+
+CreateTask\<T\>
+
+## CreateRange(List\<T\>)
+
+Return a [CreateTask\<T\>](../../CreateTask-1/index.md) used to to create the given `entities` in the container
+
+```csharp
+public CreateTask<T> CreateRange(List<T> entities);
+```
+
+### Parameters
+
+`entities`  List\<T\>
+
+### Remarks
+
+ To execute the task call [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
+
+### Returns
 
 CreateTask\<T\>
 

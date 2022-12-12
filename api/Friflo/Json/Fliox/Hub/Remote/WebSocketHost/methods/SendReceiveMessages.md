@@ -11,8 +11,10 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+Create a send and receive queue and run a send and a receive loop. The loops are executed until the WebSocket is closed or disconnected. The method  throw exception. WebSocket exceptions are catched and written to [Logger](../properties/Logger.md)
+
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.WebSocketHost/<SendReceiveMessages>d__16)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.WebSocketHost/<SendReceiveMessages>d__20)]
 [DebuggerStepThrough]
 public static Task SendReceiveMessages(WebSocket websocket, IPEndPoint remoteEndPoint, RemoteHost remoteHost);
 ```

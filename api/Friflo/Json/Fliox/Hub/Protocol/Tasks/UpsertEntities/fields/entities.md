@@ -11,16 +11,16 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-the entities which are upserted in the specified [container](container.md)
+the entities which are upserted in the specified [container](../properties/container.md)
 
 ```csharp
 [Required]
-public List<JsonValue> entities;
+public List<JsonEntity> entities;
 ```
 
 ## Field Value
 
-List\<JsonValue\>
+List\<JsonEntity\>
 
 ___
 

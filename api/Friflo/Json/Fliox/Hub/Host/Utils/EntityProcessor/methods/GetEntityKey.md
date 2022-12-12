@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public bool GetEntityKey(JsonValue json, string keyName, out JsonKey keyValue, out string error);
+public bool GetEntityKey(in JsonValue json, string keyName, out JsonKey keyValue, out string error);
 ```
 
 ## Parameters

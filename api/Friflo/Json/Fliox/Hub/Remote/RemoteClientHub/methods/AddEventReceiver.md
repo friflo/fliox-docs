@@ -12,14 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void AddEventReceiver(JsonKey& modreq(System.Runtime.InteropServices.InAttribute) clientId, IEventReceiver eventReceiver);
+public void AddEventReceiver(JsonKey& modreq(System.Runtime.InteropServices.InAttribute) clientId, EventReceiver eventReceiver);
 ```
 
 ## Parameters
 
 `clientId`  JsonKey& modreq(System.Runtime.InteropServices.InAttribute)
 
-`eventReceiver`  [IEventReceiver](../../../Host/Event/IEventReceiver/index.md)
+`eventReceiver`  [EventReceiver](../../../Host/Event/EventReceiver/index.md)
 
 ___
 

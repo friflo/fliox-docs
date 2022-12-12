@@ -16,9 +16,9 @@ public interface IUserAuth
 
 ## Methods
 
-| Name                                                 | Description |
-| ---------------------------------------------------- | ----------- |
-| [Authenticate(Credentials)](methods/Authenticate.md) |             |
+| Name                                                           | Description |
+| -------------------------------------------------------------- | ----------- |
+| [AuthenticateAsync(Credentials)](methods/AuthenticateAsync.md) |             |
 
 ___
 

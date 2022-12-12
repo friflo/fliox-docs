@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public EventDispatcher(bool background, SharedEnv env = );
+public EventDispatcher(EventDispatching dispatching, SharedEnv env = );
 ```
 
 ## Parameters
 
-`background`  bool
+`dispatching`  [EventDispatching](../../EventDispatching/index.md)
 
 `env`  [SharedEnv](../../../SharedEnv/index.md)
 

@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public EntityDatabase GetDatabase(string name);
+public EntityDatabase GetDatabase(in SmallString name);
 ```
 
 ## Parameters
 
-`name`  string
+`name`  SmallString
 
 ## Returns
 

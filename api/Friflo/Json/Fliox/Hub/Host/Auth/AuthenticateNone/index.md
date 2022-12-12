@@ -26,9 +26,11 @@ public sealed class AuthenticateNone : Authenticator
 
 ## Methods
 
-| Name                                                              | Description |
-| ----------------------------------------------------------------- | ----------- |
-| [Authenticate(SyncRequest, SyncContext)](methods/Authenticate.md) |             |
+| Name                                                                        | Description |
+| --------------------------------------------------------------------------- | ----------- |
+| [Authenticate(SyncRequest, SyncContext)](methods/Authenticate.md)           |             |
+| [AuthenticateAsync(SyncRequest, SyncContext)](methods/AuthenticateAsync.md) |             |
+| [IsSynchronous(SyncRequest)](methods/IsSynchronous.md)                      |             |
 
 ___
 

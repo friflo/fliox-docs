@@ -14,12 +14,12 @@
  raw JSON values of created container entities 
 
 ```csharp
-public IReadOnlyList<JsonValue> RawCreates { get; }
+public List<JsonEntity> RawCreates { get; }
 ```
 
 ## Property Value
 
-IReadOnlyList\<JsonValue\>
+List\<JsonEntity\>
 
 ___
 

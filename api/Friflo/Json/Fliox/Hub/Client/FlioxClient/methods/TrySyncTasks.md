@@ -14,14 +14,14 @@
  Execute all tasks created by methods of [EntitySet\<T1, T2\>](../../EntitySet-2/index.md) and [FlioxClient](../index.md)
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Client.FlioxClient/<TrySyncTasks>d__30)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Client.FlioxClient/<TrySyncTasks>d__1)]
 [DebuggerStepThrough]
 public Task<SyncResult> TrySyncTasks();
 ```
 
 ## Remarks
 
-Failed tasks are available via the returned [SyncResult](../../SyncResult/index.md) in the field [failed](../../SyncResult/fields/failed.md)In performance critical application this method should be used instead of [SyncTasks()](SyncTasks.md) as throwing exceptions is expensive. The method can be called without awaiting the result of a previous call. 
+Failed tasks are available via the returned [SyncResult](../../SyncResult/index.md) in the field failedIn performance critical application this method should be used instead of [SyncTasks()](SyncTasks.md) as throwing exceptions is expensive. The method can be called without awaiting the result of a previous call. 
 
 ## Returns
 

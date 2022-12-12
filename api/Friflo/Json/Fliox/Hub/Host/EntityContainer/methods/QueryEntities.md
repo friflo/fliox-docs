@@ -14,7 +14,7 @@
 Query entities using the filter in the given `command`
 
 ```csharp
-public Task<QueryEntitiesResult> QueryEntities(QueryEntities command, SyncContext syncContext);
+public QueryEntitiesResult QueryEntities(QueryEntities command, SyncContext syncContext);
 ```
 
 ## Parameters
@@ -25,7 +25,7 @@ public Task<QueryEntitiesResult> QueryEntities(QueryEntities command, SyncContex
 
 ## Returns
 
-Task\<[QueryEntitiesResult](../../../Protocol/Tasks/QueryEntitiesResult/index.md)\>
+[QueryEntitiesResult](../../../Protocol/Tasks/QueryEntitiesResult/index.md)
 
 ___
 

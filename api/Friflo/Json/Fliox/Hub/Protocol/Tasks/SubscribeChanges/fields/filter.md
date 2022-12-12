@@ -14,12 +14,12 @@
 subscription filter as a  (infix notation)             returning a boolean value. E.g. `o.name == 'Smartphone'`
 
 ```csharp
-public JsonValue filter;
+public string filter;
 ```
 
 ## Field Value
 
-JsonValue
+string
 
 ___
 

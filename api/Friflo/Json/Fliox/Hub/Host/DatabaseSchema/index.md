@@ -36,15 +36,16 @@ It is intended to be used for [RemoteHost](../../Remote/RemoteHost/index.md) ins
 
 ## Methods
 
-| Name                                                                                                                                           | Description |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [AddStoreSchema\<TClient\>()](methods/AddStoreSchema.md)                                                                                       |             |
-| [AddTypeSchema(TypeSchema)](methods/AddTypeSchema.md)                                                                                          |             |
-| [GetCommands()](methods/GetCommands.md)                                                                                                        |             |
-| [GetContainers()](methods/GetContainers.md)                                                                                                    |             |
-| [GetMessages()](methods/GetMessages.md)                                                                                                        |             |
-| [ToString()](methods/ToString.md)                                                                                                              |             |
-| [ValidateEntities(string, List\<JsonKey\>, List\<JsonValue\>, SyncContext, EntityErrorType, List\<EntityError\>)](methods/ValidateEntities.md) |             |
+| Name                                                                                                                           | Description |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [AddStoreSchema\<TClient\>()](methods/AddStoreSchema.md)                                                                       |             |
+| [AddTypeSchema(TypeSchema)](methods/AddTypeSchema.md)                                                                          |             |
+| [GetCommands()](methods/GetCommands.md)                                                                                        |             |
+| [GetContainers()](methods/GetContainers.md)                                                                                    |             |
+| [GetMessages()](methods/GetMessages.md)                                                                                        |             |
+| [GetValidationType(string)](methods/GetValidationType.md)                                                                      |             |
+| [ToString()](methods/ToString.md)                                                                                              |             |
+| [ValidateEntities(string, List\<JsonEntity\>, SyncContext, EntityErrorType, List\<EntityError\>)](methods/ValidateEntities.md) |             |
 
 ___
 

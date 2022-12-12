@@ -14,12 +14,12 @@
 database name
 
 ```csharp
-public readonly string name;
+public readonly SmallString name;
 ```
 
 ## Field Value
 
-string
+SmallString
 
 ___
 

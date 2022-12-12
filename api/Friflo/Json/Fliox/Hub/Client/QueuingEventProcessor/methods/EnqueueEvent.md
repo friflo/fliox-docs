@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void EnqueueEvent(FlioxClient client, EventMessage eventMessage);
+public void EnqueueEvent(FlioxClient client, EventMessage eventMessage, bool reusedEvent);
 ```
 
 ## Parameters
@@ -20,6 +20,8 @@ public void EnqueueEvent(FlioxClient client, EventMessage eventMessage);
 `client`  [FlioxClient](../../FlioxClient/index.md)
 
 `eventMessage`  [EventMessage](../../../Protocol/EventMessage/index.md)
+
+`reusedEvent`  bool
 
 ___
 

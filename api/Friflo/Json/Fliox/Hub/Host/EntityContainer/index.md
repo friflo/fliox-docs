@@ -33,7 +33,7 @@ The interface methods are designed to enable clear, compact and efficient implem
 
 1. A complete database request fails. E.g. a SELECT in SQL.                     \=\> [Error](../../Protocol/Models/ICommandResult/properties/Error.md) need to be set.
 
-2. The database request was successful, but one or more entities (key\/values) had an error when accessing.                     E.g. Writing an entity to a file with a [FileContainer](../FileContainer/index.md) fails because it is used by another process.                     \=\> An [EntityError](../../Protocol/Models/EntityError/index.md) need to be added to task result errors.                        E.g. add an error to [errors](../../Protocol/Tasks/CreateEntitiesResult/fields/errors.md) in case of[CreateEntities(CreateEntities, SyncContext)](../FileContainer/methods/CreateEntities.md)All ...Result types returned by the interface methods of EntityContainer like[CreateEntities(CreateEntities, SyncContext)](methods/CreateEntities.md), [ReadEntities(ReadEntities, SyncContext)](methods/ReadEntities.md), ... implement [ICommandResult](../../Protocol/Models/ICommandResult/index.md). In case a database command fails completely  [Error](../../Protocol/Models/ICommandResult/properties/Error.md) needs to be set. See [ExecuteSync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteSync.md) for proper error handling.
+2. The database request was successful, but one or more entities (key\/values) had an error when accessing.                     E.g. Writing an entity to a file with a [FileContainer](../FileContainer/index.md) fails because it is used by another process.                     \=\> An [EntityError](../../Protocol/Models/EntityError/index.md) need to be added to task result errors.                        E.g. add an error to [errors](../../Protocol/Tasks/CreateEntitiesResult/fields/errors.md) in case of[CreateEntitiesAsync(CreateEntities, SyncContext)](../FileContainer/methods/CreateEntitiesAsync.md)All ...Result types returned by the interface methods of EntityContainer like[CreateEntitiesAsync(CreateEntities, SyncContext)](methods/CreateEntitiesAsync.md), [ReadEntitiesAsync(ReadEntities, SyncContext)](methods/ReadEntitiesAsync.md), ... implement [ICommandResult](../../Protocol/Models/ICommandResult/index.md). In case a database command fails completely  [Error](../../Protocol/Models/ICommandResult/properties/Error.md) needs to be set. See [ExecuteRequestAsync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteRequestAsync.md) for proper error handling.
 
 ## Fields
 
@@ -49,18 +49,23 @@ The interface methods are designed to enable clear, compact and efficient implem
 
 ## Methods
 
-| Name                                                                                    | Description                                                      |
-| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [AggregateEntities(AggregateEntities, SyncContext)](methods/AggregateEntities.md)       | Performs an aggregation specified in the given `command`         |
-| [AssertEntityCounts(List\<JsonKey\>, List\<JsonValue\>)](methods/AssertEntityCounts.md) |                                                                  |
-| [CreateEntities(CreateEntities, SyncContext)](methods/CreateEntities.md)                | Create the entities specified in the given `command`             |
-| [DeleteEntities(DeleteEntities, SyncContext)](methods/DeleteEntities.md)                | Delete entities by id with the ids passed in the given `command` |
-| [Dispose()](methods/Dispose.md)                                                         |                                                                  |
-| [PatchEntities(PatchEntities, SyncResponse, SyncContext)](methods/PatchEntities.md)     | Apply the given `patchEntities` to the container entities        |
-| [QueryEntities(QueryEntities, SyncContext)](methods/QueryEntities.md)                   | Query entities using the filter in the given `command`           |
-| [ReadEntities(ReadEntities, SyncContext)](methods/ReadEntities.md)                      | Read entities by id with the ids passed in the given `command`   |
-| [ToString()](methods/ToString.md)                                                       |                                                                  |
-| [UpsertEntities(UpsertEntities, SyncContext)](methods/UpsertEntities.md)                | Upsert the entities specified in the given `command`             |
+| Name                                                                                        | Description                                                              |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [AggregateEntitiesAsync(AggregateEntities, SyncContext)](methods/AggregateEntitiesAsync.md) | Performs an aggregation specified in the given `command`                 |
+| [CreateEntities(CreateEntities, SyncContext)](methods/CreateEntities.md)                    |                                                                          |
+| [CreateEntitiesAsync(CreateEntities, SyncContext)](methods/CreateEntitiesAsync.md)          | Create the entities specified in the given `command`                     |
+| [DeleteEntities(DeleteEntities, SyncContext)](methods/DeleteEntities.md)                    | Delete entities by id with the ids passed in the given `command`         |
+| [DeleteEntitiesAsync(DeleteEntities, SyncContext)](methods/DeleteEntitiesAsync.md)          | Delete entities by id with the ids passed in the given `command`         |
+| [Dispose()](methods/Dispose.md)                                                             |                                                                          |
+| [MergeEntities(MergeEntities, SyncContext)](methods/MergeEntities.md)                       | Can be implemented used to merge entities synchronously for optimization |
+| [MergeEntitiesAsync(MergeEntities, SyncContext)](methods/MergeEntitiesAsync.md)             | Apply the given `mergeEntities` to the container entities                |
+| [QueryEntities(QueryEntities, SyncContext)](methods/QueryEntities.md)                       | Query entities using the filter in the given `command`                   |
+| [QueryEntitiesAsync(QueryEntities, SyncContext)](methods/QueryEntitiesAsync.md)             | Query entities using the filter in the given `command`                   |
+| [ReadEntities(ReadEntities, SyncContext)](methods/ReadEntities.md)                          | Read entities by id with the ids passed in the given `command`           |
+| [ReadEntitiesAsync(ReadEntities, SyncContext)](methods/ReadEntitiesAsync.md)                | Read entities by id with the ids passed in the given `command`           |
+| [ToString()](methods/ToString.md)                                                           |                                                                          |
+| [UpsertEntities(UpsertEntities, SyncContext)](methods/UpsertEntities.md)                    | Upsert the entities specified in the given `command`                     |
+| [UpsertEntitiesAsync(UpsertEntities, SyncContext)](methods/UpsertEntitiesAsync.md)          | Upsert the entities specified in the given `command`                     |
 
 ___
 

@@ -36,6 +36,13 @@ public sealed class CloseCursors : SyncRequestTask
 | Name                               | Description |
 | ---------------------------------- | ----------- |
 | [TaskName](properties/TaskName.md) |             |
+| [TaskType](properties/TaskType.md) |             |
+
+## Methods
+
+| Name                                                                               | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
+| [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
 
 ___
 

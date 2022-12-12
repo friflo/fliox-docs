@@ -14,7 +14,7 @@
  Execute all tasks created by methods of [EntitySet\<T1, T2\>](../../EntitySet-2/index.md) and [FlioxClient](../index.md)
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Client.FlioxClient/<SyncTasks>d__29)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Client.FlioxClient/<SyncTasks>d__0)]
 [DebuggerStepThrough]
 public Task<SyncResult> SyncTasks();
 ```

@@ -26,9 +26,9 @@ If assigned to [EventDispatcher](../../FlioxHub/properties/EventDispatcher.md) t
 
 ## Constructors
 
-| Name                                                      | Description |
-| --------------------------------------------------------- | ----------- |
-| [EventDispatcher(bool, SharedEnv)](constructors/index.md) |             |
+| Name                                                                  | Description |
+| --------------------------------------------------------------------- | ----------- |
+| [EventDispatcher(EventDispatching, SharedEnv)](constructors/index.md) |             |
 
 ## Properties
 
@@ -41,8 +41,9 @@ If assigned to [EventDispatcher](../../FlioxHub/properties/EventDispatcher.md) t
 | Name                                                | Description |
 | --------------------------------------------------- | ----------- |
 | [Dispose()](methods/Dispose.md)                     |             |
-| [FinishQueues()](methods/FinishQueues.md)           |             |
 | [QueuedEventsCount()](methods/QueuedEventsCount.md) |             |
+| [SendQueuedEvents()](methods/SendQueuedEvents.md)   |             |
+| [StopDispatcher()](methods/StopDispatcher.md)       |             |
 | [ToString()](methods/ToString.md)                   |             |
 
 ___

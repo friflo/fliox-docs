@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public bool Validate(JsonValue json, string keyName, out JsonKey keyValue, out string error);
+public bool Validate(in JsonValue json, string keyName, out JsonKey keyValue, out string error);
 ```
 
 ## Parameters

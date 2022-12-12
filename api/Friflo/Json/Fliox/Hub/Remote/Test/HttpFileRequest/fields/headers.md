@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public readonly HttpFileHeaders headers;
+public readonly IHttpHeaders headers;
 ```
 
 ## Field Value
 
-[HttpFileHeaders](../../HttpFileHeaders/index.md)
+[IHttpHeaders](../../../IHttpHeaders/index.md)
 
 ___
 

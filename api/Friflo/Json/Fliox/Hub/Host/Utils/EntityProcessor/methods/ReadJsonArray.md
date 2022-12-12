@@ -14,7 +14,7 @@
 Parse the given `json` while expecting the value is a JSON array of objects (entities). The JSON objects returned by this method are 1:1 byte identical to its JSON input to preserve line feeds and white spaces.The common approach using an ObjectReader with a List of JsonValue's is not used as it does not preserve white spaces.   Note: The method is independent from Traverse(JsonValue, string, JsonKey, ProcessingType, string) related methods. It is placed here as it shares all required parser related properties and its purpose is also related to parsing entities.
 
 ```csharp
-public List<JsonValue> ReadJsonArray(JsonValue json, out string error);
+public List<JsonEntity> ReadJsonArray(in JsonValue json, out string error);
 ```
 
 ## Parameters
@@ -25,7 +25,7 @@ public List<JsonValue> ReadJsonArray(JsonValue json, out string error);
 
 ## Returns
 
-List\<JsonValue\>
+List\<JsonEntity\>
 
 ___
 

@@ -12,16 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public Patch(TKey key, in JsonKey id, List<JsonPatch> patches);
+public Patch(TKey key, JsonValue patch);
 ```
 
 ## Parameters
 
 `key`  TKey
 
-`id`  JsonKey
-
-`patches`  List\<JsonPatch\>
+`patch`  JsonValue
 
 ___
 

@@ -18,11 +18,18 @@ public class RemoteHost : IDisposable, ILogSource
 
 **Implements:** IDisposable,ILogSource
 
+## Constructors
+
+| Name                                                     | Description |
+| -------------------------------------------------------- | ----------- |
+| [RemoteHost(FlioxHub, SharedEnv)](constructors/index.md) |             |
+
 ## Fields
 
 | Name                                                     | Description |
 | -------------------------------------------------------- | ----------- |
 | [fakeOpenClosedSockets](fields/fakeOpenClosedSockets.md) |             |
+| [localHub](fields/localHub.md)                           |             |
 | [sharedEnv](fields/sharedEnv.md)                         |             |
 
 ## Properties
@@ -33,10 +40,13 @@ public class RemoteHost : IDisposable, ILogSource
 
 ## Methods
 
-| Name                                                                | Description |
-| ------------------------------------------------------------------- | ----------- |
-| [Dispose()](methods/Dispose.md)                                     |             |
-| [SetContainerResults(SyncResponse)](methods/SetContainerResults.md) |             |
+| Name                                                                                                | Description                                                                                      |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [CreateJsonResponse(ExecuteSyncResult, int?, ObjectMapper)](methods/CreateJsonResponse.md)          |                                                                                                  |
+| [Dispose()](methods/Dispose.md)                                                                     |                                                                                                  |
+| [ExecuteJsonRequest(ObjectMapper, JsonValue, SyncContext)](methods/ExecuteJsonRequest.md)           |                                                                                                  |
+| [ExecuteJsonRequestAsync(ObjectMapper, JsonValue, SyncContext)](methods/ExecuteJsonRequestAsync.md) |  returned [JsonResponse](../JsonResponse/index.md) is  valid until the passed `mapper` is reused |
+| [SetContainerResults(SyncResponse)](methods/SetContainerResults.md)                                 |                                                                                                  |
 
 ___
 

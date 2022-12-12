@@ -10,6 +10,8 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+ all `Create` methods return a JsonValue which are only valid until the             passed ObjectMapper it reused 
+
 ```csharp
 public static class RemoteUtils
 ```
@@ -18,10 +20,12 @@ public static class RemoteUtils
 
 ## Methods
 
-| Name                                                                                                   | Description |
-| ------------------------------------------------------------------------------------------------------ | ----------- |
-| [CreateProtocolMessage(ProtocolMessage, ObjectPool\<ObjectMapper\>)](methods/CreateProtocolMessage.md) |             |
-| [ReadProtocolMessage(JsonValue, ObjectPool\<ObjectMapper\>, string)](methods/ReadProtocolMessage.md)   |             |
+| Name                                                                                     | Description                                                                |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [CreateProtocolEvent(EventMessage, SendEventArgs)](methods/CreateProtocolEvent.md)       |  returned JsonValue is  valid until the passed `args` mapper in  is reused |
+| [CreateProtocolMessage(ProtocolMessage, ObjectMapper)](methods/CreateProtocolMessage.md) |  returned JsonValue is  valid until the passed `mapper` is reused          |
+| [ReadProtocolMessage(JsonValue, ObjectMapper, string)](methods/ReadProtocolMessage.md)   |                                                                            |
+| [ReadSyncRequest(ObjectMapper, JsonValue, string)](methods/ReadSyncRequest.md)           |                                                                            |
 
 ___
 

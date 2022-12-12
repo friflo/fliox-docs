@@ -14,12 +14,12 @@
  return the Messages sent by a user 
 
 ```csharp
-public IReadOnlyList<Message> Messages { get; }
+public List<Message> Messages { get; }
 ```
 
 ## Property Value
 
-IReadOnlyList\<[Message](../../Message/index.md)\>
+List\<[Message](../../Message/index.md)\>
 
 ___
 

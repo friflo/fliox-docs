@@ -20,7 +20,7 @@ public enum Change
     All = 0xF,
     create = 0x1,
     upsert = 0x2,
-    patch = 0x4,
+    merge = 0x4,
     delete = 0x8
 }
 ```
@@ -37,7 +37,7 @@ public enum Change
 | None   | Shortcut to unsubscribe from all entity change types. |
 | create | filter change events of created entities.             |
 | delete | filter change events of deleted entities.             |
-| patch  | filter change events of entity patches.               |
+| merge  | filter change events of entity patches.               |
 | upsert | filter change events of upserted entities.            |
 
 ___

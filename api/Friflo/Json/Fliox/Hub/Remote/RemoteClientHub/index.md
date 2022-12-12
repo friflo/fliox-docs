@@ -18,11 +18,11 @@ public abstract class RemoteClientHub : FlioxHub
 
 ## Methods
 
-| Name                                                                                                                         | Description                                                    |
-| ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [AddEventReceiver(JsonKey& modreq(System.Runtime.InteropServices.InAttribute), IEventReceiver)](methods/AddEventReceiver.md) |                                                                |
-| [ExecuteSync(SyncRequest, SyncContext)](methods/ExecuteSync.md)                                                              | A class extending  RemoteClientHub must implement this method. |
-| [RemoveEventReceiver(JsonKey& modreq(System.Runtime.InteropServices.InAttribute))](methods/RemoveEventReceiver.md)           |                                                                |
+| Name                                                                                                                        | Description                                                    |
+| --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [AddEventReceiver(JsonKey& modreq(System.Runtime.InteropServices.InAttribute), EventReceiver)](methods/AddEventReceiver.md) |                                                                |
+| [ExecuteRequestAsync(SyncRequest, SyncContext)](methods/ExecuteRequestAsync.md)                                             | A class extending  RemoteClientHub must implement this method. |
+| [RemoveEventReceiver(JsonKey& modreq(System.Runtime.InteropServices.InAttribute))](methods/RemoveEventReceiver.md)          |                                                                |
 
 ___
 

@@ -26,25 +26,26 @@ public sealed class AggregateEntities : SyncRequestTask
 
 ## Fields
 
-| Name                                     | Description                                                                                                                          |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [container](fields/container.md)         | container name                                                                                                                       |
-| [filter](fields/filter.md)               | aggregation filter as a  (infix notation)             returning a boolean value. E.g. `o.name == 'Smartphone'`                       |
-| [filterContext](fields/filterContext.md) |                                                                                                                                      |
-| [filterTree](fields/filterTree.md)       | aggregation filter as JSON tree.             Is used in favour of [filter](fields/filter.md) as its serialization is more performant |
-| [type](fields/type.md)                   | aggregation type \- e.g. count                                                                                                       |
+| Name                               | Description                                                                                                                          |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [container](fields/container.md)   | container name                                                                                                                       |
+| [filter](fields/filter.md)         | aggregation filter as a             returning a boolean value. E.g.                                                                  |
+| [filterTree](fields/filterTree.md) | aggregation filter as JSON tree.             Is used in favour of [filter](fields/filter.md) as its serialization is more performant |
+| [type](fields/type.md)             | aggregation type \- e.g. count                                                                                                       |
 
 ## Properties
 
 | Name                               | Description |
 | ---------------------------------- | ----------- |
 | [TaskName](properties/TaskName.md) |             |
+| [TaskType](properties/TaskType.md) |             |
 
 ## Methods
 
-| Name                                | Description |
-| ----------------------------------- | ----------- |
-| [GetFilter()](methods/GetFilter.md) |             |
+| Name                                                                               | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
+| [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
+| [GetFilter()](methods/GetFilter.md)                                                |             |
 
 ___
 

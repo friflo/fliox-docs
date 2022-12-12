@@ -14,12 +14,12 @@
 Return the Type's used by the [EntitySet\<T1, T2\>](../../EntitySet-2/index.md) members of a [FlioxClient](../index.md) as entity Type. 
 
 ```csharp
-public static Type[] GetEntityTypes<TFlioxClient>();
+public static Type[] GetEntityTypes(Type clientType);
 ```
 
-## Type Parameters
+## Parameters
 
-`TFlioxClient`
+`clientType`  Type
 
 ## Returns
 

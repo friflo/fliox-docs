@@ -20,7 +20,7 @@ public abstract class TaskAuthorizer
 
 ## Remarks
 
-This TaskAuthorizer it stored at taskAuthorizer. The taskAuthorizer is set via [Authenticate(SyncRequest, SyncContext)](../Authenticator/methods/Authenticate.md) forauthenticated and for not authenticated users.
+This TaskAuthorizer it stored at taskAuthorizer. The taskAuthorizer is set via [AuthenticateAsync(SyncRequest, SyncContext)](../Authenticator/methods/AuthenticateAsync.md) forauthenticated and for not authenticated users.
 
 ## Fields
 

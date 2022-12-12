@@ -12,14 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void Write(JsonValue value, int offset, string contentType, int statusCode);
+public void Write(in JsonValue value, string contentType, int statusCode);
 ```
 
 ## Parameters
 
 `value`  JsonValue
-
-`offset`  int
 
 `contentType`  string
 

@@ -11,10 +11,8 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Create the entities specified in the given `command`
-
 ```csharp
-public Task<CreateEntitiesResult> CreateEntities(CreateEntities command, SyncContext syncContext);
+public CreateEntitiesResult CreateEntities(CreateEntities command, SyncContext syncContext);
 ```
 
 ## Parameters
@@ -25,7 +23,7 @@ public Task<CreateEntitiesResult> CreateEntities(CreateEntities command, SyncCon
 
 ## Returns
 
-Task\<[CreateEntitiesResult](../../../Protocol/Tasks/CreateEntitiesResult/index.md)\>
+[CreateEntitiesResult](../../../Protocol/Tasks/CreateEntitiesResult/index.md)
 
 ___
 

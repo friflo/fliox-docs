@@ -11,6 +11,8 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+Execute the request return a RequestContext containing the execution result. To return a HTTP response [WriteFlioxResponse(HttpListenerContext, RequestContext)](WriteFlioxResponse.md) need to be called. 
+
 ```csharp
 [AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.HttpListenerExtensions/<ExecuteFlioxRequest>d__0)]
 [DebuggerStepThrough]

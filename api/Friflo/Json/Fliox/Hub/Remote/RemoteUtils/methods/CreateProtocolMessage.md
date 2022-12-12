@@ -11,15 +11,17 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+ returned JsonValue is  valid until the passed `mapper` is reused
+
 ```csharp
-public static JsonValue CreateProtocolMessage(ProtocolMessage message, ObjectPool<ObjectMapper> mapperPool);
+public static JsonValue CreateProtocolMessage(ProtocolMessage message, ObjectMapper mapper);
 ```
 
 ## Parameters
 
 `message`  [ProtocolMessage](../../../Protocol/ProtocolMessage/index.md)
 
-`mapperPool`  ObjectPool\<ObjectMapper\>
+`mapper`  ObjectMapper
 
 ## Returns
 

@@ -13,7 +13,7 @@
 Define the general Hub permissions. For now this apply only to event processing. [queueEvents](fields/queueEvents.md)
 
 ```csharp
-public class HubPermission
+public sealed class HubPermission
 ```
 
 **Inheritance:** object → HubPermission

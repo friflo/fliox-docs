@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public MemoryContainer(string name, EntityDatabase database, MemoryType type, bool pretty);
+public MemoryContainer(string name, EntityDatabase database, MemoryType type, bool pretty, int smallValueSize);
 ```
 
 ## Parameters
@@ -24,6 +24,8 @@ public MemoryContainer(string name, EntityDatabase database, MemoryType type, bo
 `type`  [MemoryType](../../MemoryType/index.md)
 
 `pretty`  bool
+
+`smallValueSize`  int
 
 ___
 

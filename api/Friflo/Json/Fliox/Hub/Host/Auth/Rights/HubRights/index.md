@@ -11,7 +11,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public class HubRights
+public sealed class HubRights
 ```
 
 **Inheritance:** object → HubRights

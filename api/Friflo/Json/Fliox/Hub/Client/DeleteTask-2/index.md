@@ -33,10 +33,11 @@ public sealed class DeleteTask<TKey, T> : SyncTask
 
 ## Methods
 
-| Name                                                 | Description |
-| ---------------------------------------------------- | ----------- |
-| [Add(TKey)](methods/Add.md)                          |             |
-| [AddRange(ICollection\<TKey\>)](methods/AddRange.md) |             |
+| Name                                                                         | Description |
+| ---------------------------------------------------------------------------- | ----------- |
+| [Add(TKey)](methods/Add.md)                                                  |             |
+| [AddRange(ICollection\<TKey\>)](methods/AddRange.md#addrangeicollectiontkey) |             |
+| [AddRange(List\<TKey\>)](methods/AddRange.md#addrangelisttkey)               |             |
 
 ___
 

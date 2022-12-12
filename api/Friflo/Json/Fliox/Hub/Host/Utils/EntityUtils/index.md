@@ -18,10 +18,11 @@ public static class EntityUtils
 
 ## Methods
 
-| Name                                                                                                                                       | Description                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [AddEntitiesToMap(List\<JsonValue\>, string, bool?, string, Dictionary\<JsonKey, EntityValue\>, SyncContext)](methods/AddEntitiesToMap.md) | Add the given `entities` to the given `entityMap`. The given `keyName` identifies the key property inside the JSON value in the given list of `entities`. |
-| [ReadToEnd(Stream)](methods/ReadToEnd.md)                                                                                                  |                                                                                                                                                           |
+| Name                                                                                                            | Description                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [CopyEntities(List\<JsonValue\>, string, bool?, string, EntityValue\[\], SyncContext)](methods/CopyEntities.md) | Copy the given `entities` to the given `destEntities`. The given `keyName` identifies the key property inside the JSON value in the given list of `entities`. |
+| [CreateCopy(JsonValue, MemoryBuffer)](methods/CreateCopy.md)                                                    |                                                                                                                                                               |
+| [ReadToEndAsync(Stream, StreamBuffer)](methods/ReadToEndAsync.md)                                               |                                                                                                                                                               |
 
 ___
 

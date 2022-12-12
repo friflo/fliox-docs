@@ -13,11 +13,11 @@
 ProtocolMessage is the base type for all messages which are classified into request, response and event.
 
 ```csharp
-[Discriminator("msg", Description = "message type")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.SyncRequest, Discriminant = "sync")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.SyncResponse, Discriminant = "resp")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.ErrorResponse, Discriminant = "error")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.EventMessage, Discriminant = "ev")]
+[Discriminator("msg", "message type")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.SyncRequest, "sync")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.SyncResponse, "resp")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.ErrorResponse, "error")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.EventMessage, "ev")]
 public abstract class ProtocolMessage
 ```
 

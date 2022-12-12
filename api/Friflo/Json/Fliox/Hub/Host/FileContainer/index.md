@@ -30,15 +30,15 @@ public sealed class FileContainer : EntityContainer
 
 ## Methods
 
-| Name                                                                              | Description |
-| --------------------------------------------------------------------------------- | ----------- |
-| [AggregateEntities(AggregateEntities, SyncContext)](methods/AggregateEntities.md) |             |
-| [CreateEntities(CreateEntities, SyncContext)](methods/CreateEntities.md)          |             |
-| [DeleteEntities(DeleteEntities, SyncContext)](methods/DeleteEntities.md)          |             |
-| [Dispose()](methods/Dispose.md)                                                   |             |
-| [QueryEntities(QueryEntities, SyncContext)](methods/QueryEntities.md)             |             |
-| [ReadEntities(ReadEntities, SyncContext)](methods/ReadEntities.md)                |             |
-| [UpsertEntities(UpsertEntities, SyncContext)](methods/UpsertEntities.md)          |             |
+| Name                                                                                        | Description |
+| ------------------------------------------------------------------------------------------- | ----------- |
+| [AggregateEntitiesAsync(AggregateEntities, SyncContext)](methods/AggregateEntitiesAsync.md) |             |
+| [CreateEntitiesAsync(CreateEntities, SyncContext)](methods/CreateEntitiesAsync.md)          |             |
+| [DeleteEntitiesAsync(DeleteEntities, SyncContext)](methods/DeleteEntitiesAsync.md)          |             |
+| [Dispose()](methods/Dispose.md)                                                             |             |
+| [QueryEntitiesAsync(QueryEntities, SyncContext)](methods/QueryEntitiesAsync.md)             |             |
+| [ReadEntitiesAsync(ReadEntities, SyncContext)](methods/ReadEntitiesAsync.md)                |             |
+| [UpsertEntitiesAsync(UpsertEntities, SyncContext)](methods/UpsertEntitiesAsync.md)          |             |
 
 ___
 

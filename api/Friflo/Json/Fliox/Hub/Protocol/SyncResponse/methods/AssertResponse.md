@@ -13,6 +13,7 @@
 
 ```csharp
 [Conditional("DEBUG")]
+[ExcludeFromCodeCoverage]
 public void AssertResponse(SyncRequest request);
 ```
 

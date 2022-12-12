@@ -14,7 +14,7 @@
 Set to the value of the corresponding [reqId](../../ProtocolRequest/fields/reqId.md) of a [ProtocolRequest](../../ProtocolRequest/index.md)
 
 ```csharp
-[Serialize(Name = "req")]
+[Serialize("req")]
 public int? reqId;
 ```
 

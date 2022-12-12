@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[Serialize(Name = "_etag")]
+[Serialize("_etag")]
 public string etag;
 ```
 

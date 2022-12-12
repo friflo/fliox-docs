@@ -24,13 +24,20 @@ public sealed class WebSocketClientHub : RemoteClientHub
 | ---------------------------------------------------------------------- | ----------- |
 | [WebSocketClientHub(string, string, SharedEnv)](constructors/index.md) |             |
 
+## Properties
+
+| Name                                     | Description |
+| ---------------------------------------- | ----------- |
+| [IsConnected](properties/IsConnected.md) |             |
+
 ## Methods
 
-| Name                                                            | Description |
-| --------------------------------------------------------------- | ----------- |
-| [Close()](methods/Close.md)                                     |             |
-| [ExecuteSync(SyncRequest, SyncContext)](methods/ExecuteSync.md) |             |
-| [ToString()](methods/ToString.md)                               |             |
+| Name                                                                            | Description |
+| ------------------------------------------------------------------------------- | ----------- |
+| [Close()](methods/Close.md)                                                     |             |
+| [ExecuteRequestAsync(SyncRequest, SyncContext)](methods/ExecuteRequestAsync.md) |             |
+| [InitSyncRequest(SyncRequest)](methods/InitSyncRequest.md)                      |             |
+| [ToString()](methods/ToString.md)                                               |             |
 
 ___
 

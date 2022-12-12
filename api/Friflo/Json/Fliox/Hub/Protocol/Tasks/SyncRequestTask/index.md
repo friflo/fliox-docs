@@ -13,20 +13,20 @@
 Polymorphic base type for all tasks.All tasks fall into two categories: like: create, read, upsert, delete, query, ... like sending commands or messages
 
 ```csharp
-[Discriminator("task", Description = "task type")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CreateEntities, Discriminant = "create")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.UpsertEntities, Discriminant = "upsert")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.ReadEntities, Discriminant = "read")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.QueryEntities, Discriminant = "query")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.AggregateEntities, Discriminant = "aggregate")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.PatchEntities, Discriminant = "patch")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.DeleteEntities, Discriminant = "delete")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendMessage, Discriminant = "message")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendCommand, Discriminant = "command")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CloseCursors, Discriminant = "closeCursors")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeChanges, Discriminant = "subscribeChanges")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeMessage, Discriminant = "subscribeMessage")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.ReserveKeys, Discriminant = "reserveKeys")]
+[Discriminator("task", "task type")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CreateEntities, "create")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.UpsertEntities, "upsert")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.ReadEntities, "read")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.QueryEntities, "query")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.AggregateEntities, "aggregate")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.MergeEntities, "merge")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.DeleteEntities, "delete")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendMessage, "message")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendCommand, "command")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CloseCursors, "closeCursors")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeChanges, "subscribeChanges")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeMessage, "subscribeMessage")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.ReserveKeys, "reserveKeys")]
 public abstract class SyncRequestTask
 ```
 
@@ -36,23 +36,26 @@ public abstract class SyncRequestTask
 
 ## Fields
 
-| Name                     | Description |
-| ------------------------ | ----------- |
-| [index](fields/index.md) |             |
-| [info](fields/info.md)   |             |
+| Name                   | Description |
+| ---------------------- | ----------- |
+| [info](fields/info.md) |             |
 
 ## Properties
 
 | Name                               | Description |
 | ---------------------------------- | ----------- |
 | [TaskName](properties/TaskName.md) |             |
+| [TaskType](properties/TaskType.md) |             |
 
 ## Methods
 
-| Name                                                    | Description |
-| ------------------------------------------------------- | ----------- |
-| [PermissionDenied(string)](methods/PermissionDenied.md) |             |
-| [ToString()](methods/ToString.md)                       |             |
+| Name                                                                               | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
+| [Execute(EntityDatabase, SyncResponse, SyncContext)](methods/Execute.md)           |             |
+| [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
+| [PermissionDenied(string)](methods/PermissionDenied.md)                            |             |
+| [PreExecute(EntityDatabase)](methods/PreExecute.md)                                |             |
+| [ToString()](methods/ToString.md)                                                  |             |
 
 ___
 

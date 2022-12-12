@@ -18,9 +18,9 @@ public sealed class MemoryContainer : EntityContainer
 
 ## Constructors
 
-| Name                                                                               | Description |
-| ---------------------------------------------------------------------------------- | ----------- |
-| [MemoryContainer(string, EntityDatabase, MemoryType, bool)](constructors/index.md) |             |
+| Name                                                                                    | Description |
+| --------------------------------------------------------------------------------------- | ----------- |
+| [MemoryContainer(string, EntityDatabase, MemoryType, bool, int)](constructors/index.md) |             |
 
 ## Properties
 
@@ -30,15 +30,22 @@ public sealed class MemoryContainer : EntityContainer
 
 ## Methods
 
-| Name                                                                              | Description |
-| --------------------------------------------------------------------------------- | ----------- |
-| [AggregateEntities(AggregateEntities, SyncContext)](methods/AggregateEntities.md) |             |
-| [CreateEntities(CreateEntities, SyncContext)](methods/CreateEntities.md)          |             |
-| [DeleteEntities(DeleteEntities, SyncContext)](methods/DeleteEntities.md)          |             |
-| [QueryEntities(QueryEntities, SyncContext)](methods/QueryEntities.md)             |             |
-| [ReadEntities(ReadEntities, SyncContext)](methods/ReadEntities.md)                |             |
-| [ToString()](methods/ToString.md)                                                 |             |
-| [UpsertEntities(UpsertEntities, SyncContext)](methods/UpsertEntities.md)          |             |
+| Name                                                                                        | Description                                                  |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [AggregateEntitiesAsync(AggregateEntities, SyncContext)](methods/AggregateEntitiesAsync.md) |                                                              |
+| [CreateEntities(CreateEntities, SyncContext)](methods/CreateEntities.md)                    |                                                              |
+| [CreateEntitiesAsync(CreateEntities, SyncContext)](methods/CreateEntitiesAsync.md)          |                                                              |
+| [DeleteEntities(DeleteEntities, SyncContext)](methods/DeleteEntities.md)                    |                                                              |
+| [DeleteEntitiesAsync(DeleteEntities, SyncContext)](methods/DeleteEntitiesAsync.md)          |                                                              |
+| [MergeEntities(MergeEntities, SyncContext)](methods/MergeEntities.md)                       |  Optimized merge implementation specific for MemoryContainer |
+| [MergeEntitiesAsync(MergeEntities, SyncContext)](methods/MergeEntitiesAsync.md)             |                                                              |
+| [QueryEntities(QueryEntities, SyncContext)](methods/QueryEntities.md)                       |                                                              |
+| [QueryEntitiesAsync(QueryEntities, SyncContext)](methods/QueryEntitiesAsync.md)             |                                                              |
+| [ReadEntities(ReadEntities, SyncContext)](methods/ReadEntities.md)                          |                                                              |
+| [ReadEntitiesAsync(ReadEntities, SyncContext)](methods/ReadEntitiesAsync.md)                |                                                              |
+| [ToString()](methods/ToString.md)                                                           |                                                              |
+| [UpsertEntities(UpsertEntities, SyncContext)](methods/UpsertEntities.md)                    |                                                              |
+| [UpsertEntitiesAsync(UpsertEntities, SyncContext)](methods/UpsertEntitiesAsync.md)          |                                                              |
 
 ___
 

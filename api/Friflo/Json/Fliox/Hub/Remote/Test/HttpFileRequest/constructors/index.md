@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public HttpFileRequest(string request, HttpFile httpFile);
+public HttpFileRequest(string requestText, HttpFile httpFile);
 ```
 
 ## Parameters
 
-`request`  string
+`requestText`  string
 
 `httpFile`  [HttpFile](../../HttpFile/index.md)
 

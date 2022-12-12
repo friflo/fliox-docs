@@ -31,21 +31,30 @@ Via its utility methods is manages the lifecycle of a HttpListener. Lifecycle me
 | [HttpListenerHost(HttpListener, HttpHost)](constructors/index.md#httplistenerhosthttplistener-httphost) |             |
 | [HttpListenerHost(string, HttpHost)](constructors/index.md#httplistenerhoststring-httphost)             |             |
 
+## Fields
+
+| Name                                                   | Description |
+| ------------------------------------------------------ | ----------- |
+| [customRequestHandler](fields/customRequestHandler.md) |             |
+
 ## Properties
 
-| Name                           | Description |
-| ------------------------------ | ----------- |
-| [Logger](properties/Logger.md) |             |
+| Name                                 | Description |
+| ------------------------------------ | ----------- |
+| [IsRunning](properties/IsRunning.md) |             |
+| [Logger](properties/Logger.md)       |             |
 
 ## Methods
 
-| Name                                            | Description |
-| ----------------------------------------------- | ----------- |
-| [Dispose()](methods/Dispose.md)                 |             |
-| [Run()](methods/Run.md)                         |             |
-| [RunHost(string, HttpHost)](methods/RunHost.md) |             |
-| [Start()](methods/Start.md)                     |             |
-| [Stop()](methods/Stop.md)                       |             |
+| Name                                                             | Description |
+| ---------------------------------------------------------------- | ----------- |
+| [Dispose()](methods/Dispose.md)                                  |             |
+| [ExecuteRequest(HttpListenerContext)](methods/ExecuteRequest.md) |             |
+| [Run()](methods/Run.md)                                          |             |
+| [RunHost(string, HttpHost)](methods/RunHost.md)                  |             |
+| [Start()](methods/Start.md)                                      |             |
+| [Stop()](methods/Stop.md)                                        |             |
+| [ToString()](methods/ToString.md)                                |             |
 
 ___
 

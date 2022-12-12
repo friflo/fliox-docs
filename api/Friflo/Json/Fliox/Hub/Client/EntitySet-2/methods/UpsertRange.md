@@ -11,21 +11,50 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+## Overloads
+
+| Signature                                                 | Description                                                                                                  |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| [UpsertRange(ICollection\<T\>)](#upsertrangeicollectiont) | Create a [UpsertTask\<T\>](../../UpsertTask-1/index.md) used to upsert the given `entities` in the container |
+| [UpsertRange(List\<T\>)](#upsertrangelistt)               | Create a [UpsertTask\<T\>](../../UpsertTask-1/index.md) used to upsert the given `entities` in the container |
+
+## UpsertRange(ICollection\<T\>)
+
 Create a [UpsertTask\<T\>](../../UpsertTask-1/index.md) used to upsert the given `entities` in the container
 
 ```csharp
 public UpsertTask<T> UpsertRange(ICollection<T> entities);
 ```
 
-## Parameters
+### Parameters
 
 `entities`  ICollection\<T\>
 
-## Remarks
+### Remarks
 
  To execute the task call [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
 
-## Returns
+### Returns
+
+UpsertTask\<T\>
+
+## UpsertRange(List\<T\>)
+
+Create a [UpsertTask\<T\>](../../UpsertTask-1/index.md) used to upsert the given `entities` in the container
+
+```csharp
+public UpsertTask<T> UpsertRange(List<T> entities);
+```
+
+### Parameters
+
+`entities`  List\<T\>
+
+### Remarks
+
+ To execute the task call [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
+
+### Returns
 
 UpsertTask\<T\>
 

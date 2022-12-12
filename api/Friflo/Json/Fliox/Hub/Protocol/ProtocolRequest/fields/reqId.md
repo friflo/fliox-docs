@@ -18,7 +18,7 @@ Used only for [RemoteClientHub](../../../Remote/RemoteClientHub/index.md) to ena
 2. Multiplexing of requests and their responses for multiple clients e.g. [FlioxClient](../../../Client/FlioxClient/index.md)   using the same connection.    This is not a common scenario but it enables using a single [WebSocketClientHub](../../../Remote/WebSocketClientHub/index.md)   used by multiple clients.            The host itself only echos the reqId to [reqId](../../ProtocolResponse/fields/reqId.md) and             does  utilize it internally.
 
 ```csharp
-[Serialize(Name = "req")]
+[Serialize("req")]
 public int? reqId;
 ```
 

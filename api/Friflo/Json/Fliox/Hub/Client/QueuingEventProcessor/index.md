@@ -10,15 +10,13 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Is a queuing [IEventProcessor](../IEventProcessor/index.md) giving an application full control when event callback are invoked.
+Is a queuing [EventProcessor](../EventProcessor/index.md) giving an application full control when event callback are invoked.
 
 ```csharp
-public sealed class QueuingEventProcessor : IEventProcessor
+public sealed class QueuingEventProcessor : EventProcessor
 ```
 
-**Inheritance:** object → QueuingEventProcessor
-
-**Implements:** [IEventProcessor](../IEventProcessor/index.md)
+**Inheritance:** object → [EventProcessor](../EventProcessor/index.md) → QueuingEventProcessor
 
 ## Remarks
 
@@ -32,10 +30,10 @@ In this case the application must frequently call [ProcessEvents()](methods/Proc
 
 ## Methods
 
-| Name                                                               | Description                                                                 |
-| ------------------------------------------------------------------ | --------------------------------------------------------------------------- |
-| [EnqueueEvent(FlioxClient, EventMessage)](methods/EnqueueEvent.md) |                                                                             |
-| [ProcessEvents()](methods/ProcessEvents.md)                        | Need to be called frequently by application to process subscription events. |
+| Name                                                                     | Description                                                                 |
+| ------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| [EnqueueEvent(FlioxClient, EventMessage, bool)](methods/EnqueueEvent.md) |                                                                             |
+| [ProcessEvents()](methods/ProcessEvents.md)                              | Need to be called frequently by application to process subscription events. |
 
 ___
 

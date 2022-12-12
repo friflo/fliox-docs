@@ -29,7 +29,7 @@ public struct SetInfo
 | [closeCursors](fields/closeCursors.md)         | number of close query cursor tasks                                                                                                    |
 | [create](fields/create.md)                     | number of create tasks                                                                                                                |
 | [delete](fields/delete.md)                     | number of delete tasks                                                                                                                |
-| [patch](fields/patch.md)                       | number of patch tasks                                                                                                                 |
+| [merge](fields/merge.md)                       | number of patch tasks                                                                                                                 |
 | [peers](fields/peers.md)                       | number of tracked entities in an [EntitySet\<T1, T2\>](../EntitySet-2/index.md)                                                       |
 | [query](fields/query.md)                       | number of query tasks                                                                                                                 |
 | [read](fields/read.md)                         | number of read tasks                                                                                                                  |

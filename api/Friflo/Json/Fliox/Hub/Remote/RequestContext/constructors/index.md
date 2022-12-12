@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public RequestContext(RemoteHost remoteHost, string method, string route, string query, Stream body, IHttpHeaders headers, IHttpCookies cookies);
+public RequestContext(RemoteHost remoteHost, string method, string route, string query, Stream body, int contentLength, IHttpHeaders headers, MemoryBuffer memoryBuffer);
 ```
 
 ## Parameters
@@ -27,9 +27,11 @@ public RequestContext(RemoteHost remoteHost, string method, string route, string
 
 `body`  Stream
 
+`contentLength`  int
+
 `headers`  [IHttpHeaders](../../IHttpHeaders/index.md)
 
-`cookies`  [IHttpCookies](../../IHttpCookies/index.md)
+`memoryBuffer`  MemoryBuffer
 
 ___
 

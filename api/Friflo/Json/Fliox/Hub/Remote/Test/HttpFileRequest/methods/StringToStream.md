@@ -12,12 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public static Stream StringToStream(string jsonBody);
+public static Stream StringToStream(string jsonBody, out int length);
 ```
 
 ## Parameters
 
 `jsonBody`  string
+
+`length`  int
 
 ## Returns
 

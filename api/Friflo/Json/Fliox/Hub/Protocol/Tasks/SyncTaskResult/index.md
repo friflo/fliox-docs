@@ -11,21 +11,21 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[Discriminator("task", Description = "task result type")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CreateEntitiesResult, Discriminant = "create")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.UpsertEntitiesResult, Discriminant = "upsert")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.ReadEntitiesResult, Discriminant = "read")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.QueryEntitiesResult, Discriminant = "query")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.AggregateEntitiesResult, Discriminant = "aggregate")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.PatchEntitiesResult, Discriminant = "patch")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.DeleteEntitiesResult, Discriminant = "delete")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendMessageResult, Discriminant = "message")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendCommandResult, Discriminant = "command")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CloseCursorsResult, Discriminant = "closeCursors")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeChangesResult, Discriminant = "subscribeChanges")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeMessageResult, Discriminant = "subscribeMessage")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.ReserveKeysResult, Discriminant = "reserveKeys")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.TaskErrorResult, Discriminant = "error")]
+[Discriminator("task", "task result type")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CreateEntitiesResult, "create")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.UpsertEntitiesResult, "upsert")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.ReadEntitiesResult, "read")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.QueryEntitiesResult, "query")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.AggregateEntitiesResult, "aggregate")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.MergeEntitiesResult, "merge")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.DeleteEntitiesResult, "delete")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendMessageResult, "message")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendCommandResult, "command")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CloseCursorsResult, "closeCursors")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeChangesResult, "subscribeChanges")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeMessageResult, "subscribeMessage")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.ReserveKeysResult, "reserveKeys")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.TaskErrorResult, "error")]
 public abstract class SyncTaskResult
 ```
 

@@ -16,6 +16,12 @@ public abstract class SyncFunction
 
 **Inheritance:** object → SyncFunction
 
+## Fields
+
+| Name                       | Description                                                                                                                                                                                                                                                                                             |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [OnSync](fields/OnSync.md) | A handler method assigned to [OnSync](fields/OnSync.md) is called after executing a [SyncTask](../SyncTask/index.md) with[SyncTasks()](../FlioxClient/methods/SyncTasks.md). This is an alternative way to process a [SyncTask](../SyncTask/index.md) result to the common task processing shown below. |
+
 ## Properties
 
 | Name                             | Description                                                                                                             |

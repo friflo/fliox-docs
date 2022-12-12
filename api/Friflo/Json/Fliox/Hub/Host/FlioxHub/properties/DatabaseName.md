@@ -14,12 +14,12 @@
  name of the default [database](../fields/database.md) assigned to the [FlioxHub](../index.md)
 
 ```csharp
-public string DatabaseName { get; }
+public SmallString DatabaseName { get; }
 ```
 
 ## Property Value
 
-string
+SmallString
 
 ___
 

@@ -16,15 +16,14 @@
 | [CommandError](CommandError/index.md)         | Note: A [CommandError](CommandError/index.md) is never serialized. Its fields are assigned to [TaskErrorResult](../Tasks/TaskErrorResult/index.md) which instead is used for serialization of errors.                                 |
 | [EntityError](EntityError/index.md)           | Used by [SyncResponse](../SyncResponse/index.md) to return errors when mutating an entity by: create, upsert, patch and delete                                                                                                        |
 | [EntityException](EntityException/index.md)   |                                                                                                                                                                                                                                       |
-| [EntityValue](EntityValue/index.md)           |                                                                                                                                                                                                                                       |
 | [References](References/index.md)             | [References](References/index.md) are used to return entities referenced by fields of entities returned by read and query tasks.[References](References/index.md) can be nested to return referenced entities of referenced entities. |
 | [ReferencesResult](ReferencesResult/index.md) |                                                                                                                                                                                                                                       |
 
 ## Structs
 
-| Name                                  | Description |
-| ------------------------------------- | ----------- |
-| [JsonEntities](JsonEntities/index.md) |             |
+| Name                                | Description |
+| ----------------------------------- | ----------- |
+| [EntityValue](EntityValue/index.md) |             |
 
 ## Interfaces
 

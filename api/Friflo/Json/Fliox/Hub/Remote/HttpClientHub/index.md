@@ -32,11 +32,12 @@ public sealed class HttpClientHub : RemoteClientHub
 
 ## Methods
 
-| Name                                                            | Description |
-| --------------------------------------------------------------- | ----------- |
-| [Dispose()](methods/Dispose.md)                                 |             |
-| [ExecuteSync(SyncRequest, SyncContext)](methods/ExecuteSync.md) |             |
-| [ToString()](methods/ToString.md)                               |             |
+| Name                                                                            | Description |
+| ------------------------------------------------------------------------------- | ----------- |
+| [Dispose()](methods/Dispose.md)                                                 |             |
+| [ExecuteRequestAsync(SyncRequest, SyncContext)](methods/ExecuteRequestAsync.md) |             |
+| [InitSyncRequest(SyncRequest)](methods/InitSyncRequest.md)                      |             |
+| [ToString()](methods/ToString.md)                                               |             |
 
 ___
 

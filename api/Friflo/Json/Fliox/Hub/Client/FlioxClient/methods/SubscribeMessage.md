@@ -42,7 +42,7 @@ Note: To ensure remote clients with occasional disconnects get  events use [Clie
 
 ### See Also
 
-- [SetEventProcessor(IEventProcessor)](SetEventProcessor.md)
+- [SetEventProcessor(EventProcessor)](SetEventProcessor.md)
 
 ## SubscribeMessage\<TMessage\>(string, MessageSubscriptionHandler\<TMessage\>)
 

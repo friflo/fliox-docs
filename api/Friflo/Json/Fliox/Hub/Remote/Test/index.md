@@ -14,8 +14,6 @@
 | Name                                        | Description                                                                                                                       |
 | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | [HttpFile](HttpFile/index.md)               | [HttpFile](HttpFile/index.md) is used to run multiple HTTP requests given in a simple text file used for concise regression tests |
-| [HttpFileCookies](HttpFileCookies/index.md) |                                                                                                                                   |
-| [HttpFileHeaders](HttpFileHeaders/index.md) |                                                                                                                                   |
 | [HttpFileRequest](HttpFileRequest/index.md) |                                                                                                                                   |
 
 ___

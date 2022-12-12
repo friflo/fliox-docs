@@ -20,21 +20,22 @@ public sealed class RequestContext
 
 ## Constructors
 
-| Name                                                                                                            | Description |
-| --------------------------------------------------------------------------------------------------------------- | ----------- |
-| [RequestContext(RemoteHost, string, string, string, Stream, IHttpHeaders, IHttpCookies)](constructors/index.md) |             |
+| Name                                                                                                                 | Description |
+| -------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [RequestContext(RemoteHost, string, string, string, Stream, int, IHttpHeaders, MemoryBuffer)](constructors/index.md) |             |
 
 ## Fields
 
-| Name                         | Description |
-| ---------------------------- | ----------- |
-| [body](fields/body.md)       |             |
-| [cookies](fields/cookies.md) |             |
-| [headers](fields/headers.md) |             |
-| [hub](fields/hub.md)         |             |
-| [method](fields/method.md)   |             |
-| [query](fields/query.md)     |             |
-| [route](fields/route.md)     |             |
+| Name                                     | Description |
+| ---------------------------------------- | ----------- |
+| [body](fields/body.md)                   |             |
+| [contentLength](fields/contentLength.md) |             |
+| [headers](fields/headers.md)             |             |
+| [hub](fields/hub.md)                     |             |
+| [memoryBuffer](fields/memoryBuffer.md)   |             |
+| [method](fields/method.md)               |             |
+| [query](fields/query.md)                 |             |
+| [route](fields/route.md)                 |             |
 
 ## Properties
 
@@ -42,7 +43,6 @@ public sealed class RequestContext
 | -------------------------------------------------------- | ----------- |
 | [Handled](properties/Handled.md)                         |             |
 | [ObjectMapper](properties/ObjectMapper.md)               |             |
-| [Offset](properties/Offset.md)                           |             |
 | [Response](properties/Response.md)                       |             |
 | [ResponseContentType](properties/ResponseContentType.md) |             |
 | [ResponseHeaders](properties/ResponseHeaders.md)         |             |
@@ -53,11 +53,10 @@ public sealed class RequestContext
 | Name                                                              | Description |
 | ----------------------------------------------------------------- | ----------- |
 | [AddHeader(string, string)](methods/AddHeader.md)                 |             |
-| [CreateSyncContext(IEventReceiver)](methods/CreateSyncContext.md) |             |
 | [IsBasePath(string, string)](methods/IsBasePath.md)               |             |
 | [SetHeaders(Dictionary\<string, string\>)](methods/SetHeaders.md) |             |
 | [ToString()](methods/ToString.md)                                 |             |
-| [Write(JsonValue, int, string, int)](methods/Write.md)            |             |
+| [Write(JsonValue, string, int)](methods/Write.md)                 |             |
 | [WriteError(string, string, int)](methods/WriteError.md)          |             |
 | [WriteString(string, string, int)](methods/WriteString.md)        |             |
 

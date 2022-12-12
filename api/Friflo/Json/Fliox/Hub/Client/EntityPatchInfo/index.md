@@ -10,7 +10,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Contain the patches applied to the Members of an entity identified by its Id
+Contain the merge patch applied to an entity identified by its id
 
 ```csharp
 public readonly struct EntityPatchInfo

@@ -18,11 +18,11 @@ public static class HttpListenerExtensions
 
 ## Methods
 
-| Name                                                                                                                           | Description |
-| ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| [ExecuteFlioxRequest(HttpListenerContext, HttpHost)](methods/ExecuteFlioxRequest.md)                                           |             |
-| [WriteFlioxResponse(HttpListenerContext, RequestContext)](methods/WriteFlioxResponse.md)                                       |             |
-| [WriteResponseString(HttpListenerResponse, string, int, string, Dictionary\<string, string\>)](methods/WriteResponseString.md) |             |
+| Name                                                                                                                           | Description                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ExecuteFlioxRequest(HttpListenerContext, HttpHost)](methods/ExecuteFlioxRequest.md)                                           | Execute the request return a RequestContext containing the execution result. To return a HTTP response [WriteFlioxResponse(HttpListenerContext, RequestContext)](methods/WriteFlioxResponse.md) need to be called.  |
+| [WriteFlioxResponse(HttpListenerContext, RequestContext)](methods/WriteFlioxResponse.md)                                       | Write the result of [ExecuteFlioxRequest(HttpListenerContext, HttpHost)](methods/ExecuteFlioxRequest.md) to the given `context`                                                                                     |
+| [WriteResponseString(HttpListenerResponse, string, int, string, Dictionary\<string, string\>)](methods/WriteResponseString.md) |                                                                                                                                                                                                                     |
 
 ___
 

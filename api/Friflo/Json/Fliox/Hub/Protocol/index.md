@@ -26,7 +26,6 @@
 | [ProtocolMessage](ProtocolMessage/index.md)       | [ProtocolMessage](ProtocolMessage/index.md) is the base type for all messages which are classified into request, response and event.                                                                       |
 | [ProtocolRequest](ProtocolRequest/index.md)       |                                                                                                                                                                                                            |
 | [ProtocolResponse](ProtocolResponse/index.md)     | Base type for response messages send from a host to a client in reply of [SyncRequest](SyncRequest/index.md)                                                                                               |
-| [SyncEvent](SyncEvent/index.md)                   | A [SyncEvent](SyncEvent/index.md) corresponds to a [SyncRequest](SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](SyncEvent/fields/tasks.md) field          |
 | [SyncRequest](SyncRequest/index.md)               | A [SyncRequest](SyncRequest/index.md) is sent to a [FlioxHub](../Host/FlioxHub/index.md) targeting a specific [database](SyncRequest/fields/database.md).                                                  |
 | [SyncResponse](SyncResponse/index.md)             | A [SyncResponse](SyncResponse/index.md) is the response of [SyncRequest](SyncRequest/index.md) executed by a [FlioxHub](../Host/FlioxHub/index.md)                                                         |
 
@@ -36,6 +35,7 @@
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [ChangeInfo](ChangeInfo/index.md) | [ChangeInfo](ChangeInfo/index.md) is never de\-\/serialized.             It purpose is to get aggregated change information about a [SyncEvent](SyncEvent/index.md) by [GetEventInfo()](SyncEvent/methods/GetEventInfo.md). |
 | [EventInfo](EventInfo/index.md)   | [EventInfo](EventInfo/index.md) is never de\-\/serialized.             It purpose is to get all aggregated information about a [SyncEvent](SyncEvent/index.md) by  by [GetEventInfo()](SyncEvent/methods/GetEventInfo.md).  |
+| [SyncEvent](SyncEvent/index.md)   | A [SyncEvent](SyncEvent/index.md) corresponds to a [SyncRequest](SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](SyncEvent/fields/tasks.md) field                           |
 
 ## Enums
 

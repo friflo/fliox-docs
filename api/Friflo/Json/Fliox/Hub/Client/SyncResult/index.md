@@ -18,25 +18,21 @@ public sealed class SyncResult
 
 **Inheritance:** object → SyncResult
 
-## Fields
-
-| Name                             | Description |
-| -------------------------------- | ----------- |
-| [failed](fields/failed.md)       |             |
-| [functions](fields/functions.md) |             |
-
 ## Properties
 
-| Name                             | Description |
-| -------------------------------- | ----------- |
-| [Message](properties/Message.md) |             |
-| [Success](properties/Success.md) |             |
+| Name                                 | Description |
+| ------------------------------------ | ----------- |
+| [Failed](properties/Failed.md)       |             |
+| [Functions](properties/Functions.md) |             |
+| [Message](properties/Message.md)     |             |
+| [Success](properties/Success.md)     |             |
 
 ## Methods
 
-| Name                              | Description |
-| --------------------------------- | ----------- |
-| [ToString()](methods/ToString.md) |             |
+| Name                                   | Description |
+| -------------------------------------- | ----------- |
+| [Reuse(FlioxClient)](methods/Reuse.md) |             |
+| [ToString()](methods/ToString.md)      |             |
 
 ___
 

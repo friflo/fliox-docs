@@ -12,9 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.MemoryContainer/<QueryEntities>d__10)]
-[DebuggerStepThrough]
-public Task<QueryEntitiesResult> QueryEntities(QueryEntities command, SyncContext syncContext);
+public QueryEntitiesResult QueryEntities(QueryEntities command, SyncContext syncContext);
 ```
 
 ## Parameters
@@ -25,7 +23,7 @@ public Task<QueryEntitiesResult> QueryEntities(QueryEntities command, SyncContex
 
 ## Returns
 
-Task\<[QueryEntitiesResult](../../../Protocol/Tasks/QueryEntitiesResult/index.md)\>
+[QueryEntitiesResult](../../../Protocol/Tasks/QueryEntitiesResult/index.md)
 
 ___
 

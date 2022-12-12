@@ -11,6 +11,8 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+Write the result of [ExecuteFlioxRequest(HttpListenerContext, HttpHost)](ExecuteFlioxRequest.md) to the given `context`
+
 ```csharp
 [AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.HttpListenerExtensions/<WriteFlioxResponse>d__1)]
 [DebuggerStepThrough]

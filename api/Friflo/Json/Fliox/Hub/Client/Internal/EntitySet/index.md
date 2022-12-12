@@ -16,12 +16,24 @@ public abstract class EntitySet
 
 **Inheritance:** object → EntitySet
 
+## Fields
+
+| Name                   | Description |
+| ---------------------- | ----------- |
+| [name](fields/name.md) |             |
+
 ## Properties
 
 | Name                                     | Description |
 | ---------------------------------------- | ----------- |
 | [WriteNull](properties/WriteNull.md)     |             |
 | [WritePretty](properties/WritePretty.md) |             |
+
+## Methods
+
+| Name                                                                   | Description |
+| ---------------------------------------------------------------------- | ----------- |
+| [GetRawEntities(EntitySet, List\<object\>)](methods/GetRawEntities.md) |             |
 
 ___
 

@@ -17,6 +17,7 @@
 | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | [DeleteRange(ICollection\<T\>)](#deleterangeicollectiont)       | Create a [DeleteTask\<T1, T2\>](../../DeleteTask-2/index.md) to delete the given `entities` in the container                |
 | [DeleteRange(ICollection\<TKey\>)](#deleterangeicollectiontkey) | Create a [DeleteTask\<T1, T2\>](../../DeleteTask-2/index.md) to delete the entities with the passed `keys` in the container |
+| [DeleteRange(List\<TKey\>)](#deleterangelisttkey)               | Create a [DeleteTask\<T1, T2\>](../../DeleteTask-2/index.md) to delete the entities with the passed `keys` in the container |
 
 ## DeleteRange(ICollection\<T\>)
 
@@ -49,6 +50,26 @@ public DeleteTask<TKey, T> DeleteRange(ICollection<TKey> keys);
 ### Parameters
 
 `keys`  ICollection\<TKey\>
+
+### Remarks
+
+ To execute the task call [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
+
+### Returns
+
+DeleteTask\<TKey, T\>
+
+## DeleteRange(List\<TKey\>)
+
+Create a [DeleteTask\<T1, T2\>](../../DeleteTask-2/index.md) to delete the entities with the passed `keys` in the container
+
+```csharp
+public DeleteTask<TKey, T> DeleteRange(List<TKey> keys);
+```
+
+### Parameters
+
+`keys`  List\<TKey\>
 
 ### Remarks
 

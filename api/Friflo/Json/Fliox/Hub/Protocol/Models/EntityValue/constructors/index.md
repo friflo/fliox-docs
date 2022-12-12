@@ -13,50 +13,45 @@
 
 ## Overloads
 
-| Signature                                           | Description                                                   |
-| --------------------------------------------------- | ------------------------------------------------------------- |
-| [EntityValue()](#entityvalue)                       |                                                               |
-| [EntityValue(EntityError)](#entityvalueentityerror) |                                                               |
-| [EntityValue(JsonValue)](#entityvaluejsonvalue)     |                                                               |
-| [EntityValue(string)](#entityvaluestring)           |  Prefer using [EntityValue(JsonValue)](#entityvaluejsonvalue) |
+| Signature                                                            | Description |
+| -------------------------------------------------------------------- | ----------- |
+| [EntityValue(JsonKey)](#entityvaluejsonkey)                          |             |
+| [EntityValue(JsonKey, EntityError)](#entityvaluejsonkey-entityerror) |             |
+| [EntityValue(JsonKey, JsonValue)](#entityvaluejsonkey-jsonvalue)     |             |
 
-## EntityValue()
-
-```csharp
-public EntityValue();
-```
-
-## EntityValue(EntityError)
+## EntityValue(JsonKey)
 
 ```csharp
-public EntityValue(EntityError error);
+public EntityValue(in JsonKey key);
 ```
 
 ### Parameters
+
+`key`  JsonKey
+
+## EntityValue(JsonKey, EntityError)
+
+```csharp
+public EntityValue(in JsonKey key, EntityError error);
+```
+
+### Parameters
+
+`key`  JsonKey
 
 `error`  [EntityError](../../EntityError/index.md)
 
-## EntityValue(JsonValue)
+## EntityValue(JsonKey, JsonValue)
 
 ```csharp
-public EntityValue(JsonValue json);
+public EntityValue(in JsonKey key, in JsonValue json);
 ```
 
 ### Parameters
+
+`key`  JsonKey
 
 `json`  JsonValue
-
-## EntityValue(string)
-
- Prefer using [EntityValue(JsonValue)](#entityvaluejsonvalue)
-
-```csharp
-public EntityValue(string json);
-```
-
-### Parameters
-
-`json`  string
 
 ___
 

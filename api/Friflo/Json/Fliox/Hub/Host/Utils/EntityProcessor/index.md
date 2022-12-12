@@ -10,7 +10,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Utils](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Is used to ensure that [ReadEntitiesResult](../../../Protocol/Tasks/ReadEntitiesResult/index.md) returned by [ReadEntities(ReadEntities, SyncContext)](../../EntityContainer/methods/ReadEntities.md)contains valid [entities](../../../Protocol/Tasks/ReadEntitiesResult/fields/entities.md). Validation is required for [FlioxHub](../../FlioxHub/index.md) implementations which cannot ensure that the value of its key\/values are JSON. See [ValidateEntities(string, string, SyncContext)](../../../Protocol/Tasks/ReadEntitiesResult/methods/ValidateEntities.md).
+Is used to ensure that [ReadEntitiesResult](../../../Protocol/Tasks/ReadEntitiesResult/index.md) returned by [ReadEntitiesAsync(ReadEntities, SyncContext)](../../EntityContainer/methods/ReadEntitiesAsync.md)contains valid [entities](../../../Protocol/Tasks/ReadEntitiesResult/fields/entities.md). Validation is required for [FlioxHub](../../FlioxHub/index.md) implementations which cannot ensure that the value of its key\/values are JSON. See [ValidateEntities(string, string, SyncContext)](../../../Protocol/Tasks/ReadEntitiesResult/methods/ValidateEntities.md).
 
 ```csharp
 public sealed class EntityProcessor : IDisposable

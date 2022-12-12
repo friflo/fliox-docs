@@ -11,13 +11,32 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+## Overloads
+
+| Signature                                                 | Description |
+| --------------------------------------------------------- | ----------- |
+| [AddRange(ICollection\<TKey\>)](#addrangeicollectiontkey) |             |
+| [AddRange(List\<TKey\>)](#addrangelisttkey)               |             |
+
+## AddRange(ICollection\<TKey\>)
+
 ```csharp
 public void AddRange(ICollection<TKey> keys);
 ```
 
-## Parameters
+### Parameters
 
 `keys`  ICollection\<TKey\>
+
+## AddRange(List\<TKey\>)
+
+```csharp
+public void AddRange(List<TKey> keys);
+```
+
+### Parameters
+
+`keys`  List\<TKey\>
 
 ___
 

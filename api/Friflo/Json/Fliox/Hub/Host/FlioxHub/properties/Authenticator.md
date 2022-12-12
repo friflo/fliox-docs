@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-An [Authenticator](../../Auth/Authenticator/index.md) performs authentication and authorization for all[tasks](../../../Protocol/SyncRequest/fields/tasks.md) in a [SyncRequest](../../../Protocol/SyncRequest/index.md) sent by a client. All successful authorized [tasks](../../../Protocol/SyncRequest/fields/tasks.md) are executed by the handler.
+An [Authenticator](../../Auth/Authenticator/index.md) performs authentication and authorization for all[tasks](../../../Protocol/SyncRequest/fields/tasks.md) in a [SyncRequest](../../../Protocol/SyncRequest/index.md) sent by a client. All successful authorized [tasks](../../../Protocol/SyncRequest/fields/tasks.md) are executed by the service.
 
 ```csharp
 public Authenticator Authenticator { get; set; }

@@ -14,7 +14,7 @@
 error details when accessing an entity
 
 ```csharp
-[Serialize]
+[Serialize(null)]
 public string message;
 ```
 

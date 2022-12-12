@@ -14,12 +14,19 @@
 | Name                                        | Description                                                                |
 | ------------------------------------------- | -------------------------------------------------------------------------- |
 | [EventDispatcher](EventDispatcher/index.md) | An [EventDispatcher](EventDispatcher/index.md) is used to enable Pub\-Sub. |
+| [EventReceiver](EventReceiver/index.md)     |                                                                            |
 
-## Interfaces
+## Structs
 
-| Name                                      | Description |
-| ----------------------------------------- | ----------- |
-| [IEventReceiver](IEventReceiver/index.md) |             |
+| Name                                    | Description                                                                                                                                                                                        |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [SendEventArgs](SendEventArgs/index.md) | Optimization for sending remote events.Avoids frequent allocations of eventBuffer lists [EventMessage](../../Protocol/EventMessage/index.md)[events](../../Protocol/EventMessage/fields/events.md) |
+
+## Enums
+
+| Name                                          | Description                                                                                                                                                                                                       |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [EventDispatching](EventDispatching/index.md) | Specify the way in which events are send to their targets by an [EventDispatcher](EventDispatcher/index.md)Events are generated from the database changes and messages send to a [FlioxHub](../FlioxHub/index.md) |
 
 ___
 

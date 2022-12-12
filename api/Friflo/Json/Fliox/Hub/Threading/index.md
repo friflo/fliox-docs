@@ -14,9 +14,6 @@
 | Name                                                                              | Description |
 | --------------------------------------------------------------------------------- | ----------- |
 | [AsyncReaderWriterLock](AsyncReaderWriterLock/index.md)                           |             |
-| [DataChannel\<T\>](DataChannel-1/index.md)                                        |             |
-| [DataChannelReader\<T\>](DataChannelReader-1/index.md)                            |             |
-| [DataChannelWriter\<T\>](DataChannelWriter-1/index.md)                            |             |
 | [SingleThreadSynchronizationContext](SingleThreadSynchronizationContext/index.md) |             |
 
 ___

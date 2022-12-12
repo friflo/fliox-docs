@@ -11,7 +11,13 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-query filter as a  (infix notation) returning a boolean value. E.g. `o.name == 'Smartphone'`if [filterTree](filterTree.md) is assigned it has priority
+query filter as a returning a boolean value. E.g.
+
+```
+o => o.name == 'Smartphone'
+```
+
+if [filterTree](filterTree.md) is assigned it has priority
 
 ```csharp
 public string filter;

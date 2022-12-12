@@ -31,7 +31,6 @@ public sealed class SyncResponse : ProtocolResponse
 | [containers](fields/containers.md) | entities as results from the [tasks](../SyncRequest/fields/tasks.md) in a [SyncRequest](../SyncRequest/index.md)            grouped by container |
 | [database](fields/database.md)     | for debugging \- not used by Protocol                                                                                                            |
 | [info](fields/info.md)             |                                                                                                                                                  |
-| [resultMap](fields/resultMap.md)   |                                                                                                                                                  |
 | [tasks](fields/tasks.md)           | list of task results corresponding to the [tasks](../SyncRequest/fields/tasks.md) in a [SyncRequest](../SyncRequest/index.md)                    |
 
 ## Methods
@@ -39,6 +38,7 @@ public sealed class SyncResponse : ProtocolResponse
 | Name                                                     | Description |
 | -------------------------------------------------------- | ----------- |
 | [AssertResponse(SyncRequest)](methods/AssertResponse.md) |             |
+| [FindContainer(string)](methods/FindContainer.md)        |             |
 
 ___
 

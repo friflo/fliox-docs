@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public Task<ReadEntitiesResult> ReadEntities(ReadEntities command, SyncContext syncContext);
+public ReadEntitiesResult ReadEntities(ReadEntities command, SyncContext syncContext);
 ```
 
 ## Parameters
@@ -23,7 +23,7 @@ public Task<ReadEntitiesResult> ReadEntities(ReadEntities command, SyncContext s
 
 ## Returns
 
-Task\<[ReadEntitiesResult](../../../Protocol/Tasks/ReadEntitiesResult/index.md)\>
+[ReadEntitiesResult](../../../Protocol/Tasks/ReadEntitiesResult/index.md)
 
 ___
 

@@ -33,7 +33,7 @@ List\<[SyncTask](../../SyncTask/index.md)\>
 
 ## See Also
 
-- [SetEventProcessor(IEventProcessor)](SetEventProcessor.md)
+- [SetEventProcessor(EventProcessor)](SetEventProcessor.md)
 
 ___
 

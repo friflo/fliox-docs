@@ -22,16 +22,16 @@ public readonly struct Patch<TKey>
 
 ## Constructors
 
-| Name                                                             | Description |
-| ---------------------------------------------------------------- | ----------- |
-| [Patch(TKey, JsonKey, List\<JsonPatch\>)](constructors/index.md) |             |
+| Name                                            | Description |
+| ----------------------------------------------- | ----------- |
+| [Patch(TKey, JsonValue)](constructors/index.md) |             |
 
 ## Fields
 
-| Name                         | Description |
-| ---------------------------- | ----------- |
-| [key](fields/key.md)         |             |
-| [patches](fields/patches.md) |             |
+| Name                     | Description |
+| ------------------------ | ----------- |
+| [key](fields/key.md)     |             |
+| [patch](fields/patch.md) |             |
 
 ## Methods
 

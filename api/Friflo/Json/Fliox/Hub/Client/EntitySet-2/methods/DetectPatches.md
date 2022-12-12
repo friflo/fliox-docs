@@ -15,16 +15,16 @@
 
 | Signature                                                     | Description                                                                                                                                                                                                               |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [DetectPatches()](#detectpatches)                             | Detect [Patches](../../DetectPatchesTask-1/properties/Patches.md) made to all tracked entities. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)          |
-| [DetectPatches(IEnumerable\<T\>)](#detectpatchesienumerablet) | Detect [Patches](../../DetectPatchesTask-1/properties/Patches.md) made to the passed tracked `entities`. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md) |
-| [DetectPatches(T)](#detectpatchest)                           | Detect [Patches](../../DetectPatchesTask-1/properties/Patches.md) made to the passed tracked `entity`. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)   |
+| [DetectPatches()](#detectpatches)                             | Detect [Patches](../../DetectPatchesTask-2/properties/Patches.md) made to all tracked entities. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)          |
+| [DetectPatches(IEnumerable\<T\>)](#detectpatchesienumerablet) | Detect [Patches](../../DetectPatchesTask-2/properties/Patches.md) made to the passed tracked `entities`. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md) |
+| [DetectPatches(T)](#detectpatchest)                           | Detect [Patches](../../DetectPatchesTask-2/properties/Patches.md) made to the passed tracked `entity`. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)   |
 
 ## DetectPatches()
 
-Detect [Patches](../../DetectPatchesTask-1/properties/Patches.md) made to all tracked entities. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
+Detect [Patches](../../DetectPatchesTask-2/properties/Patches.md) made to all tracked entities. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
 
 ```csharp
-public DetectPatchesTask<T> DetectPatches();
+public DetectPatchesTask<TKey, T> DetectPatches();
 ```
 
 ### Remarks
@@ -33,14 +33,14 @@ public DetectPatchesTask<T> DetectPatches();
 
 ### Returns
 
-DetectPatchesTask\<T\>
+DetectPatchesTask\<TKey, T\>
 
 ## DetectPatches(IEnumerable\<T\>)
 
-Detect [Patches](../../DetectPatchesTask-1/properties/Patches.md) made to the passed tracked `entities`. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
+Detect [Patches](../../DetectPatchesTask-2/properties/Patches.md) made to the passed tracked `entities`. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
 
 ```csharp
-public DetectPatchesTask<T> DetectPatches(IEnumerable<T> entities);
+public DetectPatchesTask<TKey, T> DetectPatches(IEnumerable<T> entities);
 ```
 
 ### Parameters
@@ -49,14 +49,14 @@ public DetectPatchesTask<T> DetectPatches(IEnumerable<T> entities);
 
 ### Returns
 
-DetectPatchesTask\<T\>
+DetectPatchesTask\<TKey, T\>
 
 ## DetectPatches(T)
 
-Detect [Patches](../../DetectPatchesTask-1/properties/Patches.md) made to the passed tracked `entity`. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
+Detect [Patches](../../DetectPatchesTask-2/properties/Patches.md) made to the passed tracked `entity`. Detected patches are applied to the container when calling [SyncTasks()](../../FlioxClient/methods/SyncTasks.md)
 
 ```csharp
-public DetectPatchesTask<T> DetectPatches(T entity);
+public DetectPatchesTask<TKey, T> DetectPatches(T entity);
 ```
 
 ### Parameters
@@ -65,7 +65,7 @@ public DetectPatchesTask<T> DetectPatches(T entity);
 
 ### Returns
 
-DetectPatchesTask\<T\>
+DetectPatchesTask\<TKey, T\>
 
 ___
 
