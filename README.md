@@ -34,7 +34,7 @@ These groups fit mainly to their namespaces. Except `.Remote` containing client 
 | .Host        | [FileDatabase](api/Friflo/Json/Fliox/Hub/Host/FileDatabase/index.md)                  | Database storing records in the `file-system`                                   |
 | .Host        | [MemoryDatabase](api/Friflo/Json/Fliox/Hub/Host/MemoryDatabase/index.md)              | Database storing records `in-memory`                                            |
 | .Host        | [DatabaseSchema](api/Friflo/Json/Fliox/Hub/Host/DatabaseSchema/index.md)              | Used to assign a **schema** to a database                                       |
-| .Host        | [TaskHandler](api/Friflo/Json/Fliox/Hub/Host/TaskHandler/index.md)                    | Used to implement custom database commands declared in a `FlioxClient` subclass |
+| .Host        | [DatabaseService](api/Friflo/Json/Fliox/Hub/Host/DatabaseService/index.md)            | Used to implement custom database commands declared in a `FlioxClient` subclass |
 | .Host.Event  | [EventDispatcher](api/Friflo/Json/Fliox/Hub/Host/Event/EventDispatcher/index.md)      | Enables **Pub-Sub** by a `FlioxHub`                                             |
 
 
