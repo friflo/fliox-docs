@@ -20,13 +20,13 @@ public abstract class EventProcessor
 
 ## Remarks
 
-By default a [FlioxClient](../FlioxClient/index.md) uses a [DirectEventProcessor](../DirectEventProcessor/index.md) to handle subscription events in the thread the events arrive.
+By default a [FlioxClient](../FlioxClient/index.md) uses a [SynchronousEventProcessor](../SynchronousEventProcessor/index.md) to handle subscription events in the thread the events arrive.
 
 ## Methods
 
-| Name                                                                     | Description |
-| ------------------------------------------------------------------------ | ----------- |
-| [EnqueueEvent(FlioxClient, EventMessage, bool)](methods/EnqueueEvent.md) |             |
+| Name                                                                                                                | Description |
+| ------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [EnqueueEvent(FlioxClient, JsonValue& modreq(System.Runtime.InteropServices.InAttribute))](methods/EnqueueEvent.md) |             |
 
 ___
 

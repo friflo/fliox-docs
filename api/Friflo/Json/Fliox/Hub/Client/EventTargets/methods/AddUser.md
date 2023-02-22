@@ -13,20 +13,20 @@
 
 ## Overloads
 
-| Signature                           | Description |
-| ----------------------------------- | ----------- |
-| [AddUser(JsonKey)](#adduserjsonkey) |             |
-| [AddUser(string)](#adduserstring)   |             |
+| Signature                                   | Description |
+| ------------------------------------------- | ----------- |
+| [AddUser(ShortString)](#addusershortstring) |             |
+| [AddUser(string)](#adduserstring)           |             |
 
-## AddUser(JsonKey)
+## AddUser(ShortString)
 
 ```csharp
-public void AddUser(in JsonKey user);
+public void AddUser(in ShortString user);
 ```
 
 ### Parameters
 
-`user`  JsonKey
+`user`  ShortString
 
 ## AddUser(string)
 

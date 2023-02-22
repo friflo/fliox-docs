@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-return the groups of the current user. Optionally change the groups of the current user
+Return the groups of the current user. Optionally change the groups of the current user
 
 ```csharp
 public CommandTask<UserResult> User(UserParam param);

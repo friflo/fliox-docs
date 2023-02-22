@@ -12,16 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void EnqueueEvent(FlioxClient client, EventMessage eventMessage, bool reusedEvent);
+public void EnqueueEvent(FlioxClient client, JsonValue& modreq(System.Runtime.InteropServices.InAttribute) eventMessage);
 ```
 
 ## Parameters
 
 `client`  [FlioxClient](../../FlioxClient/index.md)
 
-`eventMessage`  [EventMessage](../../../Protocol/EventMessage/index.md)
-
-`reusedEvent`  bool
+`eventMessage`  JsonValue& modreq(System.Runtime.InteropServices.InAttribute)
 
 ___
 

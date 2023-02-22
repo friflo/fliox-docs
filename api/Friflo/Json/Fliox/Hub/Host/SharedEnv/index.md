@@ -13,7 +13,7 @@
 SharedEnv provide a set of shared resources available via [sharedEnv](../FlioxHub/fields/sharedEnv.md).
 
 ```csharp
-public class SharedEnv : IDisposable, ILogSource
+public sealed class SharedEnv : IDisposable, ILogSource
 ```
 
 **Inheritance:** object → SharedEnv
@@ -26,10 +26,10 @@ In particular it provides a [TypeStore](properties/TypeStore.md) and a Pool. The
 
 ## Constructors
 
-| Name                                                             | Description |
-| ---------------------------------------------------------------- | ----------- |
-| [SharedEnv()](constructors/index.md#sharedenv)                   |             |
-| [SharedEnv(TypeStore)](constructors/index.md#sharedenvtypestore) |             |
+| Name                                                       | Description |
+| ---------------------------------------------------------- | ----------- |
+| [SharedEnv()](constructors/index.md#sharedenv)             |             |
+| [SharedEnv(string)](constructors/index.md#sharedenvstring) |             |
 
 ## Properties
 
@@ -46,6 +46,7 @@ In particular it provides a [TypeStore](properties/TypeStore.md) and a Pool. The
 | --------------------------------------- | ----------- |
 | [Dispose()](methods/Dispose.md)         |             |
 | [DisposePool()](methods/DisposePool.md) |             |
+| [ToString()](methods/ToString.md)       |             |
 
 ___
 

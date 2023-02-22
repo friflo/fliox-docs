@@ -13,14 +13,14 @@
 An EntitySet represents a collection (table) of entities (records) of type `T` and their key type `TKey`. The methods of an EntitySet\<T1, T2\> enable to create, read, upsert, delete, patch and aggregate container entities.It also allows to subscribe to entity changes made by other database clients.
 
 ```csharp
-[TypeMapper(Friflo.Json.Fliox.Hub.Client.Internal.Map.EntitySetMatcher)]
 [CLSCompliant(true)]
+[TypeMapper(Friflo.Json.Fliox.Hub.Client.Internal.Map.EntitySetMatcher)]
 public sealed class EntitySet<TKey, T> : EntitySetBase<T>
 ```
 
 **Inheritance:** object → [EntitySet](../Internal/EntitySet/index.md) → [EntitySetBase\<T\>](../Internal/EntitySetBase-1/index.md) → EntitySet\<TKey, T\>
 
-**Attributes:** TypeMapperAttribute,CLSCompliantAttribute
+**Attributes:** CLSCompliantAttribute,TypeMapperAttribute
 
 ## Type Parameters
 

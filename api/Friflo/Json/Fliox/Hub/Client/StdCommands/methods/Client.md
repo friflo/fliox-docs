@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-return client specific infos and adjust general client behavior like [queueEvents](../../../DB/Cluster/ClientParam/fields/queueEvents.md)
+Return client specific infos and adjust general client behavior like [queueEvents](../../../DB/Cluster/ClientParam/fields/queueEvents.md)
 
 ```csharp
 public CommandTask<ClientResult> Client(ClientParam param);

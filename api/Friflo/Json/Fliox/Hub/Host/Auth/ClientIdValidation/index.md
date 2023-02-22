@@ -15,9 +15,9 @@ Represent the result of client id validation returned by [ValidateClientId(Clien
 ```csharp
 public enum ClientIdValidation
 {
-    IsNull = 0,
-    Invalid = 1,
-    Valid = 2
+    IsNull = 1,
+    Invalid = 2,
+    Valid = 3
 }
 ```
 

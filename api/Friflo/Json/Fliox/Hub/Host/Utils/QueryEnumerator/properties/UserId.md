@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public JsonKey UserId { get; }
+public ShortString UserId { get; }
 ```
 
 ## Property Value
 
-JsonKey
+ShortString
 
 ___
 

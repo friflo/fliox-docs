@@ -14,10 +14,10 @@
 [Flags]
 public enum FilterEntityResult
 {
-    HasMore = 0x0,
-    ReachedLimit = 0x1,
-    ReachedMaxCount = 0x2,
-    FilterError = 0x3
+    HasMore = 0x1,
+    ReachedLimit = 0x2,
+    ReachedMaxCount = 0x3,
+    FilterError = 0x4
 }
 ```
 

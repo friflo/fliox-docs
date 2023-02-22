@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public readonly JsonKey userId;
+public readonly ShortString userId;
 ```
 
 ## Field Value
 
-JsonKey
+ShortString
 
 ___
 

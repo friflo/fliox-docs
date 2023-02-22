@@ -13,17 +13,17 @@
 
 ## Overloads
 
-| Signature                                                                                                  | Description                                               |
-| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [EventTargetUsers\<TTask\>(TTask, ICollection\<JsonKey\>)](#eventtargetusersttaskttask-icollectionjsonkey) |  Send the `message` as an event only to the given `users` |
-| [EventTargetUsers\<TTask\>(TTask, ICollection\<string\>)](#eventtargetusersttaskttask-icollectionstring)   |  Send the `message` as an event only to the given `users` |
+| Signature                                                                                                          | Description                                               |
+| ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
+| [EventTargetUsers\<TTask\>(TTask, ICollection\<ShortString\>)](#eventtargetusersttaskttask-icollectionshortstring) |  Send the `message` as an event only to the given `users` |
+| [EventTargetUsers\<TTask\>(TTask, ICollection\<string\>)](#eventtargetusersttaskttask-icollectionstring)           |  Send the `message` as an event only to the given `users` |
 
-## EventTargetUsers\<TTask\>(TTask, ICollection\<JsonKey\>)
+## EventTargetUsers\<TTask\>(TTask, ICollection\<ShortString\>)
 
  Send the `message` as an event only to the given `users`
 
 ```csharp
-public static TTask EventTargetUsers<TTask>(this TTask message, ICollection<JsonKey> users);
+public static TTask EventTargetUsers<TTask>(this TTask message, ICollection<ShortString> users);
 ```
 
 ### Type Parameters
@@ -34,7 +34,7 @@ public static TTask EventTargetUsers<TTask>(this TTask message, ICollection<Json
 
 `message`  TTask
 
-`users`  ICollection\<JsonKey\>
+`users`  ICollection\<ShortString\>
 
 ### Returns
 

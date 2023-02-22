@@ -13,8 +13,8 @@
 ```csharp
 public enum HubLog
 {
-    Error = 0,
-    Info = 1
+    Error = 1,
+    Info = 2
 }
 ```
 

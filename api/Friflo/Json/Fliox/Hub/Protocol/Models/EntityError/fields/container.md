@@ -13,12 +13,12 @@
 
 ```csharp
 [Ignore]
-public string container;
+public ShortString container;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

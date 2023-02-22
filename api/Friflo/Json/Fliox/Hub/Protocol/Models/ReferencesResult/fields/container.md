@@ -14,13 +14,14 @@
 container name \- not utilized by Protocol
 
 ```csharp
+[Serialize("cont")]
 [DebugInfo]
-public string container;
+public ShortString container;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

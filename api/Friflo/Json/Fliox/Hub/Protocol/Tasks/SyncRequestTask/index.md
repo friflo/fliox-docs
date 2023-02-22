@@ -21,8 +21,8 @@ Polymorphic base type for all tasks.All tasks fall into two categories: like: cr
 [PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.AggregateEntities, "aggregate")]
 [PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.MergeEntities, "merge")]
 [PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.DeleteEntities, "delete")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendMessage, "message")]
-[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendCommand, "command")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendMessage, "msg")]
+[PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SendCommand, "cmd")]
 [PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.CloseCursors, "closeCursors")]
 [PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeChanges, "subscribeChanges")]
 [PolymorphType(Friflo.Json.Fliox.Hub.Protocol.Tasks.SubscribeMessage, "subscribeMessage")]
@@ -53,8 +53,9 @@ public abstract class SyncRequestTask
 | ---------------------------------------------------------------------------------- | ----------- |
 | [Execute(EntityDatabase, SyncResponse, SyncContext)](methods/Execute.md)           |             |
 | [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
+| [IsNop()](methods/IsNop.md)                                                        |             |
 | [PermissionDenied(string)](methods/PermissionDenied.md)                            |             |
-| [PreExecute(EntityDatabase)](methods/PreExecute.md)                                |             |
+| [PreExecute(EntityDatabase, SharedEnv)](methods/PreExecute.md)                     |             |
 | [ToString()](methods/ToString.md)                                                  |             |
 
 ___

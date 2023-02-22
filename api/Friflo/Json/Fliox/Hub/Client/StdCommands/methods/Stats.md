@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-return the number of entities of all containers (or the given container) of the database
+Return the number of entities of all containers (or the given container) of the database
 
 ```csharp
 public CommandTask<DbStats> Stats(string param);

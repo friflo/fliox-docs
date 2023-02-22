@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public List<string> addGroups;
+public List<ShortString> addGroups;
 ```
 
 ## Field Value
 
-List\<string\>
+List\<ShortString\>
 
 ___
 

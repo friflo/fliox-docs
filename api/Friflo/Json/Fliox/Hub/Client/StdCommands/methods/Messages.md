@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-list all database commands and messages
+List all database commands and messages
 
 ```csharp
 public CommandTask<DbMessages> Messages();

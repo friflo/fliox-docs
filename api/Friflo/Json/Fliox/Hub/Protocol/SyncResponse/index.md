@@ -38,7 +38,7 @@ public sealed class SyncResponse : ProtocolResponse
 | Name                                                     | Description |
 | -------------------------------------------------------- | ----------- |
 | [AssertResponse(SyncRequest)](methods/AssertResponse.md) |             |
-| [FindContainer(string)](methods/FindContainer.md)        |             |
+| [FindContainer(ShortString)](methods/FindContainer.md)   |             |
 
 ___
 

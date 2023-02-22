@@ -14,12 +14,12 @@
 database name
 
 ```csharp
-public string db;
+public ShortString db;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

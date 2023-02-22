@@ -11,6 +11,8 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Event](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+Send all queued events to all connected subscribers for an [EventDispatcher](../index.md) initialized withQueue Method is not thread\-safe. The method can be called from any thread.
+
 ```csharp
 public void SendQueuedEvents();
 ```

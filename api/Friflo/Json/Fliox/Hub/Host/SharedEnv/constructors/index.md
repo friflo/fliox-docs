@@ -13,10 +13,10 @@
 
 ## Overloads
 
-| Signature                                   | Description |
-| ------------------------------------------- | ----------- |
-| [SharedEnv()](#sharedenv)                   |             |
-| [SharedEnv(TypeStore)](#sharedenvtypestore) |             |
+| Signature                             | Description |
+| ------------------------------------- | ----------- |
+| [SharedEnv()](#sharedenv)             |             |
+| [SharedEnv(string)](#sharedenvstring) |             |
 
 ## SharedEnv()
 
@@ -24,15 +24,15 @@
 public SharedEnv();
 ```
 
-## SharedEnv(TypeStore)
+## SharedEnv(string)
 
 ```csharp
-public SharedEnv(TypeStore typeStore);
+public SharedEnv(string name);
 ```
 
 ### Parameters
 
-`typeStore`  TypeStore
+`name`  string
 
 ___
 

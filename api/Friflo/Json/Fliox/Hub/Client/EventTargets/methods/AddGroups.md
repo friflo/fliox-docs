@@ -11,11 +11,30 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+## Overloads
+
+| Signature                                                                 | Description |
+| ------------------------------------------------------------------------- | ----------- |
+| [AddGroups(ICollection\<ShortString\>)](#addgroupsicollectionshortstring) |             |
+| [AddGroups(ICollection\<string\>)](#addgroupsicollectionstring)           |             |
+
+## AddGroups(ICollection\<ShortString\>)
+
+```csharp
+public void AddGroups(ICollection<ShortString> groups);
+```
+
+### Parameters
+
+`groups`  ICollection\<ShortString\>
+
+## AddGroups(ICollection\<string\>)
+
 ```csharp
 public void AddGroups(ICollection<string> groups);
 ```
 
-## Parameters
+### Parameters
 
 `groups`  ICollection\<string\>
 

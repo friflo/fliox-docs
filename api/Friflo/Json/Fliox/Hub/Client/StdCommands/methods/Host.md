@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-returns general information about the Hub like version, host, project and environment name
+Returns general information about the Hub like version, host, project and environment name
 
 ```csharp
 public CommandTask<HostInfo> Host(HostParam param);

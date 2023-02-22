@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-list all databases and their containers hosted by the Hub
+List all databases and their containers hosted by the Hub
 
 ```csharp
 public CommandTask<HostCluster> Cluster();

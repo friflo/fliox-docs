@@ -14,12 +14,13 @@
 for debugging \- not used by Protocol
 
 ```csharp
-public string database;
+[Serialize("db")]
+public ShortString database;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

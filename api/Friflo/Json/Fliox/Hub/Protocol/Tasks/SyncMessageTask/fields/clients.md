@@ -14,12 +14,12 @@
 if set the Hub forward the message as an event only to given clients
 
 ```csharp
-public List<JsonKey> clients;
+public List<ShortString> clients;
 ```
 
 ## Field Value
 
-List\<JsonKey\>
+List\<ShortString\>
 
 ___
 

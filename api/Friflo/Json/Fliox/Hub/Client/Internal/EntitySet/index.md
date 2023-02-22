@@ -18,9 +18,10 @@ public abstract class EntitySet
 
 ## Fields
 
-| Name                   | Description |
-| ---------------------- | ----------- |
-| [name](fields/name.md) |             |
+| Name                             | Description |
+| -------------------------------- | ----------- |
+| [name](fields/name.md)           |             |
+| [nameShort](fields/nameShort.md) |             |
 
 ## Properties
 

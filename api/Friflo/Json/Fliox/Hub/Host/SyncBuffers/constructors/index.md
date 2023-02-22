@@ -12,12 +12,16 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public SyncBuffers(List<SyncRequestTask> eventTasks);
+public SyncBuffers(List<SyncRequestTask> syncTasks, List<SyncRequestTask> eventTasks, List<JsonValue> tasksJson);
 ```
 
 ## Parameters
 
+`syncTasks`  List\<[SyncRequestTask](../../../Protocol/Tasks/SyncRequestTask/index.md)\>
+
 `eventTasks`  List\<[SyncRequestTask](../../../Protocol/Tasks/SyncRequestTask/index.md)\>
+
+`tasksJson`  List\<JsonValue\>
 
 ___
 

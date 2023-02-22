@@ -13,10 +13,10 @@
 
 ## Overloads
 
-| Signature                                                                                                  | Description |
-| ---------------------------------------------------------------------------------------------------------- | ----------- |
-| [EntityError()](#entityerror)                                                                              |             |
-| [EntityError(EntityErrorType, string, JsonKey, string)](#entityerrorentityerrortype-string-jsonkey-string) |             |
+| Signature                                                                                                            | Description |
+| -------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [EntityError()](#entityerror)                                                                                        |             |
+| [EntityError(EntityErrorType, ShortString, JsonKey, string)](#entityerrorentityerrortype-shortstring-jsonkey-string) |             |
 
 ## EntityError()
 
@@ -24,17 +24,17 @@
 public EntityError();
 ```
 
-## EntityError(EntityErrorType, string, JsonKey, string)
+## EntityError(EntityErrorType, ShortString, JsonKey, string)
 
 ```csharp
-public EntityError(EntityErrorType type, string container, in JsonKey id, string message);
+public EntityError(EntityErrorType type, in ShortString container, in JsonKey id, string message);
 ```
 
 ### Parameters
 
 `type`  [EntityErrorType](../../EntityErrorType/index.md)
 
-`container`  string
+`container`  ShortString
 
 `id`  JsonKey
 

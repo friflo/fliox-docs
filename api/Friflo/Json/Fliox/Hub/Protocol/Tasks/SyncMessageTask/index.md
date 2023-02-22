@@ -36,9 +36,9 @@ public abstract class SyncMessageTask : SyncRequestTask
 
 ## Methods
 
-| Name                                                | Description                                                                             |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [PreExecute(EntityDatabase)](methods/PreExecute.md) | return true to execute this task synchronous. return false to execute task asynchronous |
+| Name                                                           | Description                                                                             |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [PreExecute(EntityDatabase, SharedEnv)](methods/PreExecute.md) | return true to execute this task synchronous. return false to execute task asynchronous |
 
 ___
 

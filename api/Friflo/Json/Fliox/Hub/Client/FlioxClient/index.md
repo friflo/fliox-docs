@@ -13,14 +13,14 @@
 Application classes extending FlioxClient offer two main functionalities:  Define a  by declaring its containers, commands and messages  Its instances are  providing type\-safe access to database containers, commands and messages
 
 ```csharp
-[TypeMapper(Friflo.Json.Fliox.Hub.Client.Internal.Map.FlioxClientMatcher)]
 [CLSCompliant(true)]
+[TypeMapper(Friflo.Json.Fliox.Hub.Client.Internal.Map.FlioxClientMatcher)]
 public class FlioxClient : IDisposable, IResetable, ILogSource
 ```
 
 **Inheritance:** object → FlioxClient
 
-**Attributes:** TypeMapperAttribute,CLSCompliantAttribute
+**Attributes:** CLSCompliantAttribute,TypeMapperAttribute
 
 **Implements:** IDisposable,IResetable,ILogSource
 
@@ -84,6 +84,12 @@ Its containers are fields or properties of type [EntitySet\<T1, T2\>](../EntityS
 | [TrySyncTasksSynchronous()](methods/TrySyncTasksSynchronous.md)                                                                                                                     |  Execute all tasks created by methods of [EntitySet\<T1, T2\>](../EntitySet-2/index.md) and FlioxClient                                                                                                                                                                               |
 | [UnsubscribeMessage(string, MessageSubscriptionHandler)](methods/UnsubscribeMessage.md#unsubscribemessagestring-messagesubscriptionhandler)                                         |  Remove subscription of message \/ command with the given `name` send to the database used by the client                                                                                                                                                                              |
 | [UnsubscribeMessage\<TMessage\>(string, MessageSubscriptionHandler\<TMessage\>)](methods/UnsubscribeMessage.md#unsubscribemessagetmessagestring-messagesubscriptionhandlertmessage) |                                                                                                                                                                                                                                                                                       |
+
+## Nested Types
+
+| Name                                      | Description |
+| ----------------------------------------- | ----------- |
+| [FlioxClient.SendTask](SendTask/index.md) |             |
 
 ___
 

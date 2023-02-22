@@ -13,12 +13,12 @@
 ```csharp
 public enum RightType
 {
-    dbFull = 0,
-    dbTask = 1,
-    dbContainer = 2,
-    message = 3,
-    subscribeMessage = 4,
-    predicate = 5
+    dbFull = 1,
+    dbTask = 2,
+    dbContainer = 3,
+    message = 4,
+    subscribeMessage = 5,
+    predicate = 6
 }
 ```
 

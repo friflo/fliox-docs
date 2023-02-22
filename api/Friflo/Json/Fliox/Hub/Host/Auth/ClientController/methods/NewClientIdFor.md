@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public JsonKey NewClientIdFor(User user);
+public ShortString NewClientIdFor(User user);
 ```
 
 ## Parameters
@@ -21,7 +21,7 @@ public JsonKey NewClientIdFor(User user);
 
 ## Returns
 
-JsonKey
+ShortString
 
 ___
 

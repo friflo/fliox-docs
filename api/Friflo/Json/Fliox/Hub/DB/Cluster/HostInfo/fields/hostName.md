@@ -11,9 +11,10 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.DB.Cluster](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-host name. Used as [id](../../../Monitor/HostHits/fields/id.md) in[hosts](../../../Monitor/MonitorStore/fields/hosts.md) of database 
+host name used to identify a specific host in a network.
 
 ```csharp
+[Required]
 public string hostName;
 ```
 

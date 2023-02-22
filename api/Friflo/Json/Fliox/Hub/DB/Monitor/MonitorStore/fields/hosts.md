@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public readonly EntitySet<JsonKey, HostHits> hosts;
+public readonly EntitySet<ShortString, HostHits> hosts;
 ```
 
 ## Field Value
 
-EntitySet\<JsonKey, [HostHits](../../HostHits/index.md)\>
+EntitySet\<ShortString, [HostHits](../../HostHits/index.md)\>
 
 ___
 

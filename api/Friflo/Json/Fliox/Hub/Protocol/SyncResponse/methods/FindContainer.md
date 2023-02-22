@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public ContainerEntities FindContainer(string containerName);
+public ContainerEntities FindContainer(in ShortString containerName);
 ```
 
 ## Parameters
 
-`containerName`  string
+`containerName`  ShortString
 
 ## Returns
 

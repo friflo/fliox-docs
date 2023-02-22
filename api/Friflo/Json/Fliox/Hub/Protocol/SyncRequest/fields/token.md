@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public string token;
+public ShortString token;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

@@ -12,16 +12,16 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public UserInfo(in JsonKey userId, string token, in JsonKey clientId);
+public UserInfo(in ShortString userId, in ShortString token, in ShortString clientId);
 ```
 
 ## Parameters
 
-`userId`  JsonKey
+`userId`  ShortString
 
-`token`  string
+`token`  ShortString
 
-`clientId`  JsonKey
+`clientId`  ShortString
 
 ___
 

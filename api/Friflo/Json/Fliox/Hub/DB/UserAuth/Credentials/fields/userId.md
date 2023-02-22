@@ -13,12 +13,12 @@
 
 ```csharp
 [Required]
-public JsonKey userId;
+public ShortString userId;
 ```
 
 ## Field Value
 
-JsonKey
+ShortString
 
 ___
 

@@ -11,15 +11,13 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Create a container with the given `name` in the database
-
 ```csharp
-public EntityContainer CreateContainer(string name, EntityDatabase database);
+public EntityContainer CreateContainer(ShortString& modreq(System.Runtime.InteropServices.InAttribute) name, EntityDatabase database);
 ```
 
 ## Parameters
 
-`name`  string
+`name`  ShortString& modreq(System.Runtime.InteropServices.InAttribute)
 
 `database`  [EntityDatabase](../index.md)
 

@@ -11,15 +11,15 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Validate all value's in the result set. Validation is required for all [EntityContainer](../../../../Host/EntityContainer/index.md) implementations which cannot ensure that the[Json](../../../Models/EntityValue/properties/Json.md) value of [entities](../fields/entities.md) is valid JSON.  E.g. [FileContainer](../../../../Host/FileContainer/index.md) cannot ensure this, as the file content can be written or modified from external processes \- for example by manually changing its JSON content with an editor.  A [MemoryContainer](../../../../Host/MemoryContainer/index.md) does not require validation as its key\/values are always written via Fliox.Hub.Client library \- which generate valid JSON.  So database adapters which can ensure the JSON value is always valid made calling ValidateEntities(string, string, SyncContext)obsolete \- like Postgres\/JSONB, Azure Cosmos DB or MongoDB.
+Validate all value's in the result set. Validation is required for all [EntityContainer](../../../../Host/EntityContainer/index.md) implementations which cannot ensure that the[Json](../../../Models/EntityValue/properties/Json.md) value of [entities](../fields/entities.md) is valid JSON.  E.g. [FileContainer](../../../../Host/FileContainer/index.md) cannot ensure this, as the file content can be written or modified from external processes \- for example by manually changing its JSON content with an editor.  A [MemoryContainer](../../../../Host/MemoryContainer/index.md) does not require validation as its key\/values are always written via Fliox.Hub.Client library \- which generate valid JSON.  So database adapters which can ensure the JSON value is always valid made calling ValidateEntities(ShortString, string, SyncContext)obsolete \- like Postgres\/JSONB, Azure Cosmos DB or MongoDB.
 
 ```csharp
-public void ValidateEntities(string container, string keyName, SyncContext syncContext);
+public void ValidateEntities(in ShortString container, string keyName, SyncContext syncContext);
 ```
 
 ## Parameters
 
-`container`  string
+`container`  ShortString
 
 `keyName`  string
 

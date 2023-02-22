@@ -14,12 +14,12 @@
 return the [EntityContainer](../../EntityContainer/index.md) with the given `name`. Create a new [EntityContainer](../../EntityContainer/index.md) if not already done.
 
 ```csharp
-public EntityContainer GetOrCreateContainer(string name);
+public EntityContainer GetOrCreateContainer(in ShortString name);
 ```
 
 ## Parameters
 
-`name`  string
+`name`  ShortString
 
 ## Returns
 

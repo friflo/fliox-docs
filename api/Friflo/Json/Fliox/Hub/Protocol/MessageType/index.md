@@ -15,10 +15,11 @@ The general message types used in the Protocol
 ```csharp
 public enum MessageType
 {
-    ev = 0,
-    sync = 1,
-    resp = 2,
-    error = 3
+    None = 0,
+    ev = 1,
+    sync = 2,
+    resp = 3,
+    error = 4
 }
 ```
 
@@ -28,6 +29,7 @@ public enum MessageType
 
 | Name  | Description                                                          |
 | ----- | -------------------------------------------------------------------- |
+| None  |                                                                      |
 | error | response error \- send from a host to a client in reply of a request |
 | ev    | event message \- send from host to clients with subscriptions        |
 | resp  | response \- send from a host to a client in reply of a request       |

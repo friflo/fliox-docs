@@ -27,9 +27,9 @@ public sealed class ReferencesResult
 | Name                               | Description                                                |
 | ---------------------------------- | ---------------------------------------------------------- |
 | [container](fields/container.md)   | container name \- not utilized by Protocol                 |
-| [count](fields/count.md)           | number of [ids](fields/ids.md) \- not utilized by Protocol |
 | [error](fields/error.md)           |                                                            |
 | [ids](fields/ids.md)               |                                                            |
+| [len](fields/len.md)               | number of [ids](fields/ids.md) \- not utilized by Protocol |
 | [references](fields/references.md) |                                                            |
 
 ___

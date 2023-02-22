@@ -26,22 +26,25 @@ MemoryDatabase has no third party dependencies. are stored as JsonKey \- keys th
 
 ## Constructors
 
-| Name                                                                                            | Description |
-| ----------------------------------------------------------------------------------------------- | ----------- |
-| [MemoryDatabase(string, DatabaseService, MemoryType?, DbOpt, bool, int)](constructors/index.md) |             |
+| Name                                                             | Description |
+| ---------------------------------------------------------------- | ----------- |
+| [MemoryDatabase(string, DatabaseService)](constructors/index.md) |             |
 
 ## Properties
 
-| Name                                     | Description |
-| ---------------------------------------- | ----------- |
-| [StorageType](properties/StorageType.md) |             |
+| Name                                           | Description                          |
+| ---------------------------------------------- | ------------------------------------ |
+| [ContainerType](properties/ContainerType.md)   |                                      |
+| [Pretty](properties/Pretty.md)                 |                                      |
+| [SmallValueSize](properties/SmallValueSize.md) | Intended for write heavy containers. |
+| [StorageType](properties/StorageType.md)       |                                      |
 
 ## Methods
 
-| Name                                                                  | Description |
-| --------------------------------------------------------------------- | ----------- |
-| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md) |             |
-| [IsSyncTask(SyncRequestTask)](methods/IsSyncTask.md)                  |             |
+| Name                                                                                                                           | Description |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [CreateContainer(ShortString& modreq(System.Runtime.InteropServices.InAttribute), EntityDatabase)](methods/CreateContainer.md) |             |
+| [IsSyncTask(SyncRequestTask)](methods/IsSyncTask.md)                                                                           |             |
 
 ___
 

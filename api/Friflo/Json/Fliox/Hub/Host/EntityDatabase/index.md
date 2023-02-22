@@ -26,30 +26,31 @@ An EntityDatabase contains multiple [EntityContainer](../EntityContainer/index.m
 
 ## Fields
 
-| Name                                                 | Description                                                |
-| ---------------------------------------------------- | ---------------------------------------------------------- |
-| [customContainerName](fields/customContainerName.md) | A mapping function used to assign a custom container name. |
-| [name](fields/name.md)                               | database name                                              |
+| Name                             | Description                               |
+| -------------------------------- | ----------------------------------------- |
+| [name](fields/name.md)           | database name                             |
+| [nameShort](fields/nameShort.md) | database name encoded as type ShortString |
 
 ## Properties
 
-| Name                                     | Description                                                                                                                                                                                           |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Schema](properties/Schema.md)           | An optional [DatabaseSchema](../DatabaseSchema/index.md) used to validate the JSON payloads in all write operations performed on the [EntityContainer](../EntityContainer/index.md)'s of the database |
-| [StorageType](properties/StorageType.md) | name of the storage type. E.g. `in-memory, file-system, remote, Cosmos, ...`                                                                                                                          |
+| Name                                                     | Description                                                                                                                                                                                           |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [CustomContainerName](properties/CustomContainerName.md) | A mapping function used to assign a custom container name.                                                                                                                                            |
+| [Schema](properties/Schema.md)                           | An optional [DatabaseSchema](../DatabaseSchema/index.md) used to validate the JSON payloads in all write operations performed on the [EntityContainer](../EntityContainer/index.md)'s of the database |
+| [StorageType](properties/StorageType.md)                 | name of the storage type. E.g. `in-memory, file-system, remote, Cosmos, ...`                                                                                                                          |
 
 ## Methods
 
-| Name                                                                  | Description                                                                                                                                                       |
-| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md) | Create a container with the given `name` in the database                                                                                                          |
-| [Dispose()](methods/Dispose.md)                                       |                                                                                                                                                                   |
-| [GetDbContainers()](methods/GetDbContainers.md)                       | return all database containers                                                                                                                                    |
-| [GetDbMessages()](methods/GetDbMessages.md)                           | return all database messages and commands                                                                                                                         |
-| [GetOrCreateContainer(string)](methods/GetOrCreateContainer.md)       | return the [EntityContainer](../EntityContainer/index.md) with the given `name`. Create a new [EntityContainer](../EntityContainer/index.md) if not already done. |
-| [IsSyncTask(SyncRequestTask)](methods/IsSyncTask.md)                  | return true to execute given `task` synchronous. return false to execute the `task` asynchronous                                                                  |
-| [SeedDatabase(EntityDatabase)](methods/SeedDatabase.md)               | Seed the database with content of the given `src` database                                                                                                        |
-| [ToString()](methods/ToString.md)                                     |                                                                                                                                                                   |
+| Name                                                                                                                           | Description                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [CreateContainer(ShortString& modreq(System.Runtime.InteropServices.InAttribute), EntityDatabase)](methods/CreateContainer.md) |                                                                                                                                                                   |
+| [Dispose()](methods/Dispose.md)                                                                                                |                                                                                                                                                                   |
+| [GetDbContainers(string, FlioxHub)](methods/GetDbContainers.md)                                                                | return all database containers                                                                                                                                    |
+| [GetDbMessages()](methods/GetDbMessages.md)                                                                                    | return all database messages and commands                                                                                                                         |
+| [GetOrCreateContainer(ShortString)](methods/GetOrCreateContainer.md)                                                           | return the [EntityContainer](../EntityContainer/index.md) with the given `name`. Create a new [EntityContainer](../EntityContainer/index.md) if not already done. |
+| [IsSyncTask(SyncRequestTask)](methods/IsSyncTask.md)                                                                           | return true to execute given `task` synchronous. return false to execute the `task` asynchronous                                                                  |
+| [SeedDatabase(EntityDatabase)](methods/SeedDatabase.md)                                                                        | Seed the database with content of the given `src` database                                                                                                        |
+| [ToString()](methods/ToString.md)                                                                                              |                                                                                                                                                                   |
 
 ___
 

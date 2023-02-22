@@ -13,12 +13,12 @@
 
 ```csharp
 [Key]
-public string container;
+public JsonKey container;
 ```
 
 ## Field Value
 
-string
+JsonKey
 
 ___
 

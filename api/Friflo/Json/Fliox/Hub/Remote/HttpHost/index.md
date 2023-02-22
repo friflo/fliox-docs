@@ -13,10 +13,12 @@
 A HttpHost enables remote access to databases, schemas and static web files via or .
 
 ```csharp
-public sealed class HttpHost : RemoteHost
+public sealed class HttpHost : IHost, ILogSource, IDisposable
 ```
 
-**Inheritance:** object → [RemoteHost](../RemoteHost/index.md) → HttpHost
+**Inheritance:** object → HttpHost
+
+**Implements:** [IHost](../../Host/IHost/index.md),ILogSource,IDisposable
 
 ## Remarks
 
@@ -35,13 +37,17 @@ A HttpHost can be integrated by any HTTP server like like or the HttpListener pa
 | Name                                                 | Description                |
 | ---------------------------------------------------- | -------------------------- |
 | [DefaultCacheControl](fields/DefaultCacheControl.md) |                            |
-| [endpoint](fields/endpoint.md)                       | never null, ends with '\/' |
+| [baseRoute](fields/baseRoute.md)                     | never null, ends with '\/' |
+| [hub](fields/hub.md)                                 |                            |
+| [sharedEnv](fields/sharedEnv.md)                     |                            |
 
 ## Properties
 
 | Name                                       | Description |
 | ------------------------------------------ | ----------- |
 | [CacheControl](properties/CacheControl.md) |             |
+| [Logger](properties/Logger.md)             |             |
+| [Routes](properties/Routes.md)             |             |
 
 ## Methods
 
@@ -49,6 +55,7 @@ A HttpHost can be integrated by any HTTP server like like or the HttpListener pa
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [AddHandler(IRequestHandler)](methods/AddHandler.md)                                 |                                                                                                                                                                                                                                        |
 | [AddSchemaGenerator(string, string, SchemaGenerator)](methods/AddSchemaGenerator.md) |                                                                                                                                                                                                                                        |
+| [Dispose()](methods/Dispose.md)                                                      |                                                                                                                                                                                                                                        |
 | [ExecuteHttpRequest(RequestContext)](methods/ExecuteHttpRequest.md)                  | Central point where all Fliox related HTTP requests arrive. Each request is dispatched by a matching request handler. Note: Request matching and execution are separated to ensure no heap allocation caused by awaited method calls.  |
 | [RemoveHandler(IRequestHandler)](methods/RemoveHandler.md)                           |                                                                                                                                                                                                                                        |
 | [ToString()](methods/ToString.md)                                                    |                                                                                                                                                                                                                                        |

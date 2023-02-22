@@ -20,9 +20,9 @@ public sealed class ClusterDB : EntityDatabase
 
 ## Constructors
 
-| Name                                                        | Description |
-| ----------------------------------------------------------- | ----------- |
-| [ClusterDB(string, FlioxHub, DbOpt)](constructors/index.md) |             |
+| Name                                                 | Description |
+| ---------------------------------------------------- | ----------- |
+| [ClusterDB(string, FlioxHub)](constructors/index.md) |             |
 
 ## Properties
 
@@ -32,9 +32,9 @@ public sealed class ClusterDB : EntityDatabase
 
 ## Methods
 
-| Name                                                                  | Description |
-| --------------------------------------------------------------------- | ----------- |
-| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md) |             |
+| Name                                                                                                                           | Description |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [CreateContainer(ShortString& modreq(System.Runtime.InteropServices.InAttribute), EntityDatabase)](methods/CreateContainer.md) |             |
 
 ___
 

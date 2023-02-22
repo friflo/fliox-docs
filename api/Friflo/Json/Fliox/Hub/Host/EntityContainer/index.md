@@ -37,9 +37,10 @@ The interface methods are designed to enable clear, compact and efficient implem
 
 ## Fields
 
-| Name                   | Description      |
-| ---------------------- | ---------------- |
-| [name](fields/name.md) |  container name  |
+| Name                             | Description      |
+| -------------------------------- | ---------------- |
+| [name](fields/name.md)           |  container name  |
+| [nameShort](fields/nameShort.md) |                  |
 
 ## Properties
 

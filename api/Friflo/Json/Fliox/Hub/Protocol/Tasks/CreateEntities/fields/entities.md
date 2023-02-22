@@ -11,9 +11,10 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-the entities which are created in the specified [container](../properties/container.md)
+the entities which are created in the specified [container](container.md)
 
 ```csharp
+[Serialize("set")]
 [Required]
 public List<JsonEntity> entities;
 ```

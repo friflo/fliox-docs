@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Execute all [tasks](../../../Protocol/SyncRequest/fields/tasks.md) of a [SyncRequest](../../../Protocol/SyncRequest/index.md) send by client.
+Execute all [tasks](../../../Protocol/SyncRequest/fields/tasks.md) of a [SyncRequest](../../../Protocol/SyncRequest/index.md) send by client.Method is thread\-safe as multiple [FlioxClient](../../../Client/FlioxClient/index.md) instances are allowed to use a single [FlioxHub](../index.md) instance.
 
 ```csharp
 [AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.FlioxHub/<ExecuteRequestAsync>d__0)]

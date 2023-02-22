@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public MemoryDatabase(string dbName, DatabaseService service = , MemoryType? type = , DbOpt opt = , bool pretty = false, int smallValueSize = -1);
+public MemoryDatabase(string dbName, DatabaseService service = );
 ```
 
 ## Parameters
@@ -20,16 +20,6 @@ public MemoryDatabase(string dbName, DatabaseService service = , MemoryType? typ
 `dbName`  string
 
 `service`  [DatabaseService](../../DatabaseService/index.md)
-
-`type`  Nullable\<[MemoryType](../../MemoryType/index.md)\>
-
-`opt`  [DbOpt](../../DbOpt/index.md)
-
-`pretty`  bool
-
-`smallValueSize`  int
-
- Intended for write heavy containers.             Byte arrays used to store container values are reused in case their length is less or equal this size. 
 
 ___
 

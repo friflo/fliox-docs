@@ -15,12 +15,12 @@ As a user can access a [FlioxHub](../../../Host/FlioxHub/index.md) by multiple c
 
 ```csharp
 [Serialize("clt")]
-public JsonKey clientId;
+public ShortString clientId;
 ```
 
 ## Field Value
 
-JsonKey
+ShortString
 
 ___
 

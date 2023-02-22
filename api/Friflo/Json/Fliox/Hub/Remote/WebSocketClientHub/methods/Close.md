@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.WebSocketClientHub/<Close>d__14)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Remote.WebSocketClientHub/<Close>d__3)]
 [DebuggerStepThrough]
 public Task Close();
 ```

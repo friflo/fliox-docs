@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public FileDatabase(string dbName, string databaseFolder, DatabaseService service = , DbOpt opt = , bool pretty = true);
+public FileDatabase(string dbName, string databaseFolder, DatabaseService service = );
 ```
 
 ## Parameters
@@ -22,10 +22,6 @@ public FileDatabase(string dbName, string databaseFolder, DatabaseService servic
 `databaseFolder`  string
 
 `service`  [DatabaseService](../../DatabaseService/index.md)
-
-`opt`  [DbOpt](../../DbOpt/index.md)
-
-`pretty`  bool
 
 ___
 

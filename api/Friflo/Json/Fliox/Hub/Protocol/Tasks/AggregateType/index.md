@@ -15,7 +15,7 @@ Aggregation type used in [AggregateEntities](../AggregateEntities/index.md)
 ```csharp
 public enum AggregateType
 {
-    count = 0
+    count = 1
 }
 ```
 

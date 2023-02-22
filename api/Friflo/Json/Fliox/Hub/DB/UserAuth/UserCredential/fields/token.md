@@ -14,12 +14,12 @@
 user token
 
 ```csharp
-public string token;
+public ShortString token;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

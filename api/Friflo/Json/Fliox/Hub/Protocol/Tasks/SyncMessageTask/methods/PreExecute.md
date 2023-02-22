@@ -14,12 +14,14 @@
 return true to execute this task synchronous. return false to execute task asynchronous
 
 ```csharp
-public bool PreExecute(EntityDatabase database);
+public bool PreExecute(EntityDatabase database, SharedEnv env);
 ```
 
 ## Parameters
 
 `database`  [EntityDatabase](../../../../Host/EntityDatabase/index.md)
+
+`env`  [SharedEnv](../../../../Host/SharedEnv/index.md)
 
 ## Returns
 

@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void Detach(string cursor, EntityContainer container, in JsonKey userId);
+public void Detach(string cursor, EntityContainer container, in ShortString userId);
 ```
 
 ## Parameters
@@ -21,7 +21,7 @@ public void Detach(string cursor, EntityContainer container, in JsonKey userId);
 
 `container`  [EntityContainer](../../../EntityContainer/index.md)
 
-`userId`  JsonKey
+`userId`  ShortString
 
 ___
 

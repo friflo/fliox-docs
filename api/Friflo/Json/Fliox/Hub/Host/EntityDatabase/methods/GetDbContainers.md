@@ -14,10 +14,16 @@
 return all database containers
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.EntityDatabase/<GetDbContainers>d__21)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.EntityDatabase/<GetDbContainers>d__26)]
 [DebuggerStepThrough]
-public Task<DbContainers> GetDbContainers();
+public Task<DbContainers> GetDbContainers(string database, FlioxHub hub);
 ```
+
+## Parameters
+
+`database`  string
+
+`hub`  [FlioxHub](../../FlioxHub/index.md)
 
 ## Returns
 

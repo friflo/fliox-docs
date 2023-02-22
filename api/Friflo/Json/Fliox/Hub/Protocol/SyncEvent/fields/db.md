@@ -11,16 +11,15 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-The database the [tasks](tasks.md) refer to
+The database the [tasks](tasks.md) refer todb is null if the event refers to the default [database](../../../Host/FlioxHub/fields/database.md)
 
 ```csharp
-[Required]
-public string db;
+public ShortString db;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

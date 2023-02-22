@@ -15,16 +15,16 @@ Use to allow specific container operations in [ContainerAccess](../ContainerAcce
 ```csharp
 public enum OperationType
 {
-    create = 0,
-    upsert = 1,
-    delete = 2,
-    deleteAll = 3,
-    merge = 4,
-    read = 5,
-    query = 6,
-    aggregate = 7,
-    mutate = 8,
-    full = 9
+    create = 1,
+    upsert = 2,
+    delete = 3,
+    deleteAll = 4,
+    merge = 5,
+    read = 6,
+    query = 7,
+    aggregate = 8,
+    mutate = 9,
+    full = 10
 }
 ```
 

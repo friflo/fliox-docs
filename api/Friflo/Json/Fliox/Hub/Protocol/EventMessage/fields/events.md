@@ -14,6 +14,7 @@
 Each [SyncEvent](../../SyncEvent/index.md) corresponds to a [SyncRequest](../../SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](../../SyncEvent/fields/tasks.md) field
 
 ```csharp
+[Serialize("ev")]
 public List<SyncEvent> events;
 ```
 

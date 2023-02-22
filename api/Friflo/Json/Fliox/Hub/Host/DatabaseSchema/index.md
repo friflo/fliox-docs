@@ -20,7 +20,7 @@ public sealed class DatabaseSchema
 
 ## Remarks
 
-It is intended to be used for [RemoteHost](../../Remote/RemoteHost/index.md) instances to ensure that the entities (records) in an [EntityContainer](../EntityContainer/index.md) always meet the expected type. So only successful validated JSON payloads are written to an [EntityContainer](../EntityContainer/index.md). JSON validation includes the following checks:
+It is intended to be used for [EntityDatabase](../EntityDatabase/index.md) instances to ensure that the entities (records) in an [EntityContainer](../EntityContainer/index.md) always meet the expected type. So only successful validated JSON payloads are written to an [EntityContainer](../EntityContainer/index.md). JSON validation includes the following checks:
 
 ## Constructors
 
@@ -36,16 +36,16 @@ It is intended to be used for [RemoteHost](../../Remote/RemoteHost/index.md) ins
 
 ## Methods
 
-| Name                                                                                                                           | Description |
-| ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| [AddStoreSchema\<TClient\>()](methods/AddStoreSchema.md)                                                                       |             |
-| [AddTypeSchema(TypeSchema)](methods/AddTypeSchema.md)                                                                          |             |
-| [GetCommands()](methods/GetCommands.md)                                                                                        |             |
-| [GetContainers()](methods/GetContainers.md)                                                                                    |             |
-| [GetMessages()](methods/GetMessages.md)                                                                                        |             |
-| [GetValidationType(string)](methods/GetValidationType.md)                                                                      |             |
-| [ToString()](methods/ToString.md)                                                                                              |             |
-| [ValidateEntities(string, List\<JsonEntity\>, SyncContext, EntityErrorType, List\<EntityError\>)](methods/ValidateEntities.md) |             |
+| Name                                                                                                                              | Description |
+| --------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [AddStoreSchema\<TClient\>()](methods/AddStoreSchema.md)                                                                          |             |
+| [AddTypeSchema(TypeSchema)](methods/AddTypeSchema.md)                                                                             |             |
+| [GetCommands()](methods/GetCommands.md)                                                                                           |             |
+| [GetContainers()](methods/GetContainers.md)                                                                                       |             |
+| [GetMessages()](methods/GetMessages.md)                                                                                           |             |
+| [GetValidationType(ShortString)](methods/GetValidationType.md)                                                                    |             |
+| [ToString()](methods/ToString.md)                                                                                                 |             |
+| [ValidateEntities(ShortString, List\<JsonEntity\>, SharedEnv, EntityErrorType, List\<EntityError\>)](methods/ValidateEntities.md) |             |
 
 ___
 

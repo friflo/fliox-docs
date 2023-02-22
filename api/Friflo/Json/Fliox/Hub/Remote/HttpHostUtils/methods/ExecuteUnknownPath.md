@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Perform a redirect from \/fliox \-\> \/fliox\/ Otherwise return a path mapping error. E.g. in case ASP.NET maps `"/foo/{*path}"` to a an [endpoint](../../HttpHost/fields/endpoint.md)`"/fliox/"`
+Perform a redirect from \/fliox \-\> \/fliox\/ Otherwise return a path mapping error. E.g. in case ASP.NET maps `"/foo/{*path}"` to a an [baseRoute](../../HttpHost/fields/baseRoute.md)`"/fliox/"`
 
 ```csharp
 public static RequestContext ExecuteUnknownPath(HttpHost httpHost, string path, string method);

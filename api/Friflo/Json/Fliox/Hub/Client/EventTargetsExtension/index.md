@@ -18,18 +18,18 @@ public static class EventTargetsExtension
 
 ## Methods
 
-| Name                                                                                                                                        | Description                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| [EventTargetClient\<TTask\>(TTask, JsonKey)](methods/EventTargetClient.md#eventtargetclientttaskttask-jsonkey)                              |  Send the `message` as an event only to the given `client`  |
-| [EventTargetClient\<TTask\>(TTask, string)](methods/EventTargetClient.md#eventtargetclientttaskttask-string)                                |  Send the `message` as an event only to the given `client`  |
-| [EventTargetClients\<TTask\>(TTask, ICollection\<JsonKey\>)](methods/EventTargetClients.md#eventtargetclientsttaskttask-icollectionjsonkey) |  Send the `message` as an event only to the given `clients` |
-| [EventTargetClients\<TTask\>(TTask, ICollection\<string\>)](methods/EventTargetClients.md#eventtargetclientsttaskttask-icollectionstring)   |  Send the `message` as an event only to the given `clients` |
-| [EventTargetGroup\<TTask\>(TTask, string)](methods/EventTargetGroup.md)                                                                     |                                                             |
-| [EventTargetGroups\<TTask\>(TTask, ICollection\<string\>)](methods/EventTargetGroups.md)                                                    |                                                             |
-| [EventTargetUser\<TTask\>(TTask, JsonKey)](methods/EventTargetUser.md#eventtargetuserttaskttask-jsonkey)                                    |  Send the `message` as an event only to the given `user`    |
-| [EventTargetUser\<TTask\>(TTask, string)](methods/EventTargetUser.md#eventtargetuserttaskttask-string)                                      |  Send the `message` as an event only to the given `user`    |
-| [EventTargetUsers\<TTask\>(TTask, ICollection\<JsonKey\>)](methods/EventTargetUsers.md#eventtargetusersttaskttask-icollectionjsonkey)       |  Send the `message` as an event only to the given `users`   |
-| [EventTargetUsers\<TTask\>(TTask, ICollection\<string\>)](methods/EventTargetUsers.md#eventtargetusersttaskttask-icollectionstring)         |  Send the `message` as an event only to the given `users`   |
+| Name                                                                                                                                                | Description                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| [EventTargetClient\<TTask\>(TTask, ShortString)](methods/EventTargetClient.md#eventtargetclientttaskttask-shortstring)                              |  Send the `message` as an event only to the given `client`  |
+| [EventTargetClient\<TTask\>(TTask, string)](methods/EventTargetClient.md#eventtargetclientttaskttask-string)                                        |  Send the `message` as an event only to the given `client`  |
+| [EventTargetClients\<TTask\>(TTask, ICollection\<ShortString\>)](methods/EventTargetClients.md#eventtargetclientsttaskttask-icollectionshortstring) |  Send the `message` as an event only to the given `clients` |
+| [EventTargetClients\<TTask\>(TTask, ICollection\<string\>)](methods/EventTargetClients.md#eventtargetclientsttaskttask-icollectionstring)           |  Send the `message` as an event only to the given `clients` |
+| [EventTargetGroup\<TTask\>(TTask, string)](methods/EventTargetGroup.md)                                                                             |                                                             |
+| [EventTargetGroups\<TTask\>(TTask, ICollection\<string\>)](methods/EventTargetGroups.md)                                                            |                                                             |
+| [EventTargetUser\<TTask\>(TTask, ShortString)](methods/EventTargetUser.md#eventtargetuserttaskttask-shortstring)                                    |  Send the `message` as an event only to the given `user`    |
+| [EventTargetUser\<TTask\>(TTask, string)](methods/EventTargetUser.md#eventtargetuserttaskttask-string)                                              |  Send the `message` as an event only to the given `user`    |
+| [EventTargetUsers\<TTask\>(TTask, ICollection\<ShortString\>)](methods/EventTargetUsers.md#eventtargetusersttaskttask-icollectionshortstring)       |  Send the `message` as an event only to the given `users`   |
+| [EventTargetUsers\<TTask\>(TTask, ICollection\<string\>)](methods/EventTargetUsers.md#eventtargetusersttaskttask-icollectionstring)                 |  Send the `message` as an event only to the given `users`   |
 
 ___
 

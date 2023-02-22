@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public ValidationType GetValidationType(string container);
+public ValidationType GetValidationType(in ShortString container);
 ```
 
 ## Parameters
 
-`container`  string
+`container`  ShortString
 
 ## Returns
 

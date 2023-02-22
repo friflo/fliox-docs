@@ -36,6 +36,7 @@ public sealed class QueryEntities : SyncRequestTask
 | [keyName](fields/keyName.md)       | name of the primary key property of the returned entities                                                          |
 | [limit](fields/limit.md)           | limit the result set to the given number                                                                           |
 | [maxCount](fields/maxCount.md)     | execute a cursor request with the specified [maxCount](fields/maxCount.md) number of entities in the result.       |
+| [orderByKey](fields/orderByKey.md) |                                                                                                                    |
 | [references](fields/references.md) | used to request the entities referenced by properties of the query task result                                     |
 
 ## Properties

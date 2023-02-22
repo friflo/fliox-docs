@@ -20,15 +20,15 @@ public abstract class ClientController
 
 ## Remarks
 
-It creates a unique client id for a given [User](../User/index.md) by [NewClientIdFor(User)](methods/NewClientIdFor.md) or checks if a given client id can be used (added) for a given [User](../User/index.md) by [UseClientIdFor(User, JsonKey)](methods/UseClientIdFor.md). Multiple client ids can be added to a [User](../User/index.md). Once added to a [User](../User/index.md) the client id cannot be used (added) by another [User](../User/index.md).A ClientController is used to:
+It creates a unique client id for a given [User](../User/index.md) by [NewClientIdFor(User)](methods/NewClientIdFor.md) or checks if a given client id can be used (added) for a given [User](../User/index.md) by [UseClientIdFor(User, ShortString)](methods/UseClientIdFor.md). Multiple client ids can be added to a [User](../User/index.md). Once added to a [User](../User/index.md) the client id cannot be used (added) by another [User](../User/index.md).A ClientController is used to:
 
 ## Methods
 
-| Name                                                       | Description |
-| ---------------------------------------------------------- | ----------- |
-| [NewClientIdFor(User)](methods/NewClientIdFor.md)          |             |
-| [ToString()](methods/ToString.md)                          |             |
-| [UseClientIdFor(User, JsonKey)](methods/UseClientIdFor.md) |             |
+| Name                                                           | Description |
+| -------------------------------------------------------------- | ----------- |
+| [NewClientIdFor(User)](methods/NewClientIdFor.md)              |             |
+| [ToString()](methods/ToString.md)                              |             |
+| [UseClientIdFor(User, ShortString)](methods/UseClientIdFor.md) |             |
 
 ___
 

@@ -26,21 +26,22 @@ In most uses cases a FileDatabase in not suitable for production as its read \/ 
 
 ## Constructors
 
-| Name                                                                                | Description |
-| ----------------------------------------------------------------------------------- | ----------- |
-| [FileDatabase(string, string, DatabaseService, DbOpt, bool)](constructors/index.md) |             |
+| Name                                                                   | Description |
+| ---------------------------------------------------------------------- | ----------- |
+| [FileDatabase(string, string, DatabaseService)](constructors/index.md) |             |
 
 ## Properties
 
 | Name                                     | Description |
 | ---------------------------------------- | ----------- |
+| [Pretty](properties/Pretty.md)           |             |
 | [StorageType](properties/StorageType.md) |             |
 
 ## Methods
 
-| Name                                                                  | Description |
-| --------------------------------------------------------------------- | ----------- |
-| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md) |             |
+| Name                                                                                                                           | Description |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [CreateContainer(ShortString& modreq(System.Runtime.InteropServices.InAttribute), EntityDatabase)](methods/CreateContainer.md) |             |
 
 ___
 

@@ -18,10 +18,10 @@ public static class HttpHostUtils
 
 ## Methods
 
-| Name                                                                          | Description                                                                                                                                                                                    |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ExecuteUnknownPath(HttpHost, string, string)](methods/ExecuteUnknownPath.md) | Perform a redirect from \/fliox \-\> \/fliox\/ Otherwise return a path mapping error. E.g. in case ASP.NET maps `"/foo/{*path}"` to a an [endpoint](../HttpHost/fields/endpoint.md)`"/fliox/"` |
-| [GetFlioxRoute(HttpHost, string, string)](methods/GetFlioxRoute.md)           | Returns true if the given `path` is handled by the [HttpHost](../HttpHost/index.md)                                                                                                            |
+| Name                                                                          | Description                                                                                                                                                                                      |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [ExecuteUnknownPath(HttpHost, string, string)](methods/ExecuteUnknownPath.md) | Perform a redirect from \/fliox \-\> \/fliox\/ Otherwise return a path mapping error. E.g. in case ASP.NET maps `"/foo/{*path}"` to a an [baseRoute](../HttpHost/fields/baseRoute.md)`"/fliox/"` |
+| [GetFlioxRoute(HttpHost, string, string)](methods/GetFlioxRoute.md)           | Returns true if the given `path` is handled by the [HttpHost](../HttpHost/index.md)                                                                                                              |
 
 ___
 

@@ -13,20 +13,20 @@
 
 ## Overloads
 
-| Signature                               | Description |
-| --------------------------------------- | ----------- |
-| [AddClient(JsonKey)](#addclientjsonkey) |             |
-| [AddClient(string)](#addclientstring)   |             |
+| Signature                                       | Description |
+| ----------------------------------------------- | ----------- |
+| [AddClient(ShortString)](#addclientshortstring) |             |
+| [AddClient(string)](#addclientstring)           |             |
 
-## AddClient(JsonKey)
+## AddClient(ShortString)
 
 ```csharp
-public void AddClient(in JsonKey client);
+public void AddClient(in ShortString client);
 ```
 
 ### Parameters
 
-`client`  JsonKey
+`client`  ShortString
 
 ## AddClient(string)
 

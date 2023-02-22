@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public IReadOnlyCollection<string> GetGroups();
+public IReadOnlyCollection<ShortString> GetGroups();
 ```
 
 ## Returns
 
-IReadOnlyCollection\<string\>
+IReadOnlyCollection\<ShortString\>
 
 ___
 

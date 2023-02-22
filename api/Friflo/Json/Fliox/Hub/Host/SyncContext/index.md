@@ -24,11 +24,11 @@ Note: In case of adding transaction support for [SyncRequest](../../Protocol/Syn
 
 ## Constructors
 
-| Name                                                                                                                         | Description                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| [SyncContext(SharedEnv, EventReceiver)](constructors/index.md#synccontextsharedenv-eventreceiver)                            |                                                                                              |
-| [SyncContext(SharedEnv, EventReceiver, MemoryBuffer)](constructors/index.md#synccontextsharedenv-eventreceiver-memorybuffer) |                                                                                              |
-| [SyncContext(SharedEnv, EventReceiver, SyncBuffers)](constructors/index.md#synccontextsharedenv-eventreceiver-syncbuffers)   | Special constructor used to minimize heap allocation. [SyncBuffers](../SyncBuffers/index.md) |
+| Name                                                                                                                                            | Description                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [SyncContext(SharedEnv, EventReceiver)](constructors/index.md#synccontextsharedenv-eventreceiver)                                               |                                                                                              |
+| [SyncContext(SharedEnv, EventReceiver, MemoryBuffer)](constructors/index.md#synccontextsharedenv-eventreceiver-memorybuffer)                    |                                                                                              |
+| [SyncContext(SharedEnv, EventReceiver, SyncBuffers, SyncPools)](constructors/index.md#synccontextsharedenv-eventreceiver-syncbuffers-syncpools) | Special constructor used to minimize heap allocation. [SyncBuffers](../SyncBuffers/index.md) |
 
 ## Properties
 
@@ -37,8 +37,8 @@ Note: In case of adding transaction support for [SyncRequest](../../Protocol/Syn
 | [Authenticated](properties/Authenticated.md)     |             |
 | [ClientId](properties/ClientId.md)               |             |
 | [Database](properties/Database.md)               |             |
-| [DatabaseName](properties/DatabaseName.md)       |             |
 | [EntityProcessor](properties/EntityProcessor.md) |             |
+| [Host](properties/Host.md)                       |             |
 | [Hub](properties/Hub.md)                         |             |
 | [MemoryBuffer](properties/MemoryBuffer.md)       |             |
 | [ObjectMapper](properties/ObjectMapper.md)       |             |
@@ -52,7 +52,7 @@ Note: In case of adding transaction support for [SyncRequest](../../Protocol/Syn
 | [AuthenticationFailed(User, string, TaskAuthorizer, HubPermission)](methods/AuthenticationFailed.md) |             |
 | [AuthenticationSucceed(User, TaskAuthorizer, HubPermission)](methods/AuthenticationSucceed.md)       |             |
 | [Init()](methods/Init.md)                                                                            |             |
-| [SetClientId(JsonKey)](methods/SetClientId.md)                                                       |             |
+| [SetClientId(ShortString)](methods/SetClientId.md)                                                   |             |
 | [SetMemoryBuffer(MemoryBuffer)](methods/SetMemoryBuffer.md)                                          |             |
 | [ToString()](methods/ToString.md)                                                                    |             |
 

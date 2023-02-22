@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-return the Schema assigned to the database
+Return the Schema assigned to the database
 
 ```csharp
 public CommandTask<DbSchema> Schema();

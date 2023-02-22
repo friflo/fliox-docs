@@ -28,13 +28,13 @@ public abstract class QueryEnumerator : IEnumerator<JsonKey>, IEnumerator, IDisp
 
 ## Methods
 
-| Name                                                          | Description |
-| ------------------------------------------------------------- | ----------- |
-| [Attach()](methods/Attach.md)                                 |             |
-| [Detach(string, EntityContainer, JsonKey)](methods/Detach.md) |             |
-| [Dispose()](methods/Dispose.md)                               |             |
-| [MoveNext()](methods/MoveNext.md)                             |             |
-| [Reset()](methods/Reset.md)                                   |             |
+| Name                                                              | Description |
+| ----------------------------------------------------------------- | ----------- |
+| [Attach()](methods/Attach.md)                                     |             |
+| [Detach(string, EntityContainer, ShortString)](methods/Detach.md) |             |
+| [Dispose()](methods/Dispose.md)                                   |             |
+| [MoveNext()](methods/MoveNext.md)                                 |             |
+| [Reset()](methods/Reset.md)                                       |             |
 
 ___
 

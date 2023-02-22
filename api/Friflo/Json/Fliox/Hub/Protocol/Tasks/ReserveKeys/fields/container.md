@@ -12,13 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
+[Serialize("cont")]
 [Required]
-public string container;
+public ShortString container;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

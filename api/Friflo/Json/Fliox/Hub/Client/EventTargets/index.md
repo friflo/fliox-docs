@@ -30,17 +30,18 @@ In case no targets are specified \- the default \- a message is sent to all clie
 
 ## Methods
 
-| Name                                                                               | Description |
-| ---------------------------------------------------------------------------------- | ----------- |
-| [AddClient(JsonKey)](methods/AddClient.md#addclientjsonkey)                        |             |
-| [AddClient(string)](methods/AddClient.md#addclientstring)                          |             |
-| [AddClients(ICollection\<string\>)](methods/AddClients.md)                         |             |
-| [AddGroup(string)](methods/AddGroup.md)                                            |             |
-| [AddGroups(ICollection\<string\>)](methods/AddGroups.md)                           |             |
-| [AddUser(JsonKey)](methods/AddUser.md#adduserjsonkey)                              |             |
-| [AddUser(string)](methods/AddUser.md#adduserstring)                                |             |
-| [AddUsers(ICollection\<JsonKey\>)](methods/AddUsers.md#addusersicollectionjsonkey) |             |
-| [AddUsers(ICollection\<string\>)](methods/AddUsers.md#addusersicollectionstring)   |             |
+| Name                                                                                          | Description |
+| --------------------------------------------------------------------------------------------- | ----------- |
+| [AddClient(ShortString)](methods/AddClient.md#addclientshortstring)                           |             |
+| [AddClient(string)](methods/AddClient.md#addclientstring)                                     |             |
+| [AddClients(ICollection\<string\>)](methods/AddClients.md)                                    |             |
+| [AddGroup(string)](methods/AddGroup.md)                                                       |             |
+| [AddGroups(ICollection\<ShortString\>)](methods/AddGroups.md#addgroupsicollectionshortstring) |             |
+| [AddGroups(ICollection\<string\>)](methods/AddGroups.md#addgroupsicollectionstring)           |             |
+| [AddUser(ShortString)](methods/AddUser.md#addusershortstring)                                 |             |
+| [AddUser(string)](methods/AddUser.md#adduserstring)                                           |             |
+| [AddUsers(ICollection\<ShortString\>)](methods/AddUsers.md#addusersicollectionshortstring)    |             |
+| [AddUsers(ICollection\<string\>)](methods/AddUsers.md#addusersicollectionstring)              |             |
 
 ___
 

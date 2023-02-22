@@ -14,7 +14,7 @@
 Construct a [FlioxHub](../index.md) with the given default `database`.
 
 ```csharp
-public FlioxHub(EntityDatabase database, SharedEnv env = , string hostName = null);
+public FlioxHub(EntityDatabase database, SharedEnv env = );
 ```
 
 ## Parameters
@@ -22,8 +22,6 @@ public FlioxHub(EntityDatabase database, SharedEnv env = , string hostName = nul
 `database`  [EntityDatabase](../../EntityDatabase/index.md)
 
 `env`  [SharedEnv](../../SharedEnv/index.md)
-
-`hostName`  string
 
 ___
 

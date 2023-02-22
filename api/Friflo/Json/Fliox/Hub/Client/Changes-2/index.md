@@ -32,13 +32,14 @@ Container Changes\<T1, T2\> are not automatically applied to an [EntitySet\<T1, 
 
 ## Properties
 
-| Name                                 | Description                                     |
-| ------------------------------------ | ----------------------------------------------- |
-| [Container](properties/Container.md) |                                                 |
-| [Creates](properties/Creates.md)     |  return the entities created in a container     |
-| [Deletes](properties/Deletes.md)     |  return the keys of removed container entities  |
-| [Patches](properties/Patches.md)     |  return patches applied to container entities   |
-| [Upserts](properties/Upserts.md)     |  return the entities upserted in a container    |
+| Name                                           | Description                                     |
+| ---------------------------------------------- | ----------------------------------------------- |
+| [Container](properties/Container.md)           |                                                 |
+| [ContainerShort](properties/ContainerShort.md) |                                                 |
+| [Creates](properties/Creates.md)               |  return the entities created in a container     |
+| [Deletes](properties/Deletes.md)               |  return the keys of removed container entities  |
+| [Patches](properties/Patches.md)               |  return patches applied to container entities   |
+| [Upserts](properties/Upserts.md)               |  return the entities upserted in a container    |
 
 ## Methods
 

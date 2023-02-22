@@ -9,18 +9,22 @@
 
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
 
+## Namespaces
+
+- [Friflo.Json.Fliox.Hub.Host.Event.Collector](Collector/index.md)
+
 ## Classes
 
-| Name                                        | Description                                                                |
-| ------------------------------------------- | -------------------------------------------------------------------------- |
-| [EventDispatcher](EventDispatcher/index.md) | An [EventDispatcher](EventDispatcher/index.md) is used to enable Pub\-Sub. |
-| [EventReceiver](EventReceiver/index.md)     |                                                                            |
+| Name                                        | Description                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [EventDispatcher](EventDispatcher/index.md) | An [EventDispatcher](EventDispatcher/index.md) is used to enable Pub\-Sub.                                                                                                                                                                                                                                                                                              |
+| [EventReceiver](EventReceiver/index.md)     | An [EventReceiver](EventReceiver/index.md) is used to send events to clients they have subscribed before.A single [EventReceiver](EventReceiver/index.md) can be shared by multiple clients to enable using a single remote connection. To address a specific client in case of a shared remote connection the[dstClientId](ClientEvent/fields/dstClientId.md) is used. |
 
 ## Structs
 
-| Name                                    | Description                                                                                                                                                                                        |
-| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [SendEventArgs](SendEventArgs/index.md) | Optimization for sending remote events.Avoids frequent allocations of eventBuffer lists [EventMessage](../../Protocol/EventMessage/index.md)[events](../../Protocol/EventMessage/fields/events.md) |
+| Name                                | Description |
+| ----------------------------------- | ----------- |
+| [ClientEvent](ClientEvent/index.md) |             |
 
 ## Enums
 

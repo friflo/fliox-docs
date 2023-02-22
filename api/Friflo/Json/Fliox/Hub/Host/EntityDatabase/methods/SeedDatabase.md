@@ -14,7 +14,7 @@
 Seed the database with content of the given `src` database
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.EntityDatabase/<SeedDatabase>d__24)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.EntityDatabase/<SeedDatabase>d__29)]
 [DebuggerStepThrough]
 public Task SeedDatabase(EntityDatabase src);
 ```

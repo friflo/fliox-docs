@@ -31,11 +31,14 @@
 
 ## Structs
 
-| Name                              | Description                                                                                                                                                                                                                 |
-| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ChangeInfo](ChangeInfo/index.md) | [ChangeInfo](ChangeInfo/index.md) is never de\-\/serialized.             It purpose is to get aggregated change information about a [SyncEvent](SyncEvent/index.md) by [GetEventInfo()](SyncEvent/methods/GetEventInfo.md). |
-| [EventInfo](EventInfo/index.md)   | [EventInfo](EventInfo/index.md) is never de\-\/serialized.             It purpose is to get all aggregated information about a [SyncEvent](SyncEvent/index.md) by  by [GetEventInfo()](SyncEvent/methods/GetEventInfo.md).  |
-| [SyncEvent](SyncEvent/index.md)   | A [SyncEvent](SyncEvent/index.md) corresponds to a [SyncRequest](SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](SyncEvent/fields/tasks.md) field                           |
+| Name                                        | Description                                                                                                                                                                                                                 |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ChangeInfo](ChangeInfo/index.md)           | [ChangeInfo](ChangeInfo/index.md) is never de\-\/serialized.             It purpose is to get aggregated change information about a [SyncEvent](SyncEvent/index.md) by [GetEventInfo()](SyncEvent/methods/GetEventInfo.md). |
+| [EventInfo](EventInfo/index.md)             | [EventInfo](EventInfo/index.md) is never de\-\/serialized.             It purpose is to get all aggregated information about a [SyncEvent](SyncEvent/index.md) by  by [GetEventInfo()](SyncEvent/methods/GetEventInfo.md).  |
+| [RawEventMessage](RawEventMessage/index.md) | mimic an [EventMessage](EventMessage/index.md)                                                                                                                                                                              |
+| [RawSyncEvent](RawSyncEvent/index.md)       | mimic a [SyncEvent](SyncEvent/index.md)                                                                                                                                                                                     |
+| [RawSyncTask](RawSyncTask/index.md)         | mimic a [SyncRequestTask](Tasks/SyncRequestTask/index.md)                                                                                                                                                                   |
+| [SyncEvent](SyncEvent/index.md)             | A [SyncEvent](SyncEvent/index.md) corresponds to a [SyncRequest](SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](SyncEvent/fields/tasks.md) field                           |
 
 ## Enums
 

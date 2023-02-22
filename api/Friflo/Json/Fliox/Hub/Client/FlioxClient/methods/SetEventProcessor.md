@@ -23,7 +23,7 @@ public void SetEventProcessor(EventProcessor eventProcessor);
 
 ## Remarks
 
-By default a [FlioxClient](../index.md) uses a [DirectEventProcessor](../../DirectEventProcessor/index.md) to handle subscription events in the thread an event arrives.In case of an  application consider using a [SynchronizationContextProcessor](../../SynchronizationContextProcessor/index.md) used to process subscription events in the  thread.
+By default a [FlioxClient](../index.md) uses a [SynchronousEventProcessor](../../SynchronousEventProcessor/index.md) to handle subscription events in the thread an event arrives.In case of an  application an [EventProcessorContext](../../EventProcessorContext/index.md) can be used to process subscription events on the  thread by using the SynchronizationContextof the application.
 
 ___
 

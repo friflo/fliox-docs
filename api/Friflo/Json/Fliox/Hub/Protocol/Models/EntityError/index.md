@@ -24,10 +24,10 @@ An EntityError needs to be set only, if the access to [EntityValue](../EntityVal
 
 ## Constructors
 
-| Name                                                                                                                            | Description |
-| ------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [EntityError()](constructors/index.md#entityerror)                                                                              |             |
-| [EntityError(EntityErrorType, string, JsonKey, string)](constructors/index.md#entityerrorentityerrortype-string-jsonkey-string) |             |
+| Name                                                                                                                                      | Description |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [EntityError()](constructors/index.md#entityerror)                                                                                        |             |
+| [EntityError(EntityErrorType, ShortString, JsonKey, string)](constructors/index.md#entityerrorentityerrortype-shortstring-jsonkey-string) |             |
 
 ## Fields
 

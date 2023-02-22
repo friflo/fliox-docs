@@ -10,19 +10,13 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host.Event](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+An EventReceiver is used to send events to clients they have subscribed before.A single EventReceiver can be shared by multiple clients to enable using a single remote connection. To address a specific client in case of a shared remote connection the[dstClientId](../ClientEvent/fields/dstClientId.md) is used.
+
 ```csharp
 public abstract class EventReceiver
 ```
 
 **Inheritance:** object → EventReceiver
-
-## Methods
-
-| Name                                                                                                                     | Description |
-| ------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| [IsOpen()](methods/IsOpen.md)                                                                                            |             |
-| [IsRemoteTarget()](methods/IsRemoteTarget.md)                                                                            |             |
-| [SendEvent(EventMessage, bool, SendEventArgs& modreq(System.Runtime.InteropServices.InAttribute))](methods/SendEvent.md) |             |
 
 ___
 

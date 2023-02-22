@@ -14,12 +14,13 @@
 database name the [tasks](tasks.md) apply to. null to access the default database
 
 ```csharp
-public string database;
+[Serialize("db")]
+public ShortString database;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

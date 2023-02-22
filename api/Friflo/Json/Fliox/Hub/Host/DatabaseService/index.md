@@ -24,9 +24,15 @@ Each task is either a database operation, a command or a message.
 
 ## Constructors
 
-| Name                                       | Description |
-| ------------------------------------------ | ----------- |
-| [DatabaseService()](constructors/index.md) |             |
+| Name                                                           | Description                                                                                                                               |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [DatabaseService(DatabaseServiceQueue)](constructors/index.md) | If `queue` is set [SyncRequest](../../Protocol/SyncRequest/index.md) are queued for execution otherwise they are executed as they arrive. |
+
+## Fields
+
+| Name                     | Description |
+| ------------------------ | ----------- |
+| [queue](fields/queue.md) |             |
 
 ## Methods
 

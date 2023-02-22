@@ -15,20 +15,20 @@ Type of a task that operates on the database or a container
 ```csharp
 public enum TaskType
 {
-    read = 0,
-    query = 1,
-    create = 2,
-    upsert = 3,
-    merge = 4,
-    delete = 5,
-    aggregate = 6,
-    message = 7,
-    command = 8,
-    closeCursors = 9,
-    subscribeChanges = 10,
-    subscribeMessage = 11,
-    reserveKeys = 12,
-    error = 13
+    read = 1,
+    query = 2,
+    create = 3,
+    upsert = 4,
+    merge = 5,
+    delete = 6,
+    aggregate = 7,
+    message = 8,
+    command = 9,
+    closeCursors = 10,
+    subscribeChanges = 11,
+    subscribeMessage = 12,
+    reserveKeys = 13,
+    error = 14
 }
 ```
 

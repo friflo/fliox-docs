@@ -10,15 +10,18 @@
 **Namespace:** [Friflo.Json.Fliox.Hub](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+Implementations of IHubLogger must be thread safe
+
 ```csharp
 public interface IHubLogger
 ```
 
 ## Methods
 
-| Name                                             | Description |
-| ------------------------------------------------ | ----------- |
-| [Log(HubLog, string, Exception)](methods/Log.md) |             |
+| Name                                                                                      | Description |
+| ----------------------------------------------------------------------------------------- | ----------- |
+| [Log(HubLog, StringBuilder, Exception)](methods/Log.md#loghublog-stringbuilder-exception) |             |
+| [Log(HubLog, string, Exception)](methods/Log.md#loghublog-string-exception)               |             |
 
 ___
 

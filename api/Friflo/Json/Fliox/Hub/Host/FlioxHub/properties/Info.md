@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-General Hub information \- available via command 
+General descriptive Hub information \- available via command 
 
 ```csharp
 public HubInfo Info { get; set; }

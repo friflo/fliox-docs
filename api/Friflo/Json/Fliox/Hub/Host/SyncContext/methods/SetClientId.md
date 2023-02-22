@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public void SetClientId(in JsonKey clientId);
+public void SetClientId(in ShortString clientId);
 ```
 
 ## Parameters
 
-`clientId`  JsonKey
+`clientId`  ShortString
 
 ___
 

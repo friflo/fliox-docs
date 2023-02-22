@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public RequestContext(RemoteHost remoteHost, string method, string route, string query, Stream body, int contentLength, IHttpHeaders headers, MemoryBuffer memoryBuffer);
+public RequestContext(HttpHost host, string method, string route, string query, Stream body, int contentLength, IHttpHeaders headers, MemoryBuffer memoryBuffer);
 ```
 
 ## Parameters
 
-`remoteHost`  [RemoteHost](../../RemoteHost/index.md)
+`host`  [HttpHost](../../HttpHost/index.md)
 
 `method`  string
 

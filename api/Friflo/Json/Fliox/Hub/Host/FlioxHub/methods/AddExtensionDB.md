@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Add an `extensionDB` to the Hub. The extension database is identified by its[name](../../EntityDatabase/fields/name.md)
+Add an `extensionDB` to the Hub. The extension database is identified by its[nameShort](../../EntityDatabase/fields/nameShort.md)
 
 ```csharp
 public void AddExtensionDB(EntityDatabase extensionDB);

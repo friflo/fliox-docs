@@ -15,12 +15,12 @@ Set to [clientId](../../ProtocolRequest/fields/clientId.md) of a [SyncRequest](.
 
 ```csharp
 [Serialize("clt")]
-public JsonKey clientId;
+public ShortString clientId;
 ```
 
 ## Field Value
 
-JsonKey
+ShortString
 
 ## Remarks
 

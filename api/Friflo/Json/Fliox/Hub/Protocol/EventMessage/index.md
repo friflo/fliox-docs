@@ -29,6 +29,7 @@ public sealed class EventMessage : ProtocolEvent
 | Name                       | Description                                                                                                                                                                                                   |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [events](fields/events.md) | Each [SyncEvent](../SyncEvent/index.md) corresponds to a [SyncRequest](../SyncRequest/index.md) and contains the subscribed messages and container changes in its [tasks](../SyncEvent/fields/tasks.md) field |
+| [seq](fields/seq.md)       | Increasing event sequence number starting with 1 for a specific target client [dstClientId](../ProtocolEvent/fields/dstClientId.md). Each target client (subscriber) has its own sequence.                    |
 
 ___
 

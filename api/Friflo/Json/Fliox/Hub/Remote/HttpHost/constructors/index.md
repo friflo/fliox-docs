@@ -12,14 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public HttpHost(FlioxHub hub, string endpoint, SharedEnv env = );
+public HttpHost(FlioxHub hub, string baseRoute, SharedEnv env = );
 ```
 
 ## Parameters
 
 `hub`  [FlioxHub](../../../Host/FlioxHub/index.md)
 
-`endpoint`  string
+`baseRoute`  string
 
 `env`  [SharedEnv](../../../Host/SharedEnv/index.md)
 

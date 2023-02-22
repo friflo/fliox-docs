@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Used only for [RemoteClientHub](../../../Remote/RemoteClientHub/index.md) to enable:
+Used only for [SocketClientHub](../../../Remote/SocketClientHub/index.md) to enable:
 
 1. Out of order response handling for their corresponding requests.
 

@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-subscription filter as a  (infix notation)             returning a boolean value. E.g. `o.name == 'Smartphone'`
+subscription filter as a  (infix notation)             returning a boolean value. E.g. `o => o.name == 'Smartphone'`
 
 ```csharp
 public string filter;

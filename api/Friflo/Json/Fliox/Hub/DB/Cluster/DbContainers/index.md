@@ -29,6 +29,7 @@ public sealed class DbContainers
 | Name                               | Description                                                       |
 | ---------------------------------- | ----------------------------------------------------------------- |
 | [containers](fields/containers.md) | list of database [containers](fields/containers.md)               |
+| [defaultDB](fields/defaultDB.md)   | true if the database is the default database of a Hub             |
 | [id](fields/id.md)                 | database name                                                     |
 | [storage](fields/storage.md)       | [storage](fields/storage.md) type. e.g. memory, file\-system, ... |
 

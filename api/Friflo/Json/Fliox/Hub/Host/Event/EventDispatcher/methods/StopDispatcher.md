@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.Event.EventDispatcher/<StopDispatcher>d__25)]
+[AsyncStateMachine(Friflo.Json.Fliox.Hub.Host.Event.EventDispatcher/<StopDispatcher>d__34)]
 [DebuggerStepThrough]
 public Task StopDispatcher();
 ```

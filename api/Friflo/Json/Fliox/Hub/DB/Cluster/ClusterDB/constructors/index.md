@@ -12,7 +12,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public ClusterDB(string dbName, FlioxHub hub, DbOpt opt = );
+public ClusterDB(string dbName, FlioxHub hub);
 ```
 
 ## Parameters
@@ -20,8 +20,6 @@ public ClusterDB(string dbName, FlioxHub hub, DbOpt opt = );
 `dbName`  string
 
 `hub`  [FlioxHub](../../../../Host/FlioxHub/index.md)
-
-`opt`  [DbOpt](../../../../Host/DbOpt/index.md)
 
 ___
 

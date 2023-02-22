@@ -14,12 +14,12 @@
 return the client id set in the [SyncRequest](../../../../Protocol/SyncRequest/index.md). Can be null.            A new client id is created in case any task requires a client id and the [SyncRequest](../../../../Protocol/SyncRequest/index.md) did not set a client id.            E.g. [ensureClientId](../../ClientParam/fields/ensureClientId.md) \= true or [queueEvents](../../ClientParam/fields/queueEvents.md) \= true 
 
 ```csharp
-public JsonKey clientId;
+public ShortString clientId;
 ```
 
 ## Field Value
 
-JsonKey
+ShortString
 
 ___
 

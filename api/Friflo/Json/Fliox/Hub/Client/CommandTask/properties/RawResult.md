@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Return the result of a command used as a command as JSON.             JSON is "null" if the command doesnt return a result.             For type safe access of the result use [ReadResult\<T\>()](../methods/ReadResult.md)
+Return the result of a command used as a command as JSON.             JSON is "null" if the command doesn't return a result.             For type safe access of the result use [ReadResult\<T\>()](../methods/ReadResult.md)
 
 ```csharp
 public JsonValue RawResult { get; }

@@ -20,9 +20,9 @@ public sealed class MonitorDB : EntityDatabase
 
 ## Constructors
 
-| Name                                                        | Description |
-| ----------------------------------------------------------- | ----------- |
-| [MonitorDB(string, FlioxHub, DbOpt)](constructors/index.md) |             |
+| Name                                                 | Description |
+| ---------------------------------------------------- | ----------- |
+| [MonitorDB(string, FlioxHub)](constructors/index.md) |             |
 
 ## Properties
 
@@ -32,9 +32,9 @@ public sealed class MonitorDB : EntityDatabase
 
 ## Methods
 
-| Name                                                                  | Description |
-| --------------------------------------------------------------------- | ----------- |
-| [CreateContainer(string, EntityDatabase)](methods/CreateContainer.md) |             |
+| Name                                                                                                                           | Description |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [CreateContainer(ShortString& modreq(System.Runtime.InteropServices.InAttribute), EntityDatabase)](methods/CreateContainer.md) |             |
 
 ___
 

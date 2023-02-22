@@ -14,6 +14,7 @@
 all entities from the [container](container.md) resulting from[ReadEntities](../../Tasks/ReadEntities/index.md) and [QueryEntities](../../Tasks/QueryEntities/index.md) tasks of a [SyncRequest](../../SyncRequest/index.md)
 
 ```csharp
+[Serialize("set")]
 [Required]
 public List<JsonValue> entities;
 ```

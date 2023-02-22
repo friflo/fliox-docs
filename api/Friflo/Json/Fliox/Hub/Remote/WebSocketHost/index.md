@@ -10,29 +10,26 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+Implementation aligned with UdpSocketHost
+
 ```csharp
-public sealed class WebSocketHost : EventReceiver, IDisposable, ILogSource
+public sealed class WebSocketHost : SocketHost, IDisposable
 ```
 
-**Inheritance:** object → [EventReceiver](../../Host/Event/EventReceiver/index.md) → WebSocketHost
+**Inheritance:** object → [EventReceiver](../../Host/Event/EventReceiver/index.md) → [SocketHost](../SocketHost/index.md) → WebSocketHost
 
-**Implements:** IDisposable,ILogSource
+**Implements:** IDisposable
 
-## Properties
+## Remarks
 
-| Name                           | Description |
-| ------------------------------ | ----------- |
-| [Logger](properties/Logger.md) |             |
+Counterpart of [WebSocketClientHub](../WebSocketClientHub/index.md) used by the server.
 
 ## Methods
 
-| Name                                                                                                                     | Description                                                                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Dispose()](methods/Dispose.md)                                                                                          |                                                                                                                                                                                                                                                      |
-| [IsOpen()](methods/IsOpen.md)                                                                                            |                                                                                                                                                                                                                                                      |
-| [IsRemoteTarget()](methods/IsRemoteTarget.md)                                                                            |                                                                                                                                                                                                                                                      |
-| [SendEvent(EventMessage, bool, SendEventArgs& modreq(System.Runtime.InteropServices.InAttribute))](methods/SendEvent.md) |                                                                                                                                                                                                                                                      |
-| [SendReceiveMessages(WebSocket, IPEndPoint, RemoteHost)](methods/SendReceiveMessages.md)                                 | Create a send and receive queue and run a send and a receive loop. The loops are executed until the WebSocket is closed or disconnected. The method  throw exception. WebSocket exceptions are catched and written to [Logger](properties/Logger.md) |
+| Name                                                                                   | Description                                                                                                                                                                                                                                                              |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Dispose()](methods/Dispose.md)                                                        |                                                                                                                                                                                                                                                                          |
+| [SendReceiveMessages(WebSocket, IPEndPoint, HttpHost)](methods/SendReceiveMessages.md) | Create a send and receive queue and run a send and a receive loop. The loops are executed until the WebSocket is closed or disconnected. The method  throw exception. WebSocket exceptions are catched and written to [Logger](../../Host/FlioxHub/properties/Logger.md) |
 
 ___
 

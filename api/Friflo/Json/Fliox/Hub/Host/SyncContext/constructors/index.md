@@ -13,11 +13,11 @@
 
 ## Overloads
 
-| Signature                                                                                               | Description                                                                                     |
-| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [SyncContext(SharedEnv, EventReceiver)](#synccontextsharedenv-eventreceiver)                            |                                                                                                 |
-| [SyncContext(SharedEnv, EventReceiver, MemoryBuffer)](#synccontextsharedenv-eventreceiver-memorybuffer) |                                                                                                 |
-| [SyncContext(SharedEnv, EventReceiver, SyncBuffers)](#synccontextsharedenv-eventreceiver-syncbuffers)   | Special constructor used to minimize heap allocation. [SyncBuffers](../../SyncBuffers/index.md) |
+| Signature                                                                                                                  | Description                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [SyncContext(SharedEnv, EventReceiver)](#synccontextsharedenv-eventreceiver)                                               |                                                                                                 |
+| [SyncContext(SharedEnv, EventReceiver, MemoryBuffer)](#synccontextsharedenv-eventreceiver-memorybuffer)                    |                                                                                                 |
+| [SyncContext(SharedEnv, EventReceiver, SyncBuffers, SyncPools)](#synccontextsharedenv-eventreceiver-syncbuffers-syncpools) | Special constructor used to minimize heap allocation. [SyncBuffers](../../SyncBuffers/index.md) |
 
 ## SyncContext(SharedEnv, EventReceiver)
 
@@ -45,12 +45,12 @@ public SyncContext(SharedEnv sharedEnv, EventReceiver eventReceiver, MemoryBuffe
 
 `memoryBuffer`  MemoryBuffer
 
-## SyncContext(SharedEnv, EventReceiver, SyncBuffers)
+## SyncContext(SharedEnv, EventReceiver, SyncBuffers, SyncPools)
 
 Special constructor used to minimize heap allocation. [SyncBuffers](../../SyncBuffers/index.md)
 
 ```csharp
-public SyncContext(SharedEnv sharedEnv, EventReceiver eventReceiver, in SyncBuffers syncBuffers);
+public SyncContext(SharedEnv sharedEnv, EventReceiver eventReceiver, in SyncBuffers syncBuffers, SyncPools syncPools);
 ```
 
 ### Parameters
@@ -60,6 +60,8 @@ public SyncContext(SharedEnv sharedEnv, EventReceiver eventReceiver, in SyncBuff
 `eventReceiver`  [EventReceiver](../../Event/EventReceiver/index.md)
 
 `syncBuffers`  SyncBuffers
+
+`syncPools`  [SyncPools](../../SyncPools/index.md)
 
 ___
 

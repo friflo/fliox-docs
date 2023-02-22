@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Return a type safe result of a command. The result is null if the command doesnt return a result. Throws JsonReaderException if read fails.
+Return a type safe result of a command. The result is null if the command doesn't return a result. Throws JsonReaderException if read fails.
 
 ```csharp
 public T ReadResult<T>();

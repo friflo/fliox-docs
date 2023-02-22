@@ -11,7 +11,7 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public class EntityFilterContext : IDisposable
+public sealed class EntityFilterContext : IDisposable
 ```
 
 **Inheritance:** object → EntityFilterContext

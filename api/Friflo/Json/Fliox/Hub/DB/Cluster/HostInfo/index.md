@@ -31,7 +31,7 @@ public sealed class HostInfo
 | [envColor](fields/envColor.md)             | the color used to display the environment name in GUI's using CSS color format.E.g. using red for a production environment: "\#ff0000" or "rgb(255 0 0)" |
 | [envName](fields/envName.md)               | environment name. e.g. 'dev', 'test', 'staging', 'prod'                                                                                                  |
 | [flioxVersion](fields/flioxVersion.md)     | Fliox library version                                                                                                                                    |
-| [hostName](fields/hostName.md)             | host name. Used as [id](../../Monitor/HostHits/fields/id.md) in[hosts](../../Monitor/MonitorStore/fields/hosts.md) of database                           |
+| [hostName](fields/hostName.md)             | host name used to identify a specific host in a network.                                                                                                 |
 | [hostVersion](fields/hostVersion.md)       | host version                                                                                                                                             |
 | [memory](fields/memory.md)                 |                                                                                                                                                          |
 | [projectName](fields/projectName.md)       | project name                                                                                                                                             |

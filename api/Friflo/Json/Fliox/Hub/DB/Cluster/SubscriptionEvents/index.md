@@ -20,14 +20,15 @@ public struct SubscriptionEvents
 
 ## Fields
 
-| Name                                 | Description                                                                                    |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| [changeSubs](fields/changeSubs.md)   | change subscriptions of a client                                                               |
-| [connected](fields/connected.md)     | true if client is connected. Non remote client are always connected                            |
-| [messageSubs](fields/messageSubs.md) | message \/ command subscriptions of a client                                                   |
-| [queueEvents](fields/queueEvents.md) | true if client is instructed to queue events for reliable event delivery in case of reconnects |
-| [queued](fields/queued.md)           | number of queued events not acknowledged by a client                                           |
-| [seq](fields/seq.md)                 | number of events sent to a client                                                              |
+| Name                                 | Description                                                                                                                       |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| [changeSubs](fields/changeSubs.md)   | change subscriptions of a client                                                                                                  |
+| [connected](fields/connected.md)     | true if client is connected. Non remote client are always connected                                                               |
+| [endpoint](fields/endpoint.md)       | The endpoint of the client events are sent to.E.g. `ws:[::1]:52089` for WebSockets, `udp:127.0.0.1:60005` for UDP or `in-process` |
+| [messageSubs](fields/messageSubs.md) | message \/ command subscriptions of a client                                                                                      |
+| [queueEvents](fields/queueEvents.md) | true if client is instructed to queue events for reliable event delivery in case of reconnects                                    |
+| [queued](fields/queued.md)           | number of queued events not acknowledged by a client                                                                              |
+| [seq](fields/seq.md)                 | number of events sent to a client                                                                                                 |
 
 ___
 

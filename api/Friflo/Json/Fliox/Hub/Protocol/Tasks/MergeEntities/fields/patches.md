@@ -14,6 +14,7 @@
 list of merge patches for each entity
 
 ```csharp
+[Serialize("set")]
 [Required]
 public List<JsonEntity> patches;
 ```

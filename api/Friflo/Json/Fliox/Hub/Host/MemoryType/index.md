@@ -13,8 +13,8 @@
 ```csharp
 public enum MemoryType
 {
-    Concurrent = 0,
-    NonConcurrent = 1
+    Concurrent = 1,
+    NonConcurrent = 2
 }
 ```
 

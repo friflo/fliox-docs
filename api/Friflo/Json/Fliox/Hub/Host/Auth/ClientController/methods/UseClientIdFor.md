@@ -12,14 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public bool UseClientIdFor(User user, in JsonKey clientId);
+public bool UseClientIdFor(User user, in ShortString clientId);
 ```
 
 ## Parameters
 
 `user`  [User](../../User/index.md)
 
-`clientId`  JsonKey
+`clientId`  ShortString
 
 ## Returns
 

@@ -13,12 +13,12 @@
 
 ```csharp
 [Required]
-public HashSet<JsonKey> ids;
+public List<JsonKey> ids;
 ```
 
 ## Field Value
 
-HashSet\<JsonKey\>
+List\<JsonKey\>
 
 ___
 

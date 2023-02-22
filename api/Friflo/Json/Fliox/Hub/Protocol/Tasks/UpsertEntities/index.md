@@ -10,7 +10,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Upsert the given [entities](fields/entities.md) in the specified [container](properties/container.md)
+Upsert the given [entities](fields/entities.md) in the specified [container](fields/container.md)
 
 ```csharp
 public sealed class UpsertEntities : SyncRequestTask
@@ -26,19 +26,19 @@ public sealed class UpsertEntities : SyncRequestTask
 
 ## Fields
 
-| Name                           | Description                                                                                                 |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| [entities](fields/entities.md) | the [entities](fields/entities.md) which are upserted in the specified [container](properties/container.md) |
-| [keyName](fields/keyName.md)   | name of the primary key property in [entities](fields/entities.md)                                          |
-| [users](fields/users.md)       | if set the Hub forward the Upsert as an event only to given [users](fields/users.md)                        |
+| Name                                         | Description                                                                                             |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [container](fields/container.md)             | container name the [entities](fields/entities.md) are upserted \- created or updated                    |
+| [entities](fields/entities.md)               | the [entities](fields/entities.md) which are upserted in the specified [container](fields/container.md) |
+| [entityContainer](fields/entityContainer.md) |                                                                                                         |
+| [keyName](fields/keyName.md)                 | name of the primary key property in [entities](fields/entities.md)                                      |
 
 ## Properties
 
-| Name                                 | Description                                                                          |
-| ------------------------------------ | ------------------------------------------------------------------------------------ |
-| [TaskName](properties/TaskName.md)   |                                                                                      |
-| [TaskType](properties/TaskType.md)   |                                                                                      |
-| [container](properties/container.md) | container name the [entities](fields/entities.md) are upserted \- created or updated |
+| Name                               | Description |
+| ---------------------------------- | ----------- |
+| [TaskName](properties/TaskName.md) |             |
+| [TaskType](properties/TaskType.md) |             |
 
 ## Methods
 
@@ -46,6 +46,8 @@ public sealed class UpsertEntities : SyncRequestTask
 | ---------------------------------------------------------------------------------- | ----------- |
 | [Execute(EntityDatabase, SyncResponse, SyncContext)](methods/Execute.md)           |             |
 | [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
+| [IsNop()](methods/IsNop.md)                                                        |             |
+| [PreExecute(EntityDatabase, SharedEnv)](methods/PreExecute.md)                     |             |
 
 ___
 

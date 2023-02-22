@@ -14,12 +14,12 @@
 if set the Hub forward the message as an event only to given groups
 
 ```csharp
-public List<string> groups;
+public List<ShortString> groups;
 ```
 
 ## Field Value
 
-List\<string\>
+List\<ShortString\>
 
 ___
 

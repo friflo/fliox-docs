@@ -13,12 +13,12 @@
 
 ```csharp
 [Serialize("_sequence")]
-public readonly EntitySet<string, Sequence> sequence;
+public readonly EntitySet<JsonKey, Sequence> sequence;
 ```
 
 ## Field Value
 
-EntitySet\<string, [Sequence](../../Sequence/index.md)\>
+EntitySet\<JsonKey, [Sequence](../../Sequence/index.md)\>
 
 ___
 

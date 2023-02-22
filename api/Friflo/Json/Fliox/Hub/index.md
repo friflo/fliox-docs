@@ -19,11 +19,18 @@
 - [Friflo.Json.Fliox.Hub.Threading](Threading/index.md)
 - [Friflo.Json.Fliox.Hub.Utils](Utils/index.md)
 
+## Classes
+
+| Name                                        | Description |
+| ------------------------------------------- | ----------- |
+| [HubLoggerNull](HubLoggerNull/index.md)     |             |
+| [HubLoggerStream](HubLoggerStream/index.md) |             |
+
 ## Interfaces
 
-| Name                              | Description |
-| --------------------------------- | ----------- |
-| [IHubLogger](IHubLogger/index.md) |             |
+| Name                              | Description                                                              |
+| --------------------------------- | ------------------------------------------------------------------------ |
+| [IHubLogger](IHubLogger/index.md) | Implementations of [IHubLogger](IHubLogger/index.md) must be thread safe |
 
 ## Enums
 

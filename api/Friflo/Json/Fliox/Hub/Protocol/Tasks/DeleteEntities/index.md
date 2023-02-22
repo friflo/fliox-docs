@@ -10,7 +10,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Delete entities by id in the given [container](properties/container.md)The entities which will be deleted are listed in [ids](fields/ids.md)
+Delete entities by id in the given [container](fields/container.md)The entities which will be deleted are listed in [ids](fields/ids.md)
 
 ```csharp
 public sealed class DeleteEntities : SyncRequestTask
@@ -26,18 +26,19 @@ public sealed class DeleteEntities : SyncRequestTask
 
 ## Fields
 
-| Name                 | Description                                                                            |
-| -------------------- | -------------------------------------------------------------------------------------- |
-| [all](fields/all.md) | if true all entities in the specified [container](properties/container.md) are deleted |
-| [ids](fields/ids.md) | list of [ids](fields/ids.md) requested for deletion                                    |
+| Name                                         | Description                                                                        |
+| -------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [all](fields/all.md)                         | if true all entities in the specified [container](fields/container.md) are deleted |
+| [container](fields/container.md)             | container name                                                                     |
+| [entityContainer](fields/entityContainer.md) |                                                                                    |
+| [ids](fields/ids.md)                         | list of [ids](fields/ids.md) requested for deletion                                |
 
 ## Properties
 
-| Name                                 | Description    |
-| ------------------------------------ | -------------- |
-| [TaskName](properties/TaskName.md)   |                |
-| [TaskType](properties/TaskType.md)   |                |
-| [container](properties/container.md) | container name |
+| Name                               | Description |
+| ---------------------------------- | ----------- |
+| [TaskName](properties/TaskName.md) |             |
+| [TaskType](properties/TaskType.md) |             |
 
 ## Methods
 
@@ -45,6 +46,8 @@ public sealed class DeleteEntities : SyncRequestTask
 | ---------------------------------------------------------------------------------- | ----------- |
 | [Execute(EntityDatabase, SyncResponse, SyncContext)](methods/Execute.md)           |             |
 | [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
+| [IsNop()](methods/IsNop.md)                                                        |             |
+| [PreExecute(EntityDatabase, SharedEnv)](methods/PreExecute.md)                     |             |
 
 ___
 

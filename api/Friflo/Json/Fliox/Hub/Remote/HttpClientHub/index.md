@@ -13,22 +13,16 @@
 A [FlioxHub](../../Host/FlioxHub/index.md) accessed remotely using a HttpClient
 
 ```csharp
-public sealed class HttpClientHub : RemoteClientHub
+public sealed class HttpClientHub : FlioxHub
 ```
 
-**Inheritance:** object → [FlioxHub](../../Host/FlioxHub/index.md) → [RemoteClientHub](../RemoteClientHub/index.md) → HttpClientHub
+**Inheritance:** object → [FlioxHub](../../Host/FlioxHub/index.md) → HttpClientHub
 
 ## Constructors
 
 | Name                                                              | Description |
 | ----------------------------------------------------------------- | ----------- |
 | [HttpClientHub(string, string, SharedEnv)](constructors/index.md) |             |
-
-## Properties
-
-| Name                                                 | Description |
-| ---------------------------------------------------- | ----------- |
-| [SupportPushEvents](properties/SupportPushEvents.md) |             |
 
 ## Methods
 

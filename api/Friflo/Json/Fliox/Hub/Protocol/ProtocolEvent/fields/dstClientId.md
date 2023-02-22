@@ -15,13 +15,12 @@ The target client the event is sent to. This enables sharing a single (WebSocket
 
 ```csharp
 [Serialize("clt")]
-[Required]
-public JsonKey dstClientId;
+public ShortString dstClientId;
 ```
 
 ## Field Value
 
-JsonKey
+ShortString
 
 ___
 

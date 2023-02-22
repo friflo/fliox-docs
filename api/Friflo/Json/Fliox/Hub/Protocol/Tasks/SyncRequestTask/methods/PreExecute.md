@@ -12,12 +12,14 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public bool PreExecute(EntityDatabase database);
+public bool PreExecute(EntityDatabase database, SharedEnv env);
 ```
 
 ## Parameters
 
 `database`  [EntityDatabase](../../../../Host/EntityDatabase/index.md)
+
+`env`  [SharedEnv](../../../../Host/SharedEnv/index.md)
 
 ## Returns
 

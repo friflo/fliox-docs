@@ -20,22 +20,21 @@ public sealed class MessageContext
 
 ## Remarks
 
-In general it provides: \- the command [Name](properties/Name.md) \=\= method name \- the [DatabaseName](properties/DatabaseName.md)\- the [Database](properties/Database.md) instance \- the [Hub](properties/Hub.md) exposing general Hub information \- a Pool mainly providing common utilities to transform JSON For consistency the API to access the command param is same a [IMessage](../../Client/IMessage/index.md)
+In general it provides: \- the command [Name](properties/Name.md) \=\= method name \- the [Database](properties/Database.md) instance \- the [Hub](properties/Hub.md) exposing general Hub information \- a Pool mainly providing common utilities to transform JSON For consistency the API to access the command param is same a [IMessage](../../Client/IMessage/index.md)
 
 ## Properties
 
-| Name                                       | Description |
-| ------------------------------------------ | ----------- |
-| [ClientId](properties/ClientId.md)         |             |
-| [Database](properties/Database.md)         |             |
-| [DatabaseName](properties/DatabaseName.md) |             |
-| [Hub](properties/Hub.md)                   |             |
-| [Name](properties/Name.md)                 |             |
-| [Task](properties/Task.md)                 |             |
-| [User](properties/User.md)                 |             |
-| [UserInfo](properties/UserInfo.md)         |             |
-| [WriteNull](properties/WriteNull.md)       |             |
-| [WritePretty](properties/WritePretty.md)   |             |
+| Name                                     | Description |
+| ---------------------------------------- | ----------- |
+| [ClientId](properties/ClientId.md)       |             |
+| [Database](properties/Database.md)       |             |
+| [Hub](properties/Hub.md)                 |             |
+| [Name](properties/Name.md)               |             |
+| [Task](properties/Task.md)               |             |
+| [User](properties/User.md)               |             |
+| [UserInfo](properties/UserInfo.md)       |             |
+| [WriteNull](properties/WriteNull.md)     |             |
+| [WritePretty](properties/WritePretty.md) |             |
 
 ## Methods
 

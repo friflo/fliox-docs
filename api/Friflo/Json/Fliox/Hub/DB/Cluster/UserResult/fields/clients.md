@@ -13,12 +13,12 @@
 
 ```csharp
 [Required]
-public List<JsonKey> clients;
+public List<ShortString> clients;
 ```
 
 ## Field Value
 
-List\<JsonKey\>
+List\<ShortString\>
 
 ___
 

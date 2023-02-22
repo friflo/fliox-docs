@@ -16,12 +16,12 @@ list of clients owned by a user
 ```csharp
 [Relation("clients")]
 [Required]
-public List<JsonKey> clients;
+public List<ShortString> clients;
 ```
 
 ## Field Value
 
-List\<JsonKey\>
+List\<ShortString\>
 
 ___
 

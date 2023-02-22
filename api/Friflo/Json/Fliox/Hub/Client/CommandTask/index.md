@@ -24,17 +24,17 @@ public class CommandTask : MessageTask
 
 ## Properties
 
-| Name                                 | Description                                                                                                                                                                                                               |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Details](properties/Details.md)     |                                                                                                                                                                                                                           |
-| [RawResult](properties/RawResult.md) | Return the result of a command used as a command as JSON.             JSON is "null" if the command doesnt return a result.             For type safe access of the result use [ReadResult\<T\>()](methods/ReadResult.md) |
+| Name                                 | Description                                                                                                                                                                                                                |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Details](properties/Details.md)     |                                                                                                                                                                                                                            |
+| [RawResult](properties/RawResult.md) | Return the result of a command used as a command as JSON.             JSON is "null" if the command doesn't return a result.             For type safe access of the result use [ReadResult\<T\>()](methods/ReadResult.md) |
 
 ## Methods
 
-| Name                                                                   | Description                                                                                                                                 |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ReadResult\<T\>()](methods/ReadResult.md)                             | Return a type safe result of a command. The result is null if the command doesnt return a result. Throws JsonReaderException if read fails. |
-| [TryReadResult\<T\>(T, JsonReaderException)](methods/TryReadResult.md) |                                                                                                                                             |
+| Name                                                                   | Description                                                                                                                                  |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ReadResult\<T\>()](methods/ReadResult.md)                             | Return a type safe result of a command. The result is null if the command doesn't return a result. Throws JsonReaderException if read fails. |
+| [TryReadResult\<T\>(T, JsonReaderException)](methods/TryReadResult.md) |                                                                                                                                              |
 
 ___
 

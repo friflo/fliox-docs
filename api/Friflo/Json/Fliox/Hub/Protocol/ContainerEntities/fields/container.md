@@ -14,13 +14,14 @@
 container name the of the returned [entities](entities.md)
 
 ```csharp
+[Serialize("cont")]
 [Required]
-public string container;
+public ShortString container;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

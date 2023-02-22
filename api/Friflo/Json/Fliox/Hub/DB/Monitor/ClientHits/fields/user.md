@@ -16,12 +16,12 @@ user owning the client
 ```csharp
 [Relation("users")]
 [Required]
-public JsonKey user;
+public ShortString user;
 ```
 
 ## Field Value
 
-JsonKey
+ShortString
 
 ___
 

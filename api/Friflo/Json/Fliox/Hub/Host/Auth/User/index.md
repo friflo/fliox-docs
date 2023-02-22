@@ -32,12 +32,12 @@ User instances must be used only within the execution of a single [SyncRequest](
 
 ## Methods
 
-| Name                                                                      | Description |
-| ------------------------------------------------------------------------- | ----------- |
-| [GetGroups()](methods/GetGroups.md)                                       |             |
-| [SetUserOptions(UserParam)](methods/SetUserOptions.md)                    |             |
-| [ToString()](methods/ToString.md)                                         |             |
-| [UpdateGroups(ICollection\<string\>, UserParam)](methods/UpdateGroups.md) |             |
+| Name                                                                           | Description |
+| ------------------------------------------------------------------------------ | ----------- |
+| [GetGroups()](methods/GetGroups.md)                                            |             |
+| [SetUserOptions(UserParam)](methods/SetUserOptions.md)                         |             |
+| [ToString()](methods/ToString.md)                                              |             |
+| [UpdateGroups(ICollection\<ShortString\>, UserParam)](methods/UpdateGroups.md) |             |
 
 ___
 

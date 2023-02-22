@@ -13,20 +13,20 @@
 
 ## Overloads
 
-| Signature                                                       | Description |
-| --------------------------------------------------------------- | ----------- |
-| [AddUsers(ICollection\<JsonKey\>)](#addusersicollectionjsonkey) |             |
-| [AddUsers(ICollection\<string\>)](#addusersicollectionstring)   |             |
+| Signature                                                               | Description |
+| ----------------------------------------------------------------------- | ----------- |
+| [AddUsers(ICollection\<ShortString\>)](#addusersicollectionshortstring) |             |
+| [AddUsers(ICollection\<string\>)](#addusersicollectionstring)           |             |
 
-## AddUsers(ICollection\<JsonKey\>)
+## AddUsers(ICollection\<ShortString\>)
 
 ```csharp
-public void AddUsers(ICollection<JsonKey> users);
+public void AddUsers(ICollection<ShortString> users);
 ```
 
 ### Parameters
 
-`users`  ICollection\<JsonKey\>
+`users`  ICollection\<ShortString\>
 
 ## AddUsers(ICollection\<string\>)
 

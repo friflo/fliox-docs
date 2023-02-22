@@ -20,9 +20,9 @@ public readonly struct UserInfo
 
 ## Constructors
 
-| Name                                                        | Description |
-| ----------------------------------------------------------- | ----------- |
-| [UserInfo(JsonKey, string, JsonKey)](constructors/index.md) |             |
+| Name                                                                     | Description |
+| ------------------------------------------------------------------------ | ----------- |
+| [UserInfo(ShortString, ShortString, ShortString)](constructors/index.md) |             |
 
 ## Fields
 

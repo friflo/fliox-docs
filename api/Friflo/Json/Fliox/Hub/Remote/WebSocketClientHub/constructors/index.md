@@ -11,17 +11,21 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Remote](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+Create a remote [FlioxHub](../../../Host/FlioxHub/index.md) by using a WebSocket connection
+
 ```csharp
-public WebSocketClientHub(string dbName, string endpoint, SharedEnv env = );
+public WebSocketClientHub(string dbName, string remoteHost, SharedEnv env = , RemoteClientAccess access = RemoteClientAccess.Multi);
 ```
 
 ## Parameters
 
 `dbName`  string
 
-`endpoint`  string
+`remoteHost`  string
 
 `env`  [SharedEnv](../../../Host/SharedEnv/index.md)
+
+`access`  [RemoteClientAccess](../../RemoteClientAccess/index.md)
 
 ___
 

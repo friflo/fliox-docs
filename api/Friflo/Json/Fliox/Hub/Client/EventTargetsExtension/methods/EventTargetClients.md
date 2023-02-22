@@ -13,17 +13,17 @@
 
 ## Overloads
 
-| Signature                                                                                                      | Description                                                 |
-| -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| [EventTargetClients\<TTask\>(TTask, ICollection\<JsonKey\>)](#eventtargetclientsttaskttask-icollectionjsonkey) |  Send the `message` as an event only to the given `clients` |
-| [EventTargetClients\<TTask\>(TTask, ICollection\<string\>)](#eventtargetclientsttaskttask-icollectionstring)   |  Send the `message` as an event only to the given `clients` |
+| Signature                                                                                                              | Description                                                 |
+| ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| [EventTargetClients\<TTask\>(TTask, ICollection\<ShortString\>)](#eventtargetclientsttaskttask-icollectionshortstring) |  Send the `message` as an event only to the given `clients` |
+| [EventTargetClients\<TTask\>(TTask, ICollection\<string\>)](#eventtargetclientsttaskttask-icollectionstring)           |  Send the `message` as an event only to the given `clients` |
 
-## EventTargetClients\<TTask\>(TTask, ICollection\<JsonKey\>)
+## EventTargetClients\<TTask\>(TTask, ICollection\<ShortString\>)
 
  Send the `message` as an event only to the given `clients`
 
 ```csharp
-public static TTask EventTargetClients<TTask>(this TTask message, ICollection<JsonKey> clients);
+public static TTask EventTargetClients<TTask>(this TTask message, ICollection<ShortString> clients);
 ```
 
 ### Type Parameters
@@ -34,7 +34,7 @@ public static TTask EventTargetClients<TTask>(this TTask message, ICollection<Js
 
 `message`  TTask
 
-`clients`  ICollection\<JsonKey\>
+`clients`  ICollection\<ShortString\>
 
 ### Returns
 

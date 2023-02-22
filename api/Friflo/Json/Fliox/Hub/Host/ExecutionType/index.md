@@ -10,26 +10,34 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Host](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+ Defines how to execute a [SyncRequest](../../Protocol/SyncRequest/index.md)
+
 ```csharp
 public enum ExecutionType
 {
     None = 0,
     Error = 1,
     Sync = 2,
-    Async = 3
+    Async = 3,
+    Queue = 4
 }
 ```
 
 **Inheritance:** object → ValueType → Enum → ExecutionType
 
+## Remarks
+
+It is used to
+
 ## Fields
 
-| Name  | Description |
-| ----- | ----------- |
-| Async |             |
-| Error |             |
-| None  |             |
-| Sync  |             |
+| Name  | Description                                                                                                                   |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Async | execute request asynchronous with [ExecuteRequestAsync(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteRequestAsync.md) |
+| Error | execute request error synchronous with [ExecuteRequest(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteRequest.md)      |
+| None  |                                                                                                                               |
+| Queue | queue request execution with [QueueRequestAsync(SyncRequest, SyncContext)](../FlioxHub/methods/QueueRequestAsync.md)          |
+| Sync  | execute request synchronous with [ExecuteRequest(SyncRequest, SyncContext)](../FlioxHub/methods/ExecuteRequest.md)            |
 
 ___
 

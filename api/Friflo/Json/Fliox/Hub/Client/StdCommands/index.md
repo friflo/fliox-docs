@@ -13,24 +13,28 @@
 Contains standard database commands. Its commands are prefixed with 
 
 ```csharp
+[MessagePrefix("std.")]
 public sealed class StdCommands : HubMessages
 ```
 
 **Inheritance:** object → [HubMessages](../HubMessages/index.md) → StdCommands
 
+**Attributes:** MessagePrefixAttribute
+
 ## Methods
 
 | Name                                      | Description                                                                                                                            |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| [Client(ClientParam)](methods/Client.md)  | return client specific infos and adjust general client behavior like [queueEvents](../../DB/Cluster/ClientParam/fields/queueEvents.md) |
-| [Cluster()](methods/Cluster.md)           | list all databases and their containers hosted by the Hub                                                                              |
-| [Containers()](methods/Containers.md)     | list all database containers                                                                                                           |
-| [Echo\<TParam\>(TParam)](methods/Echo.md) | echos the given parameter to assure the database is working appropriately.                                                             |
-| [Host(HostParam)](methods/Host.md)        | returns general information about the Hub like version, host, project and environment name                                             |
-| [Messages()](methods/Messages.md)         | list all database commands and messages                                                                                                |
-| [Schema()](methods/Schema.md)             | return the Schema assigned to the database                                                                                             |
-| [Stats(string)](methods/Stats.md)         | return the number of entities of all containers (or the given container) of the database                                               |
-| [User(UserParam)](methods/User.md)        | return the groups of the current user. Optionally change the groups of the current user                                                |
+| [Client(ClientParam)](methods/Client.md)  | Return client specific infos and adjust general client behavior like [queueEvents](../../DB/Cluster/ClientParam/fields/queueEvents.md) |
+| [Cluster()](methods/Cluster.md)           | List all databases and their containers hosted by the Hub                                                                              |
+| [Containers()](methods/Containers.md)     | List all database containers                                                                                                           |
+| [Delay(int)](methods/Delay.md)            | A command that completes after a specified number of milliseconds.                                                                     |
+| [Echo\<TParam\>(TParam)](methods/Echo.md) | Echos the given parameter to assure the database is working appropriately.                                                             |
+| [Host(HostParam)](methods/Host.md)        | Returns general information about the Hub like version, host, project and environment name                                             |
+| [Messages()](methods/Messages.md)         | List all database commands and messages                                                                                                |
+| [Schema()](methods/Schema.md)             | Return the Schema assigned to the database                                                                                             |
+| [Stats(string)](methods/Stats.md)         | Return the number of entities of all containers (or the given container) of the database                                               |
+| [User(UserParam)](methods/User.md)        | Return the groups of the current user. Optionally change the groups of the current user                                                |
 
 ___
 

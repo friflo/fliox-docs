@@ -12,16 +12,16 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public string ValidateEntities(string container, List<JsonEntity> entities, SyncContext syncContext, EntityErrorType errorType, ref List<EntityError> validationErrors);
+public string ValidateEntities(in ShortString container, List<JsonEntity> entities, SharedEnv env, EntityErrorType errorType, ref List<EntityError> validationErrors);
 ```
 
 ## Parameters
 
-`container`  string
+`container`  ShortString
 
 `entities`  List\<JsonEntity\>
 
-`syncContext`  [SyncContext](../../SyncContext/index.md)
+`env`  [SharedEnv](../../SharedEnv/index.md)
 
 `errorType`  [EntityErrorType](../../../Protocol/Models/EntityErrorType/index.md)
 

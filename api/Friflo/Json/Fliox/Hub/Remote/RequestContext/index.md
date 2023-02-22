@@ -20,9 +20,9 @@ public sealed class RequestContext
 
 ## Constructors
 
-| Name                                                                                                                 | Description |
-| -------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [RequestContext(RemoteHost, string, string, string, Stream, int, IHttpHeaders, MemoryBuffer)](constructors/index.md) |             |
+| Name                                                                                                               | Description |
+| ------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [RequestContext(HttpHost, string, string, string, Stream, int, IHttpHeaders, MemoryBuffer)](constructors/index.md) |             |
 
 ## Fields
 
@@ -31,6 +31,7 @@ public sealed class RequestContext
 | [body](fields/body.md)                   |             |
 | [contentLength](fields/contentLength.md) |             |
 | [headers](fields/headers.md)             |             |
+| [host](fields/host.md)                   |             |
 | [hub](fields/hub.md)                     |             |
 | [memoryBuffer](fields/memoryBuffer.md)   |             |
 | [method](fields/method.md)               |             |

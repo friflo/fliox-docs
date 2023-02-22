@@ -15,12 +15,12 @@ list of groups assigned to a user
 
 ```csharp
 [Required]
-public List<string> groups;
+public List<ShortString> groups;
 ```
 
 ## Field Value
 
-List\<string\>
+List\<ShortString\>
 
 ___
 

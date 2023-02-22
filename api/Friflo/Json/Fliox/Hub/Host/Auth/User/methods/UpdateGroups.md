@@ -12,18 +12,18 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public static HashSet<string> UpdateGroups(ICollection<string> groups, UserParam param);
+public static HashSet<ShortString> UpdateGroups(ICollection<ShortString> groups, UserParam param);
 ```
 
 ## Parameters
 
-`groups`  ICollection\<string\>
+`groups`  ICollection\<ShortString\>
 
 `param`  [UserParam](../../../../DB/Cluster/UserParam/index.md)
 
 ## Returns
 
-HashSet\<string\>
+HashSet\<ShortString\>
 
 ___
 

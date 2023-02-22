@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-eventAck is used to ensure (change) events are delivered reliable.             A client set eventAck to the last received [seq](../../SyncEvent/fields/seq.md) in case             it has subscribed to database changes by a [SubscribeChanges](../../Tasks/SubscribeChanges/index.md) task.             Otherwise eventAck is null.
+eventAck is used to ensure (change) events are delivered reliable.             A client set eventAck to the last received [seq](../../EventMessage/fields/seq.md) in case             it has subscribed to database changes by a [SubscribeChanges](../../Tasks/SubscribeChanges/index.md) task.             Otherwise eventAck is null.
 
 ```csharp
 [Serialize("ack")]

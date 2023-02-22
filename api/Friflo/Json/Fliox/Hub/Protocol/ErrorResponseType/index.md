@@ -13,9 +13,9 @@
 ```csharp
 public enum ErrorResponseType
 {
-    BadRequest = 0,
-    Exception = 1,
-    BadResponse = 2
+    BadRequest = 1,
+    Exception = 2,
+    BadResponse = 3
 }
 ```
 

@@ -15,9 +15,9 @@ Specify the way in which events are send to their targets by an [EventDispatcher
 ```csharp
 public enum EventDispatching
 {
-    QueueSend = 0,
-    Queue = 1,
-    Send = 2
+    QueueSend = 1,
+    Queue = 2,
+    Send = 3
 }
 ```
 

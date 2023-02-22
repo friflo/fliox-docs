@@ -13,12 +13,12 @@
 
 ```csharp
 [Required]
-public string[] groups;
+public ShortString[] groups;
 ```
 
 ## Field Value
 
-string\[\]
+ShortString\[\]
 
 ___
 

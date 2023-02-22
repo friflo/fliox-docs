@@ -26,11 +26,11 @@ public sealed class SubscribeChanges : SyncRequestTask
 
 ## Fields
 
-| Name                             | Description                                                                                                     |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| [changes](fields/changes.md)     | subscribe to entity [changes](fields/changes.md) of the given [container](fields/container.md)                  |
-| [container](fields/container.md) | container name                                                                                                  |
-| [filter](fields/filter.md)       | subscription filter as a  (infix notation)             returning a boolean value. E.g. `o.name == 'Smartphone'` |
+| Name                             | Description                                                                                                          |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [changes](fields/changes.md)     | subscribe to entity [changes](fields/changes.md) of the given [container](fields/container.md)                       |
+| [container](fields/container.md) | container name                                                                                                       |
+| [filter](fields/filter.md)       | subscription filter as a  (infix notation)             returning a boolean value. E.g. `o => o.name == 'Smartphone'` |
 
 ## Properties
 

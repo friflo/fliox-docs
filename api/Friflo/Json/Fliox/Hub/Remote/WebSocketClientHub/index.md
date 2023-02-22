@@ -13,16 +13,20 @@
 A [FlioxHub](../../Host/FlioxHub/index.md) accessed remotely  using a WebSocket connection
 
 ```csharp
-public sealed class WebSocketClientHub : RemoteClientHub
+public sealed class WebSocketClientHub : SocketClientHub
 ```
 
-**Inheritance:** object → [FlioxHub](../../Host/FlioxHub/index.md) → [RemoteClientHub](../RemoteClientHub/index.md) → WebSocketClientHub
+**Inheritance:** object → [FlioxHub](../../Host/FlioxHub/index.md) → [SocketClientHub](../SocketClientHub/index.md) → WebSocketClientHub
+
+## Remarks
+
+Counterpart of [WebSocketHost](../WebSocketHost/index.md) used by clients.Implementation aligned with [UdpSocketClientHub](../Transport/Udp/UdpSocketClientHub/index.md)
 
 ## Constructors
 
-| Name                                                                   | Description |
-| ---------------------------------------------------------------------- | ----------- |
-| [WebSocketClientHub(string, string, SharedEnv)](constructors/index.md) |             |
+| Name                                                                                       | Description                                                                              |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| [WebSocketClientHub(string, string, SharedEnv, RemoteClientAccess)](constructors/index.md) | Create a remote [FlioxHub](../../Host/FlioxHub/index.md) by using a WebSocket connection |
 
 ## Properties
 
@@ -36,7 +40,6 @@ public sealed class WebSocketClientHub : RemoteClientHub
 | ------------------------------------------------------------------------------- | ----------- |
 | [Close()](methods/Close.md)                                                     |             |
 | [ExecuteRequestAsync(SyncRequest, SyncContext)](methods/ExecuteRequestAsync.md) |             |
-| [InitSyncRequest(SyncRequest)](methods/InitSyncRequest.md)                      |             |
 | [ToString()](methods/ToString.md)                                               |             |
 
 ___

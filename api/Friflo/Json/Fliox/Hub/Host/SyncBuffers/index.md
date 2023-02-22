@@ -20,9 +20,9 @@ public readonly struct SyncBuffers
 
 ## Constructors
 
-| Name                                                          | Description |
-| ------------------------------------------------------------- | ----------- |
-| [SyncBuffers(List\<SyncRequestTask\>)](constructors/index.md) |             |
+| Name                                                                                                      | Description |
+| --------------------------------------------------------------------------------------------------------- | ----------- |
+| [SyncBuffers(List\<SyncRequestTask\>, List\<SyncRequestTask\>, List\<JsonValue\>)](constructors/index.md) |             |
 
 ___
 

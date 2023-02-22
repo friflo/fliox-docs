@@ -11,11 +11,34 @@
 **Namespace:** [Friflo.Json.Fliox.Hub](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
+## Overloads
+
+| Signature                                                                   | Description |
+| --------------------------------------------------------------------------- | ----------- |
+| [Log(HubLog, StringBuilder, Exception)](#loghublog-stringbuilder-exception) |             |
+| [Log(HubLog, string, Exception)](#loghublog-string-exception)               |             |
+
+## Log(HubLog, StringBuilder, Exception)
+
+```csharp
+public void Log(HubLog hubLog, StringBuilder message, Exception exception = );
+```
+
+### Parameters
+
+`hubLog`  [HubLog](../../HubLog/index.md)
+
+`message`  StringBuilder
+
+`exception`  Exception
+
+## Log(HubLog, string, Exception)
+
 ```csharp
 public void Log(HubLog hubLog, string message, Exception exception = );
 ```
 
-## Parameters
+### Parameters
 
 `hubLog`  [HubLog](../../HubLog/index.md)
 

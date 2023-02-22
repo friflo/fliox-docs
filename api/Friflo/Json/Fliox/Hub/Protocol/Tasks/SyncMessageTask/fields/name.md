@@ -15,12 +15,12 @@ command \/ message name
 
 ```csharp
 [Required]
-public string name;
+public ShortString name;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

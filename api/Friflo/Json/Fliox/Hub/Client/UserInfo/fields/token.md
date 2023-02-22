@@ -13,12 +13,12 @@
 
 ```csharp
 [DebuggerBrowsable(DebuggerBrowsableState.Never)]
-public readonly string token;
+public readonly ShortString token;
 ```
 
 ## Field Value
 
-string
+ShortString
 
 ___
 

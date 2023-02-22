@@ -11,7 +11,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Client](../../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-echos the given parameter to assure the database is working appropriately. 
+Echos the given parameter to assure the database is working appropriately. 
 
 ```csharp
 public CommandTask<TParam> Echo<TParam>(TParam param);

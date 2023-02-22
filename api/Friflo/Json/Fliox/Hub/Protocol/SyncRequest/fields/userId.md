@@ -15,12 +15,12 @@ Identify the user performing a sync request. In case using of using [UserAuthent
 
 ```csharp
 [Serialize("user")]
-public JsonKey userId;
+public ShortString userId;
 ```
 
 ## Field Value
 
-JsonKey
+ShortString
 
 ___
 

@@ -10,7 +10,7 @@
 **Namespace:** [Friflo.Json.Fliox.Hub.Protocol.Tasks](../index.md)  
 **Assembly:** Friflo.Json.Fliox.Hub
 
-Merge entities by id in the given [container](properties/container.md)
+Merge entities by id in the given [container](fields/container.md)
 
 ```csharp
 public sealed class MergeEntities : SyncRequestTask
@@ -26,19 +26,19 @@ public sealed class MergeEntities : SyncRequestTask
 
 ## Fields
 
-| Name                         | Description                                                                         |
-| ---------------------------- | ----------------------------------------------------------------------------------- |
-| [keyName](fields/keyName.md) | name of the primary key property of the entity [patches](fields/patches.md)         |
-| [patches](fields/patches.md) | list of merge patches for each entity                                               |
-| [users](fields/users.md)     | if set the Hub forward the Merge as an event only to given [users](fields/users.md) |
+| Name                                         | Description                                                                 |
+| -------------------------------------------- | --------------------------------------------------------------------------- |
+| [container](fields/container.md)             | container name                                                              |
+| [entityContainer](fields/entityContainer.md) |                                                                             |
+| [keyName](fields/keyName.md)                 | name of the primary key property of the entity [patches](fields/patches.md) |
+| [patches](fields/patches.md)                 | list of merge patches for each entity                                       |
 
 ## Properties
 
-| Name                                 | Description    |
-| ------------------------------------ | -------------- |
-| [TaskName](properties/TaskName.md)   |                |
-| [TaskType](properties/TaskType.md)   |                |
-| [container](properties/container.md) | container name |
+| Name                               | Description |
+| ---------------------------------- | ----------- |
+| [TaskName](properties/TaskName.md) |             |
+| [TaskType](properties/TaskType.md) |             |
 
 ## Methods
 
@@ -46,6 +46,8 @@ public sealed class MergeEntities : SyncRequestTask
 | ---------------------------------------------------------------------------------- | ----------- |
 | [Execute(EntityDatabase, SyncResponse, SyncContext)](methods/Execute.md)           |             |
 | [ExecuteAsync(EntityDatabase, SyncResponse, SyncContext)](methods/ExecuteAsync.md) |             |
+| [IsNop()](methods/IsNop.md)                                                        |             |
+| [PreExecute(EntityDatabase, SharedEnv)](methods/PreExecute.md)                     |             |
 
 ___
 

@@ -13,17 +13,17 @@
 
 ## Overloads
 
-| Signature                                                                      | Description                                              |
-| ------------------------------------------------------------------------------ | -------------------------------------------------------- |
-| [EventTargetUser\<TTask\>(TTask, JsonKey)](#eventtargetuserttaskttask-jsonkey) |  Send the `message` as an event only to the given `user` |
-| [EventTargetUser\<TTask\>(TTask, string)](#eventtargetuserttaskttask-string)   |  Send the `message` as an event only to the given `user` |
+| Signature                                                                              | Description                                              |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [EventTargetUser\<TTask\>(TTask, ShortString)](#eventtargetuserttaskttask-shortstring) |  Send the `message` as an event only to the given `user` |
+| [EventTargetUser\<TTask\>(TTask, string)](#eventtargetuserttaskttask-string)           |  Send the `message` as an event only to the given `user` |
 
-## EventTargetUser\<TTask\>(TTask, JsonKey)
+## EventTargetUser\<TTask\>(TTask, ShortString)
 
  Send the `message` as an event only to the given `user`
 
 ```csharp
-public static TTask EventTargetUser<TTask>(this TTask message, in JsonKey user);
+public static TTask EventTargetUser<TTask>(this TTask message, in ShortString user);
 ```
 
 ### Type Parameters
@@ -34,7 +34,7 @@ public static TTask EventTargetUser<TTask>(this TTask message, in JsonKey user);
 
 `message`  TTask
 
-`user`  JsonKey
+`user`  ShortString
 
 ### Returns
 

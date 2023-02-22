@@ -20,13 +20,14 @@ public abstract class Changes
 
 ## Properties
 
-| Name                                   | Description                                                                  |
-| -------------------------------------- | ---------------------------------------------------------------------------- |
-| [ChangeInfo](properties/ChangeInfo.md) |  number of changes per mutation type: creates, upserts, deletes and patches  |
-| [Container](properties/Container.md)   |  name of the container the changes are referring to                          |
-| [Count](properties/Count.md)           |  total number of container changes                                           |
-| [RawCreates](properties/RawCreates.md) |  raw JSON values of created container entities                               |
-| [RawUpserts](properties/RawUpserts.md) |  raw JSON values of upserted container entities                              |
+| Name                                           | Description                                                                  |
+| ---------------------------------------------- | ---------------------------------------------------------------------------- |
+| [ChangeInfo](properties/ChangeInfo.md)         |  number of changes per mutation type: creates, upserts, deletes and patches  |
+| [Container](properties/Container.md)           |  name of the container the changes are referring to                          |
+| [ContainerShort](properties/ContainerShort.md) |                                                                              |
+| [Count](properties/Count.md)                   |  total number of container changes                                           |
+| [RawCreates](properties/RawCreates.md)         |  raw JSON values of created container entities                               |
+| [RawUpserts](properties/RawUpserts.md)         |  raw JSON values of upserted container entities                              |
 
 ___
 

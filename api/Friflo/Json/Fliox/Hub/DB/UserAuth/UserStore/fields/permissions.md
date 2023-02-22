@@ -12,12 +12,12 @@
 **Assembly:** Friflo.Json.Fliox.Hub
 
 ```csharp
-public readonly EntitySet<JsonKey, UserPermission> permissions;
+public readonly EntitySet<ShortString, UserPermission> permissions;
 ```
 
 ## Field Value
 
-EntitySet\<JsonKey, [UserPermission](../../UserPermission/index.md)\>
+EntitySet\<ShortString, [UserPermission](../../UserPermission/index.md)\>
 
 ___
 

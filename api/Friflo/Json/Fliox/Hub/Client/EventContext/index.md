@@ -37,7 +37,8 @@ Database change events are not automatically applied to a [FlioxClient](../Fliox
 | [IsOrigin](properties/IsOrigin.md)     |  is true if the client is the origin of the event                                                                                                                                         |
 | [Logger](properties/Logger.md)         |                                                                                                                                                                                           |
 | [Messages](properties/Messages.md)     |  return the [Messages](properties/Messages.md) sent by a user                                                                                                                             |
-| [SrcUserId](properties/SrcUserId.md)   |  user id sending the [Messages](properties/Messages.md) and causing the [Changes](properties/Changes.md)                                                                                  |
+| [SrcClient](properties/SrcClient.md)   |  is true if the client is the origin of the event                                                                                                                                         |
+| [UserId](properties/UserId.md)         |  user id sending the [Messages](properties/Messages.md) and causing the [Changes](properties/Changes.md)                                                                                  |
 
 ## Methods
 
